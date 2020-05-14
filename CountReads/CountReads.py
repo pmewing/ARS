@@ -37,6 +37,7 @@ class Count:
         self.file_paths = self.return_file_paths(self.barcode_file_location)
 
         #  count barcodes
+        self.total_barcodes = -1  # no barcodes found
         self.total_barcodes = self.count_barcodes(self.file_paths)
 
     def __repr__(self):
