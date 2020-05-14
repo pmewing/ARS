@@ -19,7 +19,9 @@ class Count:
         self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
 
         #  graphical interface for opening a folder
-        print("In the next window, please select the parent folder of all barcode folders")
+        print("\nThe following lines will return a warning message. As of now, no reasonable method exists ", end="")
+        print("for quieting this warning. Trust that nothing is wrong.", end="\n\n")
+        print("In the next window, select the **parent** folder of all barcode folders")
         print("Press enter to continue")
         input()
 
@@ -28,7 +30,7 @@ class Count:
         self.widget = QWidget()
 
         self.barcode_file_location = str(QFileDialog.getExistingDirectory(parent=self.widget,
-                                                                          caption="Select a directory",
+                                                                          caption="Select the barcode parent directory",
                                                                           directory=self.initial_directory))
 
         #  get locations of all barcode files
@@ -36,10 +38,9 @@ class Count:
 
         #  count barcodes
         self.total_barcodes = self.count_barcodes(self.file_paths)
-        print("Total barcodes: %s" % self.total_barcodes)
 
-        # tkinter method, use once basic functionality is complete
-        # self.barcode_parent_file = filedialog.askdirectory(title="Select the barcode parent directory", initialdir="~/minknow_data/CLC_2020-02-11/demultiplex_dual/", mustexist=True)
+    def __repr__(self):
+        return str(self.total_barcodes)
 
     def return_file_paths(self, barcode_parent):
         """
