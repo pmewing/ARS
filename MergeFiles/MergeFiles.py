@@ -8,6 +8,8 @@ import string
 
 class Merge:
     def __init__(self):
+        # TODO: Document the rest of this function
+        # TODO: Make these functions work with .fastq/.fasta/etc files
         """
         This class is responsible for methods that will combine mulitple text files in one folder to one file
                                Example
