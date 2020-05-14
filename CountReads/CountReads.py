@@ -18,14 +18,16 @@ class Count:
         username = getpass.getuser()
         self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
 
-        #  graphical interface for opening a folder
+        # give user info about warning that will occur using QFileDialog.getExistingDirectory()
         print("\nThe following lines will return a warning message. As of now, no reasonable method exists ", end="")
         print("for quieting this warning. Trust that nothing is wrong.", end="\n\n")
         print("In the next window, select the **parent** folder of all barcode folders")
         print("Press enter to continue")
         input()
 
+
         #  sys.argv allows for passing arguments into the dialog box. This will not be used
+        #  graphical interface for opening a folder
         self.q_application = QApplication(sys.argv)
         self.widget = QWidget()
 
