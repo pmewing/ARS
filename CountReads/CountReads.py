@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget  # graphical fold
 import sys  # sys.argv, used to pass in arguments to graphical interface (not used, error when not included however)
 import os  # os.walk(), os.join.path()
 import getpass  # get username
-
+import pickle
 
 class Count:
     """
@@ -16,6 +16,7 @@ class Count:
 
         username = getpass.getuser()
         self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
+        self.unclassified_folder_duplicate_value = 0
         self.barcode_correlations = {}
 
         # give user info about warning that will occur using QFileDialog.getExistingDirectory()
@@ -39,13 +40,7 @@ class Count:
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
         self.total_barcodes = self.count_barcodes(self.file_paths)
-
-    def __repr__(self):
-        """
-        This returns data from __init__, as data cannot be returned from __init__ directly
-        :return: int total barcodes
-        """
-        return str(self.total_barcodes)
+        self.write_correlations_to_file(self.barcode_file_location)
 
     def return_file_paths(self, barcode_parent):
         """
@@ -69,7 +64,6 @@ class Count:
             for name in files:
                 if "fastq_runid" in name:
                     file_paths.append( os.path.join(root, name) )  # append file to file_paths
-
 
         return file_paths
 
@@ -130,9 +124,9 @@ class Count:
         It will do this by adding a key/value pair to the dictionary self.barcode_correlations in __init__()
         This dictionary can be used in other class methods
 
-        TODO: create a dictionary (self.barcode_correlations) containing each barcode folder (ex: barcode45) along with
-            the number of reads in the file.
-            Save this file in the directory containing barcode folders
+        TODO: If multiple files exist in the barcode## folder, it will only take the most recent item. Rework this
+            function so multiple files are not hindering.
+            Most likey can be done by combining all files into one before running this function.
 
         :param int reads_in_file: the number of barcodes in the current file
         :param _io.TextIO file_path: the current file path
@@ -149,12 +143,83 @@ class Count:
         """
         if barcode_index > 0:
             barcode_folder_number = str_file_path[barcode_index: barcode_index + 9]
-            file_name = str_file_path[barcode_index + 11:]
-
-            print(file_name)
+            file_name = str_file_path[barcode_index + 10 : -28]
 
         else:
-            unclassified_folder = str_file_path[unclassified_index: unclassified_index + 12]
-            file_name = str_file_path[unclassified_index + 14:]
+            unclassified_folder_number = str_file_path[unclassified_index: unclassified_index + 12]
+            file_name = str_file_path[unclassified_index + 13 : -28]
 
-            print(file_name)
+        # Either barcode_folder_number or unclassified_folder_number will be present during the run
+        try:
+            self.barcode_correlations[barcode_folder_number] = [reads_in_file, file_name]
+        except NameError:
+            # `unclassified` has not been used as a key yet
+            if unclassified_folder_number not in self.barcode_correlations.keys():
+                self.barcode_correlations[unclassified_folder_number] = [reads_in_file, file_name]
+            # `unclassified` exists as a key
+            else:
+                self.unclassified_folder_duplicate_value += 1
+                self.barcode_correlations[str(unclassified_folder_number) + str(self.unclassified_folder_duplicate_value)] = [reads_in_file, file_name]
+
+    def write_correlations_to_file(self, save_file_name):
+        """
+        This function will write the dictionary self.barcode_correlations to a text file. This file can be specified by
+        the user. For now, this will be saved in the same directory as the barcode folders under the name
+        "barcode_counts.txt".
+
+        TODO: Allow the user to select a save location and filename
+
+        :param _io.TextIO save_file_name: File path where barcode_counts.txt file should be saved.
+        :return: None
+        """
+        pickle_file_name = save_file_name + "/barcode_pickle_dump.pkl"
+        save_file_name += "/barcode_counting_results.txt"
+
+        sorted_keys = sorted(self.barcode_correlations)
+
+        with open(save_file_name, 'w') as file:
+            # using each key
+            for key in sorted_keys:
+
+                # create a heading and subheading
+                """
+                barcode01
+                    Number of Reads: 1234
+                    File Name: fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq
+                """
+                heading = key
+                number_of_reads = self.barcode_correlations[key][0]
+                barcode_file_name = self.barcode_correlations[key][1]
+
+                file.writelines(heading + "\n")
+                file.writelines("\tNumber of Reads: %s\n" % number_of_reads)
+                file.writelines("\tFile Name: %s\n" % barcode_file_name)
+
+        """
+        Serialization is a process that saves data to a file so it can be used in its exact form at a later date
+        Python's `pickle` module does this very easily
+        I am using this on the self.barcode_correlations dictionary in case its data is needed again later
+        """
+        output_file = open(pickle_file_name, 'wb')
+        pickle.dump(self.barcode_correlations, output_file)
+        output_file.close()
+
+        """
+        Reading a pickle file can be done below
+        This will result in the same exact variable type as self.barcode_correlations
+        
+        self.barcode_correlations = { 'barcode01': [123,
+                                                    FILE_NAME_01],
+
+                                      'barcode02': [456,
+                                                    FILE_NAME_02]
+                                      } etc.
+            
+        pickle_read = r"/home/joshl/minknow_data/CLC_2020-02-11/demultiplex_dual/barcode_pickle_dump.pkl"
+        infile = open(pickle_read, 'rb')
+        new_dict = pickle.load(infile)
+        infile.close()
+
+        for key in new_dict:
+            print(key, new_dict[key])
+        """
