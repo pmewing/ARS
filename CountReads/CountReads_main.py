@@ -1,4 +1,4 @@
-from CountReads import CountReads
+from CountReads import Count
 
 if __name__ == '__main__':
-    CountReads.Count()
+    Count()
