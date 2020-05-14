@@ -6,11 +6,14 @@ import getpass  # get username
 
 class Count:
     """
-    This class is responsible for counting the number of barcodes present in the output of guppy
-    TODO: Give the user a more refined option on selecting a file location
-    filedialog.askdirectory(initialdir="") is the best method I have now
+    This class is responsible for counting the number of barcodes present in the output of guppy_barcode
     """
     def __init__(self):
+        """
+        this is the main driver function, and will be ran when a Count() class is implemented
+        Currently it only prints the number of barcodes (`self.total_barcodes`), but it can be made to return them
+            for downstream use as well.
+        """
 
         username = getpass.getuser()
         self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
@@ -44,13 +47,15 @@ class Count:
             the name. This is important because guppy will output multiple files; we are only interested in the ones
             that have barcodes in the file
 
+        os.walk() documentation: https://www.tutorialspoint.com/python/os_walk.htm
+
         :param barcode_parent: The parent directory of the barcode files
         :return: A list containing paths of barcode files.
             Ex: /home/USERNAME/minknow_data/CLC_2020-02-11/demultiplex_dual/barcode01/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq
         """
-        # os.walk() documentation: https://www.tutorialspoint.com/python/os_walk.htm
 
-        file_paths = []  # this will be returned
+        # this will be returned
+        file_paths = []
 
         # iterate through each directory, and collect files that contain "fastq_runid" in the name
         for root, directory, files in os.walk(barcode_parent):
