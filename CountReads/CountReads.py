@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget
-import sys
+from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget  # graphical folder selection
+import sys  # sys.argv, used to pass in arguments to graphical interface (not used, error when not included however)
 import os  # os.walk(), os.join.path()
 import getpass  # get username
 
