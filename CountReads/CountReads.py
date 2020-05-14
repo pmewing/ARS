@@ -1,5 +1,5 @@
-# from tkinter import filedialog
-# import tkinter as tk
+from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget
+import sys
 import os  # os.walk(), os.join.path()
 import getpass  # get username
 
@@ -12,12 +12,26 @@ class Count:
     """
     def __init__(self):
 
-        # this will be more robust with user opening a dialog box
         username = getpass.getuser()
-        self.barcode_parent_file = r"/home/%s/minknow_data/CLC_2020-02-11/demultiplex_dual/" % username
+        self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
 
-        # get locations of all barcode files
-        self.file_paths = self.return_file_paths(self.barcode_parent_file)
+        #  graphical interface for opening a folder
+        print("In the next window, please select the parent folder of all barcode folders")
+        print("Press enter to continue")
+        input()
+
+        #  sys.argv allows for passing arguments into the dialog box. This will not be used
+        self.q_application = QApplication(sys.argv)
+        self.widget = QWidget()
+
+        self.barcode_file_location = str(QFileDialog.getExistingDirectory(parent=self.widget,
+                                                                          caption="Select a directory",
+                                                                          directory=self.initial_directory))
+
+        #  get locations of all barcode files
+        self.file_paths = self.return_file_paths(self.barcode_file_location)
+
+        #  count barcodes
         self.total_barcodes = self.count_barcodes(self.file_paths)
         print("Total barcodes: %s" % self.total_barcodes)
 
