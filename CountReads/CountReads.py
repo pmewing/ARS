@@ -4,8 +4,7 @@ import os  # os.walk(), os.join.path()
 import getpass  # get username
 
 
-
-class CountReads:
+class Count:
     """
     This class is responsible for counting the number of barcodes present in the output of guppy
     TODO: Give the user a more refined option on selecting a file location
