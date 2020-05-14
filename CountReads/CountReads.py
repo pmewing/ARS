@@ -13,7 +13,7 @@ class Count:
         this is the main driver function, and will be ran when a Count() class is implemented
         Creates a file in the directory selected containing which barcode folders
         """
-
+        # TODO: Change self.initial_directory to `r"/home/%s" % username` before production
         username = getpass.getuser()
         self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
         self.unclassified_folder_duplicate_value = 0
