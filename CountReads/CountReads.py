@@ -13,10 +13,13 @@ class Count:
         """
         this is the main driver function, and will be ran when a Count() class is implemented
         Creates a file in the directory selected containing which barcode folders
+
+        :return str barcode_file_location: This is the location of the parent folder
         """
+
         # TODO: Change self.initial_directory to `r"/home/%s" % username` before production
         username = getpass.getuser()
-        self.initial_directory = r"/home/%s/minknow_data/CLC_2020-02-11/" % username
+        self.initial_directory = r"/home/%s/" % username
         self.unclassified_folder_duplicate_value = 0
         self.barcode_correlations = {}
 
@@ -43,6 +46,12 @@ class Count:
         self.total_barcodes = self.count_barcodes(self.file_paths)
         self.write_correlations_to_file(self.barcode_file_location)
 
+    def __repr__(self):
+        """
+        :return str barcode_file_location: This is the location of the parent folder
+        """
+        return self.barcode_file_location
+
     def return_file_paths(self, barcode_parent):
         """
         This method will use the os.walk() function to collect the file path of all files that have "fastq_runid" in
@@ -64,8 +73,10 @@ class Count:
         for root, directory, files in os.walk(barcode_parent):
             for name in files:
                 if "fastq_runid" in name:
-                    file_paths.append( os.path.join(root, name) )  # append file to file_paths
-
+                    # do not add files that ay have been created with MergeFiles.py
+                    # MergeFiles.py will have "_unclassified" or "_barcode" before the file extension
+                    if "_unclassified" not in name and "_barcode" not in name:
+                        file_paths.append( os.path.join(root, name) )  # append file to file_paths
         return file_paths
 
     def count_barcodes(self, barcode_file_path):
@@ -85,7 +96,7 @@ class Count:
         I have included a progress bar in this function for the sake of future-proofing. I am unsure how large files may be, and want to let the user know work is still being done.
         In all actuality, I believe adding a barcode makes this process take considerably longer.
 
-        :param iterable barcode_file_path: iterable (list, tuple)
+        :param list barcode_file_path: iterable (list, tuple)
         :return: int total_barcodes
         """
 
