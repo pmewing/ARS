@@ -95,6 +95,11 @@ class Merge:
                 print("You do not have the correct permissions for creating a directory here. Please try again.")
                 exit(-1)
 
+        # remove files in the output_directory
+        for root, directory, files in os.walk(output_directory):
+            for name in files:
+                os.remove( os.path.join(root, name) )
+
         barcode_files = []
         for root, directory, files in os.walk(parent_folder):
             # we need to know where each file is in the barcode folder so we can read data from it
