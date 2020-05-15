@@ -43,6 +43,12 @@ class Merge:
             for name in directory:
                 barcode_directories.append( os.path.join(root, name) )
 
+        # we want to clear the _merged_files directory so a large amount of data for this experiment is not saved
+        merged_files_location = self.barcode_file_location + "/_merged_files"
+        for root, directory, files in os.walk(merged_files_location):
+            for name in files:
+                os.remove( os.path.join(root, name) )
+
         # iterate through each barcode directory
         for item in barcode_directories:
 
@@ -94,11 +100,6 @@ class Merge:
                 # if the user is unable to write to this directory, we should not continue
                 print("You do not have the correct permissions for creating a directory here. Please try again.")
                 exit(-1)
-
-        # remove files in the output_directory
-        for root, directory, files in os.walk(output_directory):
-            for name in files:
-                os.remove( os.path.join(root, name) )
 
         barcode_files = []
         for root, directory, files in os.walk(parent_folder):
