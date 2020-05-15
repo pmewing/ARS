@@ -3,6 +3,7 @@ import sys  # sys.argv, used to pass in arguments to graphical interface (not us
 import os  # os.walk(), os.join.path()
 import getpass  # get username
 import pickle
+import csv
 
 class Count:
     """
@@ -173,27 +174,18 @@ class Count:
         :return: None
         """
         pickle_file_name = save_file_name + "/barcode_pickle_dump.pkl"
-        save_file_name += "/barcode_counting_results.txt"
+        save_file_name += "/barcode_counts.csv"
 
         sorted_keys = sorted(self.barcode_correlations)
-
         with open(save_file_name, 'w') as file:
+            csv_writer = csv.writer(file)
             # using each key
             for key in sorted_keys:
 
                 # create a heading and subheading
-                """
-                barcode01
-                    Number of Reads: 1234
-                    File Name: fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq
-                """
-                heading = key
-                number_of_reads = self.barcode_correlations[key][0]
-                barcode_file_name = self.barcode_correlations[key][1]
+                row = [key, self.barcode_correlations[key][0]]  # barcode reads
+                csv_writer.writerow(row)
 
-                file.writelines(heading + "\n")
-                file.writelines("\tNumber of Reads: %s\n" % number_of_reads)
-                file.writelines("\tFile Name: %s\n" % barcode_file_name)
 
         """
         Serialization is a process that saves data to a file so it can be used in its exact form at a later date
