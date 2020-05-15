@@ -1,7 +1,4 @@
 import os  # os.walk()
-import sys  # sys.argv, not used but needed for PyQt
-import getpass  # get username
-from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget  # graphical folder selection
 import re  # split strings on multiple characters
 
 
@@ -48,20 +45,12 @@ class Merge:
 
         # iterate through each barcode directory
         for item in barcode_directories:
-            number_of_files = 0
-            # get all subitems in barcode directories (this will be the fastq/fasta files)
-            for root, directory, files in os.walk(item):
-                for name in files:
-                    number_of_files += 1
 
-            # more than one file exists in this subdirectory, concatonate them
-            if number_of_files > 1:
+            file_name = os.listdir(item)[0]  # get the first file name in the directory
+            root = os.path.abspath(item)     # get the absolute path for the file
 
-                file_name = os.listdir(item)[0]     # get the first file name in the directory
-                root = os.path.abspath(item)        # get the absolute path for the file
-
-                new_file_path = self.return_new_file_name(file_name, root)
-                self.concatonate_files(new_file_path, root)
+            new_file_path = self.return_new_file_name(file_name, root)  # get the file name for the new concatonated files
+            self.concatonate_files(new_file_path, root)                 # concatonate the files
 
     def return_new_file_name(self, file_name, root_path):
         """
@@ -80,32 +69,40 @@ class Merge:
         new_file_name = "_".join(fastq_runid[:3])                       # join first three elements
         new_file_name += "_%s.%s" % (barcode_number, fastq_or_fasta)    # append the barcode number and file extension
 
-        # this will merge the root_path and file_name variables to make the path for the output file
-        file_output = root_path + "/" + new_file_name
+        return new_file_name
 
-        return file_output
-
-    def concatonate_files(self, output_file, parent_folder):
+    def concatonate_files(self, new_file_name, parent_folder):
         """
         This function will concatonate all files in parent_folder and place their contents in output_file
+        A new folder will be saved in the location of self.barcode_file_location called "_merged_reads"
 
-        :param str output_file: This is the location of the output file. At the start of this function, this file has not yet been created
+        :param str new_file_name: This is the location of the output file. At the start of this function, this file has not yet been created
         :param str parent_folder: This is the location of the parent folder of the output_file. It will be used to get all files in the folder
         :return: None
         """
 
+        # make the output directory
+        output_directory = self.barcode_file_location + "/_merged_files/"
+        output_file = output_directory + new_file_name
+
+        # check if output_directory exists
+        if not os.path.exists(output_directory):
+            try:
+                # make the directory
+                os.makedirs(output_directory)
+            except PermissionError:
+                # if the user is unable to write to this directory, we should not continue
+                print("You do not have the correct permissions for creating a directory here. Please try again.")
+                exit(-1)
+
         barcode_files = []
         for root, directory, files in os.walk(parent_folder):
-            # we need to remove the barcode folder that will be created, otherwise it will add data onto itself
+            # we need to know where each file is in the barcode folder so we can read data from it
             for name in files:
-                barcode_files.append(name)
-            for file in barcode_files:
-                if "_unclassified.fast" in file or "_barcode" in file:  # remove barcode or unclassified output files
-                    barcode_files.remove(file)
+                barcode_files.append( os.path.join(root, name) )
 
-            # concatonate data from files into the output file
-            with open(output_file, 'w') as writer_file:                         # open the output file (_BARCODE##.fastq)
-                for name in barcode_files:                                      # for all files in directory
-                    with open( os.path.join(root, name), 'r' ) as input_file:   # open the input file
-                        for line in input_file:                                 # for each line in the input file
-                            writer_file.writelines(line)                        # write the line to the output file
+        with open(output_file, 'w') as writer:
+            for name in barcode_files:
+                with open(name, 'r') as reader:
+                    for line in reader:
+                        writer.write(line)
