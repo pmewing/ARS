@@ -1,0 +1,2 @@
+To align barcoded reads, the guppy_aligner will most likely be used
+Check into the documentation for this, and see what some likely possibilities for flags are
