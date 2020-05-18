@@ -52,11 +52,12 @@ class Merge:
         # iterate through each barcode directory
         for item in barcode_directories:
 
-            file_name = os.listdir(item)[0]  # get the first file name in the directory
-            root = os.path.abspath(item)     # get the absolute path for the file
-
-            new_file_path = self.return_new_file_name(file_name, root)  # get the file name for the new concatonated files
-            self.concatonate_files(new_file_path, root)                 # concatonate the files
+            # we do not want to include the _merged_files folder in the merging
+            if "_merged_files" not in item:
+                file_name = os.listdir(item)[0]                             # get the first file name in the directory
+                root = os.path.abspath(item)                                # get the absolute path for the file
+                new_file_path = self.return_new_file_name(file_name, root)  # get the file name for the new concatonated files
+                self.concatonate_files(new_file_path, root)                 # concatonate the files
 
     def return_new_file_name(self, file_name, root_path):
         """
@@ -71,11 +72,14 @@ class Merge:
         barcode_number = root_path.split("/")[-1]   # get the barcode number
         fastq_or_fasta = fastq_runid[-1]            # get the .fastq/.fasta file extension
 
-        # create the new file name
-        new_file_name = "_".join(fastq_runid[:3])                       # join first three elements
-        new_file_name += "_%s.%s" % (barcode_number, fastq_or_fasta)    # append the barcode number and file extension
+        # we do not want to include `_merged_files` in our merging, as this is where the merged files will be placed
+        if "_merged_files" not in barcode_number:
 
-        return new_file_name
+            # create the new file name
+            new_file_name = "_".join(fastq_runid[:3])                       # join first three elements
+            new_file_name += "_%s.%s" % (barcode_number, fastq_or_fasta)    # append the barcode number and file extension
+
+            return new_file_name
 
     def concatonate_files(self, new_file_name, parent_folder):
         """

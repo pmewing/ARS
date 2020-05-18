@@ -8,11 +8,10 @@ if __name__ == '__main__':
     MergeFiles.Merge() expects a string, not a class object (of type Count). To resolve this, simply convert the Count
         object to a str() object
     """
+
     print("")
     barcode_file_location = str(CountReads.Count())
 
-    print("Merging files. . .")
     MergeFiles.Merge(barcode_file_location)
 
-    print("Performing FastQC analysis. . .")
     FastQC.FastQCAnalysis(barcode_file_location)

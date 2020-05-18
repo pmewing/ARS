@@ -71,6 +71,13 @@ class Count:
 
         # iterate through each directory, and collect files that contain "fastq_runid" in the name
         for root, directory, files in os.walk(barcode_parent):
+
+            # we want to remove the `_merged_files` directory if it is present
+            for i in range(len(directory)):
+                if "_merged_files" == directory[i]:
+                    del directory[i]
+                    break  # we only need to find the directory one time
+
             for name in files:
                 if "fastq_runid" in name:
                     # do not add files that ay have been created with MergeFiles.py
@@ -92,9 +99,6 @@ class Count:
             "/home/USERNAME/minknow_data/2020-02-15/barcode01/text_file_with_barcodes_02.txt",
             "/home/USERNAME/minknow_data/2020-02-15/barcode01/text_file_with_barcodes_03.txt"
         ]
-
-        I have included a progress bar in this function for the sake of future-proofing. I am unsure how large files may be, and want to let the user know work is still being done.
-        In all actuality, I believe adding a barcode makes this process take considerably longer.
 
         :param list barcode_file_path: iterable (list, tuple)
         :return: int total_barcodes
