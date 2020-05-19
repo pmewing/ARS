@@ -194,6 +194,10 @@ class Count:
         sorted_keys = sorted(self.barcode_correlations)
         with open(save_file_name, 'w') as file:
             csv_writer = csv.writer(file)
+
+            # write a header row
+            csv_writer.writerow(["barcode_number", "read_count"])
+
             # using each key
             for key in sorted_keys:
 
