@@ -158,24 +158,17 @@ class Count:
             greater than -1. Use this index to find what 
         """
         if barcode_index > 0:
-            barcode_folder_number = str_file_path[barcode_index: barcode_index + 9]
-            file_name = str_file_path[barcode_index + 10 : -28]
-
+            folder_number = str_file_path[barcode_index: barcode_index + 9]
         else:
-            unclassified_folder_number = str_file_path[unclassified_index: unclassified_index + 12]
-            file_name = str_file_path[unclassified_index + 13 : -28]
+            folder_number = str_file_path[unclassified_index: unclassified_index + 12]
 
-        # Either barcode_folder_number or unclassified_folder_number will be present during the run
-        try:
-            self.barcode_correlations[barcode_folder_number] = [reads_in_file, file_name]
-        except NameError:
-            # `unclassified` has not been used as a key yet
-            if unclassified_folder_number not in self.barcode_correlations.keys():
-                self.barcode_correlations[unclassified_folder_number] = [reads_in_file, file_name]
-            # `unclassified` exists as a key
-            else:
-                self.unclassified_folder_duplicate_value += 1
-                self.barcode_correlations[str(unclassified_folder_number) + str(self.unclassified_folder_duplicate_value)] = [reads_in_file, file_name]
+        # we want to add a new entry if the current barcode has not been added
+        if folder_number not in self.barcode_correlations.keys():
+            self.barcode_correlations[folder_number] = reads_in_file
+
+        # if the entry is already present, we want to add reads_in_file to the current value
+        else:
+            self.barcode_correlations[folder_number] += reads_in_file
 
     def write_correlations_to_file(self, save_file_name):
         """
@@ -196,18 +189,15 @@ class Count:
             csv_writer = csv.writer(file)
 
             # write a header row
-            csv_writer.writerow(["barcode_number", "read_count"])
+            csv_writer.writerow( ['barcode_number', 'reads_in_barcode'] )
 
             # using each key
             for key in sorted_keys:
-
-                # create a heading and subheading
-                row = [key, self.barcode_correlations[key][0]]  # barcode reads
-                csv_writer.writerow(row)
-
+                # write data to file
+                csv_writer.writerow( [key, '%d' % self.barcode_correlations[key]] )
 
         """
-        Serialization is a process that saves data to a file so it can be used in its exact form at a later date
+        Serialization is a process that saves data to a file so it can be used in its exact state at a later time
         Python's `pickle` module does this very easily
         I am using this on the self.barcode_correlations dictionary in case its data is needed again later
         """
