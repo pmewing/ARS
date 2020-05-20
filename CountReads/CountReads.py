@@ -10,7 +10,7 @@ class Count:
     """
     This class is responsible for counting the number of barcodes present in the output of guppy_barcode
     """
-    def __init__(self):
+    def __init__(self, open_directory, save_directory):
         """
         this is the main driver function, and will be ran when a Count() class is implemented
         Creates a file in the directory selected containing which barcode folders
