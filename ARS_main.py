@@ -2,7 +2,6 @@ from CountReads import CountReads  # This will count the number of raw reads in 
 from MergeFiles import MergeFiles  # This will merge multiple files of the same barcode into one file
 from FastQC import FastQC
 from BarcodeAlignment import alignment
-from Visualizations import Visualizations
 
 if __name__ == '__main__':
 
@@ -16,5 +15,4 @@ if __name__ == '__main__':
     # barcode_file_location = str(CountReads.Count())
     # MergeFiles.Merge(barcode_file_location)
     # FastQC.FastQCAnalysis(barcode_file_location)
-    # alignment.run()
-    Visualizations.Visualize()
+    alignment.run()
