@@ -1,25 +1,10 @@
 import plotly.express as px
 import pandas as pd
 import subprocess
-import sys
-from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget
-
 
 class Visualize:
     def __init__(self):
-        self.starting_directory = r"/home/joshl/"
-        app = QApplication(sys.argv)
-        widget = QWidget()
-        input_file = QFileDialog.getOpenFileName(parent=widget,
-                                                 caption="Select the input file",
-                                                 directory=self.starting_directory)
-
-        output_directory = QFileDialog.getExistingDirectory(parent=widget,
-                                                            caption="Select the output directory",
-                                                            directory=self.starting_directory)
-
-        message = "NanoPlot --fastq %s --outdir %s" % (input_file, output_directory)
-        subprocess.run(message.split(" "))
+        message = "NanoPlot --fastq INPUT_FILE --outdir OUTPUT DIRECTORY"
         self.create_plotly_histogram()
 
     def create_plotly_histogram(self):

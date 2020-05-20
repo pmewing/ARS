@@ -5,12 +5,11 @@ import getpass  # get username
 import pickle
 import csv
 
-
 class Count:
     """
     This class is responsible for counting the number of barcodes present in the output of guppy_barcode
     """
-    def __init__(self, open_directory, save_directory):
+    def __init__(self):
         """
         this is the main driver function, and will be ran when a Count() class is implemented
         Creates a file in the directory selected containing which barcode folders
@@ -105,6 +104,9 @@ class Count:
         :return: int total_barcodes
         """
 
+        #  may be useful to implement a progress bar if the number of items is large
+        number_of_files = len(barcode_file_path)
+
         # this will be returned
         total_barcodes = 0
 
@@ -137,6 +139,10 @@ class Count:
         This function will correlate the number of barcodes to each barcode folder
         It will do this by adding a key/value pair to the dictionary self.barcode_correlations in __init__()
         This dictionary can be used in other class methods
+
+        TODO: If multiple files exist in the barcode## folder, it will only take the most recent item. Rework this
+            function so multiple files are not hindering.
+            Most likey can be done by combining all files into one before running this function.
 
         :param int reads_in_file: the number of barcodes in the current file
         :param _io.TextIO file_path: the current file path
