@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/MergeFiles" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Visualizations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GUI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trimming" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/GUI/UI Files" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>

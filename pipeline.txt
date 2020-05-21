@@ -1,0 +1,5 @@
+The following steps are what needs to be done for the overall pipeline
+-------------------------------------
+1) guppy_barcoder
+2) trim_reads (pychopper)
+3) guppy_aligner

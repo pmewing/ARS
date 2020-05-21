@@ -1,7 +1,9 @@
-from CountReads import CountReads  # This will count the number of raw reads in a file
-from MergeFiles import MergeFiles  # This will merge multiple files of the same barcode into one file
-from FastQC import FastQC
-from BarcodeAlignment import alignment
+from CountReads.CountReads import Count # This will count the number of raw reads in a file
+from MergeFiles.MergeFiles import Merge  # This will merge multiple files of the same barcode into one file
+import FastQC
+from BarcodeAlignment.alignment import Alignment
+import alignment
+import TrimReads
 
 if __name__ == '__main__':
 
@@ -12,7 +14,11 @@ if __name__ == '__main__':
     """
 
     print("")
-    # barcode_file_location = str(CountReads.Count())
-    # MergeFiles.Merge(barcode_file_location)
-    # FastQC.FastQCAnalysis(barcode_file_location)
-    alignment.run()
+    barcode_file_location = Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+                                  save_directory=r"/home/joshl/minknow_data/script_results/Count Reads")
+
+    Merge(open_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
+          save_directory=r"/home/joshl/minknow_data/script_results/Merge Files")
+
+    TrimReads.Trim(open_directory=r"/home/joshl/minknow_data/script_results/Merge Files",
+                   save_directory=r"/home/joshl/minknow_data/script_results/Trimmed Barcodes")
