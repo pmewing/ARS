@@ -28,12 +28,6 @@ class Count:
         self.total_barcodes = self.count_barcodes(self.file_paths)
         self.write_correlations_to_file(self.save_directory)
 
-    def __repr__(self):
-        """
-        :return str barcode_file_location: This is the location of the parent folder
-        """
-        return self.barcode_file_location
-
     def return_file_paths(self, barcode_parent):
         """
         This method will use the os.walk() function to collect the file path of all files that have "fastq_runid" in

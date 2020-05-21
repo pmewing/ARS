@@ -14,7 +14,7 @@ if __name__ == '__main__':
     """
 
     print("")
-    barcode_file_location = Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+    Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
                                   save_directory=r"/home/joshl/minknow_data/script_results/Count Reads")
 
     Merge(open_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
