@@ -1,6 +1,15 @@
+import sys
 from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtWidgets import QMainWindow, QPushButton, QLabel, QFileDialog
-from CountReads import CountReads
+
+# add the parent folder to the path so other folders can be used. Fixes import lines when running this from the command line
+sys.path.append("../")
+from CountReads.CountReads import Count
+from MergeFiles.MergeFiles import Merge
+
+# add these items to path so they can be imported
+# sys.path.append("/home/joshl/PycharmProjects/ARS Projects/CountReads/")
+# from CountReads.CountReads import Count
 
 # file constants
 initial_directory = r"/home/joshl/"
@@ -172,12 +181,12 @@ class CountReadsDialog(QtWidgets.QDialog):
     def call_count_reads(self):
 
         if "location not set" not in [self.save_directory_label.text().lower(), self.open_directory_label.text().lower()]:
-            CountReads.Count(open_directory=self.open_directory_label.text(),
-                             save_directory=self.save_directory_label.text())
+            Count(open_directory=self.open_directory_label.text(),
+                  save_directory=self.save_directory_label.text())
             self.status_label.setText("Count reads compleed")
 
         else:
-            self.status_label.setText("Select a location for each of the locations.")
+            self.status_label.setText("Select a directory for each of the locations.")
 
         self.status_label.adjustSize()
 
