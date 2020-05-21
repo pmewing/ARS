@@ -2,11 +2,13 @@ import subprocess
 import os
 import progressbar
 
+
 class FastQCAnalysis:
-    def __init__(self, barcode_file_location):
-        self.barcode_location = barcode_file_location + "/_merged_files/"
+    def __init__(self, input_directory, output_directory):
+        self.input_directory = input_directory
+        self.output_directory = output_directory
         bar = progressbar.ProgressBar(max_value=progressbar.UnknownLength)
-        for root, directory, files in os.walk(self.barcode_location):
+        for root, directory, files in os.walk(self.input_directory):
             for name in files:
                 self.perform_fastqc_analysis( os.path.join(root, name) )
                 bar.update()
@@ -22,8 +24,7 @@ class FastQCAnalysis:
          :return: None
         """
 
-        output_directory = r"/home/joshl/Desktop/output/"
-        output_result = subprocess.run(['fastqc',                # call fastqc
-                                        '-q',                    # do not show output on console. This will show a loading bar instead
-                                        '-o', output_directory,  # where to save output
-                                        input_file])             # file we are analyzing
+        subprocess.run(['fastqc',                       # call fastqc
+                        '-q',                           # do not show output on console. This will show a loading bar instead
+                        '-o', self.output_directory,    # where to save output
+                        input_file])                    # file we are analyzing

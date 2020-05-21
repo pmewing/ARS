@@ -4,18 +4,19 @@ import subprocess
 import pandas as pd
 import numpy as np
 
+
 class Alignment:
-    def __init__(self, open_directory, save_directory, align_reference):
+    def __init__(self, input_directory, save_directory, align_reference):
         """
         This class will be responsible for results pertaining to read alignments. This class uses the guppy_alignment tool.
         guppy_aligner MUST be added to your $PATH, otherwise it will not work
-        :param str open_directory: The location of input files (usually a directory)
+        :param str input_directory: The location of input files (usually a directory)
         :param str save_directory: The location of output files (usually a directory)
         :param str align_reference: The location of the reference file to use (a file)
         :return: None
         """
 
-        self.open_directory = open_directory
+        self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
 
@@ -30,7 +31,7 @@ class Alignment:
         :return: None
         """
         message = "guppy_aligner --input_path %s --save_path %s --align_ref %s" % (
-            self.open_directory, self.save_directory + "/SAM_Files", self.alignment_reference)
+            self.input_directory, self.save_directory + "/SAM_Files", self.alignment_reference)
         message = message.split(" ")  # we must split the messgae into a list before subprocess.run() will accept it
         subprocess.run(message)
 

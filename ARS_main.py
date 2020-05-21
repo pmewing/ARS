@@ -12,16 +12,15 @@ if __name__ == '__main__':
         object to a str() object
     """
 
-    print("")
-    # Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+    # Count(input_directory=r"/home/joshl/minknow_data/demultiplex_dual",
     #       save_directory=r"/home/joshl/minknow_data/script_results/Count_Reads")
     #
-    # Merge(open_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
+    # Merge(input_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
     #       save_directory=r"/home/joshl/minknow_data/script_results/Merge_Files")
     #
-    # Trim(open_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
-    #                save_directory=r"/home/joshl/minknow_data/script_results/Trimmed_Barcodes")
-    #
-    Alignment(open_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
+    Trim(input_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
+         save_directory=r"/home/joshl/minknow_data/script_results/Trimmed_Barcodes")
+
+    Alignment(input_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
               save_directory=r"/home/joshl/minknow_data/script_results/Alignment/",
               align_reference=r"/home/joshl/minknow_data/script_results/GUPPY_ALIGNMENT_REFERENCE.txt")

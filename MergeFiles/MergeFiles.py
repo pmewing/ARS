@@ -3,7 +3,7 @@ import re  # split strings on multiple characters
 
 
 class Merge:
-    def __init__(self, open_directory, save_directory):
+    def __init__(self, input_directory, save_directory):
         """
         This class is responsible for methods that will combine mulitple text files in one folder to one file
 
@@ -15,8 +15,12 @@ class Merge:
         Then, self.return_new_file_name() will return back to self.concatonate_files_control(), and self.concatonate_files()
             will take all files from the folder directory and place them into a new file, with the name returned by
             self.return_new_file_name()
+
+        :param str input_directory: This is the input location for files to merge
+        :param str save_directory: This is where concatonated files will be saved
+        :return: None
         """
-        self.open_directory = open_directory
+        self.open_directory = input_directory
         self.save_directory = save_directory
         self.concatonate_files_controller()
 
