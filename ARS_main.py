@@ -1,9 +1,8 @@
 from CountReads.CountReads import Count # This will count the number of raw reads in a file
 from MergeFiles.MergeFiles import Merge  # This will merge multiple files of the same barcode into one file
-import FastQC
-from BarcodeAlignment.alignment import Alignment
-import alignment
-import TrimReads
+from Trimming.TrimReads import Trim
+from BarcodeAlignment.Aligner import Alignment
+
 
 if __name__ == '__main__':
 
@@ -14,11 +13,15 @@ if __name__ == '__main__':
     """
 
     print("")
-    Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
-                                  save_directory=r"/home/joshl/minknow_data/script_results/Count Reads")
-
-    Merge(open_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
-          save_directory=r"/home/joshl/minknow_data/script_results/Merge Files")
-
-    TrimReads.Trim(open_directory=r"/home/joshl/minknow_data/script_results/Merge Files",
-                   save_directory=r"/home/joshl/minknow_data/script_results/Trimmed Barcodes")
+    # Count(open_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+    #       save_directory=r"/home/joshl/minknow_data/script_results/Count_Reads")
+    #
+    # Merge(open_directory=r"/home/joshl/minknow_data/demultiplex_dual/",
+    #       save_directory=r"/home/joshl/minknow_data/script_results/Merge_Files")
+    #
+    # Trim(open_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
+    #                save_directory=r"/home/joshl/minknow_data/script_results/Trimmed_Barcodes")
+    #
+    Alignment(open_directory=r"/home/joshl/minknow_data/script_results/Merge_Files",
+              save_directory=r"/home/joshl/minknow_data/script_results/Alignment/",
+              align_reference=r"/home/joshl/minknow_data/script_results/GUPPY_ALIGNMENT_REFERENCE.txt")
