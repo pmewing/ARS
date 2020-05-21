@@ -108,6 +108,9 @@ class CountReadsDialog(QtWidgets.QDialog):
         """
         This function is resposible for creating a new window that will interact with the GUI_CountReads.py file
         """
+
+        # TODO: ALlow the user to select a file name for saving the output of CountReads (barcode_counts.csv and
+        #   barcode_pickle_dump.pkl)
         super(CountReadsDialog, self).__init__(parent)
 
         # set up the dialog box information
@@ -128,6 +131,7 @@ class CountReadsDialog(QtWidgets.QDialog):
         # create labels
         self.open_directory_label = QLabel(self)
         self.save_directory_label = QLabel(self)
+        self.status_label = QLabel(self)
 
         self.initUI()
 
@@ -154,15 +158,12 @@ class CountReadsDialog(QtWidgets.QDialog):
         # modify label location
         self.open_directory_label.setGeometry(QtCore.QRect(340, 40, 129, 34))
         self.save_directory_label.setGeometry(QtCore.QRect(340, 150, 129, 34))
+        self.status_label.setGeometry(QtCore.QRect(40, 310, 150, 34))
 
         # modify label text
         self.open_directory_label.setText("Location Not Set")
         self.open_directory_label.setStyleSheet(red_text)
         self.open_directory_label.adjustSize()
-
-        # set label object names
-        self.open_directory_label.setObjectName("open_directory_label")
-        self.save_directory_label.setObjectName("save_directory_label")
 
         self.save_directory_label.setText("Location Not Set")
         self.save_directory_label.setStyleSheet(red_text)
@@ -170,11 +171,15 @@ class CountReadsDialog(QtWidgets.QDialog):
 
     def call_count_reads(self):
 
-        if "location not set" not in [self.save_directory_label.text().lower(),
-                                      self.open_directory_label.text().lower()
-                                      ]:
+        if "location not set" not in [self.save_directory_label.text().lower(), self.open_directory_label.text().lower()]:
             CountReads.Count(open_directory=self.open_directory_label.text(),
                              save_directory=self.save_directory_label.text())
+            self.status_label.setText("Count reads compleed")
+
+        else:
+            self.status_label.setText("Select a location for each of the locations.")
+
+        self.status_label.adjustSize()
 
 
 def open_directory(label: QLabel):

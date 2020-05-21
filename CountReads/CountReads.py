@@ -1,9 +1,7 @@
-from PyQt5.QtWidgets import QFileDialog, QApplication, QWidget  # graphical folder selection
-import sys  # sys.argv, used to pass in arguments to graphical interface (not used, error when not included however)
 import os  # os.walk(), os.join.path()
-import getpass  # get username
 import pickle
 import csv
+
 
 class Count:
     """
@@ -17,26 +15,10 @@ class Count:
         :return str barcode_file_location: This is the location of the parent folder
         """
 
-        # TODO: Change self.initial_directory to `r"/home/%s" % username` before production
-        username = getpass.getuser()
-        self.initial_directory = r"/home/%s/" % username
+        self.save_directory = save_directory
+        self.barcode_file_location = open_directory
         self.unclassified_folder_duplicate_value = 0
         self.barcode_correlations = {}
-
-        # give user info about warning that will occur using QFileDialog.getExistingDirectory()
-        print("In the next window, select the **parent** folder of all barcode folders")
-        print("Press enter to continue")
-        print("(NOTE: A warning will appear; this warning cannot be resolved. Trust nothing is wrong.)", end="")
-        input()
-
-        #  sys.argv allows for passing arguments into the dialog box. This will not be used
-        #  graphical interface for opening a folder
-        self.q_application = QApplication(sys.argv)
-        self.widget = QWidget()
-
-        self.barcode_file_location = str(QFileDialog.getExistingDirectory(parent=self.widget,
-                                                                          caption="Select the barcode parent directory",
-                                                                          directory=self.initial_directory))
 
         #  get locations of all barcode files
         self.file_paths = self.return_file_paths(self.barcode_file_location)
@@ -44,7 +26,7 @@ class Count:
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
         self.total_barcodes = self.count_barcodes(self.file_paths)
-        self.write_correlations_to_file(self.barcode_file_location)
+        self.write_correlations_to_file(self.save_directory)
 
     def __repr__(self):
         """
@@ -104,9 +86,6 @@ class Count:
         :return: int total_barcodes
         """
 
-        #  may be useful to implement a progress bar if the number of items is large
-        number_of_files = len(barcode_file_path)
-
         # this will be returned
         total_barcodes = 0
 
@@ -140,10 +119,6 @@ class Count:
         It will do this by adding a key/value pair to the dictionary self.barcode_correlations in __init__()
         This dictionary can be used in other class methods
 
-        TODO: If multiple files exist in the barcode## folder, it will only take the most recent item. Rework this
-            function so multiple files are not hindering.
-            Most likey can be done by combining all files into one before running this function.
-
         :param int reads_in_file: the number of barcodes in the current file
         :param _io.TextIO file_path: the current file path
         :return: None
@@ -170,22 +145,20 @@ class Count:
         else:
             self.barcode_correlations[folder_number] += reads_in_file
 
-    def write_correlations_to_file(self, save_file_name):
+    def write_correlations_to_file(self, save_directory):
         """
         This function will write the dictionary self.barcode_correlations to a text file. This file can be specified by
         the user. For now, this will be saved in the same directory as the barcode folders under the name
         "barcode_counts.txt".
 
-        TODO: Allow the user to select a save location and filename
-
-        :param _io.TextIO save_file_name: File path where barcode_counts.txt file should be saved.
+        :param _io.TextIO save_directory: File path where barcode_counts.txt file should be saved.
         :return: None
         """
-        pickle_file_name = save_file_name + "/barcode_pickle_dump.pkl"
-        save_file_name += "/barcode_counts.csv"
+        pickle_file_name = save_directory + "/barcode_pickle_dump.pkl"
+        save_directory += "/barcode_counts.csv"
 
         sorted_keys = sorted(self.barcode_correlations)
-        with open(save_file_name, 'w') as file:
+        with open(save_directory, 'w') as file:
             csv_writer = csv.writer(file)
 
             # write a header row
