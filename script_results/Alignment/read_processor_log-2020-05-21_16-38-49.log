@@ -1,0 +1,162 @@
+2020-05-21 16:38:49.781491 [guppy/message] ONT Guppy alignment software version 3.6.0+98ff765
+input path:         /home/joshl/minknow_data/script_results/Merge_Files
+save path:          /home/joshl/minknow_data/script_results/Alignment//SAM_Files
+alignment ref.:     /home/joshl/minknow_data/script_results/GUPPY_ALIGNMENT_REFERENCE.txt
+min. coverage:      0.6
+2020-05-21 16:38:49.781660 [guppy/info] crashpad_handler not supported on this platform.
+2020-05-21 16:38:49.781989 [guppy/message] Found 77 fastq files.
+2020-05-21 16:38:49.782009 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq
+2020-05-21 16:38:50.218875 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq (173 reads)
+2020-05-21 16:38:50.218905 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode61.fastq
+2020-05-21 16:38:50.530437 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode61.fastq (133 reads)
+2020-05-21 16:38:50.530471 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode17.fastq
+2020-05-21 16:38:50.878215 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode17.fastq (162 reads)
+2020-05-21 16:38:50.878245 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode52.fastq
+2020-05-21 16:38:51.340052 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode52.fastq (202 reads)
+2020-05-21 16:38:51.340083 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode05.fastq
+2020-05-21 16:38:51.736335 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode05.fastq (178 reads)
+2020-05-21 16:38:51.736361 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode65.fastq
+2020-05-21 16:38:51.989988 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode65.fastq (115 reads)
+2020-05-21 16:38:51.990019 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode81.fastq
+2020-05-21 16:38:52.139358 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode81.fastq (71 reads)
+2020-05-21 16:38:52.139390 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode06.fastq
+2020-05-21 16:38:52.600915 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode06.fastq (205 reads)
+2020-05-21 16:38:52.600941 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode45.fastq
+2020-05-21 16:38:52.883400 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode45.fastq (129 reads)
+2020-05-21 16:38:52.883430 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode26.fastq
+2020-05-21 16:38:53.234461 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode26.fastq (164 reads)
+2020-05-21 16:38:53.234493 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode40.fastq
+2020-05-21 16:38:53.584401 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode40.fastq (170 reads)
+2020-05-21 16:38:53.584425 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode23.fastq
+2020-05-21 16:38:54.006374 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode23.fastq (193 reads)
+2020-05-21 16:38:54.006411 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode64.fastq
+2020-05-21 16:38:54.381583 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode64.fastq (170 reads)
+2020-05-21 16:38:54.381623 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode53.fastq
+2020-05-21 16:38:54.674108 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode53.fastq (137 reads)
+2020-05-21 16:38:54.674133 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_unclassified.fastq
+2020-05-21 16:39:22.435082 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_unclassified.fastq (11596 reads)
+2020-05-21 16:39:22.435265 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode13.fastq
+2020-05-21 16:39:23.380938 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode13.fastq (187 reads)
+2020-05-21 16:39:23.380975 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode28.fastq
+2020-05-21 16:39:23.719811 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode28.fastq (157 reads)
+2020-05-21 16:39:23.719836 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode66.fastq
+2020-05-21 16:39:23.945180 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode66.fastq (101 reads)
+2020-05-21 16:39:23.945208 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode67.fastq
+2020-05-21 16:39:24.305270 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode67.fastq (162 reads)
+2020-05-21 16:39:24.305297 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode83.fastq
+2020-05-21 16:39:24.507148 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode83.fastq (91 reads)
+2020-05-21 16:39:24.507185 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode90.fastq
+2020-05-21 16:39:24.944832 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode90.fastq (188 reads)
+2020-05-21 16:39:24.944863 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode36.fastq
+2020-05-21 16:39:25.333522 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode36.fastq (180 reads)
+2020-05-21 16:39:25.333618 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode02.fastq
+2020-05-21 16:39:25.713344 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode02.fastq (169 reads)
+2020-05-21 16:39:25.713371 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode12.fastq
+2020-05-21 16:39:26.016341 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode12.fastq (130 reads)
+2020-05-21 16:39:26.016371 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode09.fastq
+2020-05-21 16:39:26.459771 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode09.fastq (189 reads)
+2020-05-21 16:39:26.459799 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode22.fastq
+2020-05-21 16:39:26.873784 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode22.fastq (178 reads)
+2020-05-21 16:39:26.873814 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode95.fastq
+2020-05-21 16:39:27.295004 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode95.fastq (186 reads)
+2020-05-21 16:39:27.295034 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode39.fastq
+2020-05-21 16:39:27.622573 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode39.fastq (147 reads)
+2020-05-21 16:39:27.622601 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode59.fastq
+2020-05-21 16:39:27.982154 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode59.fastq (157 reads)
+2020-05-21 16:39:27.982183 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode63.fastq
+2020-05-21 16:39:28.361701 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode63.fastq (189 reads)
+2020-05-21 16:39:28.361732 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode54.fastq
+2020-05-21 16:39:28.600285 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode54.fastq (111 reads)
+2020-05-21 16:39:28.600313 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode55.fastq
+2020-05-21 16:39:29.007068 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode55.fastq (178 reads)
+2020-05-21 16:39:29.007099 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode14.fastq
+2020-05-21 16:39:29.388226 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode14.fastq (180 reads)
+2020-05-21 16:39:29.388261 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode51.fastq
+2020-05-21 16:39:29.733536 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode51.fastq (154 reads)
+2020-05-21 16:39:29.733563 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode38.fastq
+2020-05-21 16:39:30.106538 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode38.fastq (170 reads)
+2020-05-21 16:39:30.106568 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode89.fastq
+2020-05-21 16:39:30.420196 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode89.fastq (148 reads)
+2020-05-21 16:39:30.420227 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode79.fastq
+2020-05-21 16:39:30.876456 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode79.fastq (207 reads)
+2020-05-21 16:39:30.876481 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode60.fastq
+2020-05-21 16:39:31.199784 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode60.fastq (240 reads)
+2020-05-21 16:39:31.199813 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode49.fastq
+2020-05-21 16:39:31.563881 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode49.fastq (161 reads)
+2020-05-21 16:39:31.563905 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode56.fastq
+2020-05-21 16:39:31.935343 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode56.fastq (263 reads)
+2020-05-21 16:39:31.935371 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode85.fastq
+2020-05-21 16:39:31.939925 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode85.fastq (1 reads)
+2020-05-21 16:39:31.939951 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode27.fastq
+2020-05-21 16:39:34.228672 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode27.fastq (182 reads)
+2020-05-21 16:39:34.228836 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode42.fastq
+2020-05-21 16:39:37.027963 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode42.fastq (134 reads)
+2020-05-21 16:39:37.028140 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode41.fastq
+2020-05-21 16:39:38.295202 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode41.fastq (101 reads)
+2020-05-21 16:39:38.295234 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode46.fastq
+2020-05-21 16:39:38.544996 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode46.fastq (100 reads)
+2020-05-21 16:39:38.545023 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode25.fastq
+2020-05-21 16:39:38.989865 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode25.fastq (196 reads)
+2020-05-21 16:39:38.989902 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode01.fastq
+2020-05-21 16:39:39.384057 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode01.fastq (179 reads)
+2020-05-21 16:39:39.384086 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode32.fastq
+2020-05-21 16:39:39.923901 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode32.fastq (232 reads)
+2020-05-21 16:39:39.923929 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode62.fastq
+2020-05-21 16:39:40.206194 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode62.fastq (136 reads)
+2020-05-21 16:39:40.206223 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode35.fastq
+2020-05-21 16:39:40.642407 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode35.fastq (206 reads)
+2020-05-21 16:39:40.642438 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode70.fastq
+2020-05-21 16:39:40.850060 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode70.fastq (100 reads)
+2020-05-21 16:39:40.850084 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode58.fastq
+2020-05-21 16:39:41.128869 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode58.fastq (110 reads)
+2020-05-21 16:39:41.128901 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode07.fastq
+2020-05-21 16:39:41.589563 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode07.fastq (208 reads)
+2020-05-21 16:39:41.589597 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode78.fastq
+2020-05-21 16:39:41.748771 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode78.fastq (79 reads)
+2020-05-21 16:39:41.748799 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode15.fastq
+2020-05-21 16:39:42.132543 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode15.fastq (165 reads)
+2020-05-21 16:39:42.132573 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode04.fastq
+2020-05-21 16:39:42.495327 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode04.fastq (171 reads)
+2020-05-21 16:39:42.495355 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode69.fastq
+2020-05-21 16:39:42.860480 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode69.fastq (154 reads)
+2020-05-21 16:39:42.860503 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode76.fastq
+2020-05-21 16:39:43.179951 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode76.fastq (240 reads)
+2020-05-21 16:39:43.179982 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode57.fastq
+2020-05-21 16:39:43.464485 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode57.fastq (132 reads)
+2020-05-21 16:39:43.464510 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode03.fastq
+2020-05-21 16:39:43.828936 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode03.fastq (166 reads)
+2020-05-21 16:39:43.828967 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode47.fastq
+2020-05-21 16:39:44.268154 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode47.fastq (181 reads)
+2020-05-21 16:39:44.268183 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode16.fastq
+2020-05-21 16:39:44.587952 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode16.fastq (139 reads)
+2020-05-21 16:39:44.587977 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode10.fastq
+2020-05-21 16:39:44.992974 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode10.fastq (180 reads)
+2020-05-21 16:39:44.993004 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode50.fastq
+2020-05-21 16:39:45.401575 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode50.fastq (195 reads)
+2020-05-21 16:39:45.401606 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode21.fastq
+2020-05-21 16:39:45.817403 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode21.fastq (186 reads)
+2020-05-21 16:39:45.817428 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode20.fastq
+2020-05-21 16:39:46.531675 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode20.fastq (310 reads)
+2020-05-21 16:39:46.531707 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode91.fastq
+2020-05-21 16:39:46.958192 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode91.fastq (195 reads)
+2020-05-21 16:39:46.958224 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode31.fastq
+2020-05-21 16:39:47.281569 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode31.fastq (142 reads)
+2020-05-21 16:39:47.281594 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode33.fastq
+2020-05-21 16:39:47.615137 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode33.fastq (150 reads)
+2020-05-21 16:39:47.615170 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode08.fastq
+2020-05-21 16:39:48.488497 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode08.fastq (304 reads)
+2020-05-21 16:39:48.488691 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode11.fastq
+2020-05-21 16:39:52.661689 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode11.fastq (217 reads)
+2020-05-21 16:39:52.661845 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode29.fastq
+2020-05-21 16:39:54.483118 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode29.fastq (122 reads)
+2020-05-21 16:39:54.483149 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode37.fastq
+2020-05-21 16:39:54.903951 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode37.fastq (194 reads)
+2020-05-21 16:39:54.903988 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode93.fastq
+2020-05-21 16:39:55.161389 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode93.fastq (116 reads)
+2020-05-21 16:39:55.161413 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode82.fastq
+2020-05-21 16:39:55.321409 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode82.fastq (76 reads)
+2020-05-21 16:39:55.321442 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode77.fastq
+2020-05-21 16:39:55.633288 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode77.fastq (134 reads)
+2020-05-21 16:39:55.633314 [guppy/info] Starting input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode24.fastq
+2020-05-21 16:39:55.941033 [guppy/info] Successfully finished input file /home/joshl/minknow_data/script_results/Merge_Files/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode24.fastq (146 reads)
+2020-05-21 16:39:55.941062 [guppy/message] Done in 66159 ms.

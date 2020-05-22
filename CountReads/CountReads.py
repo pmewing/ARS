@@ -47,19 +47,8 @@ class Count:
 
         # iterate through each directory, and collect files that contain "fastq_runid" in the name
         for root, directory, files in os.walk(barcode_parent):
-
-            # we want to remove the `_merged_files` directory if it is present
-            for i in range(len(directory)):
-                if "_merged_files" == directory[i]:
-                    del directory[i]
-                    break  # we only need to find the directory one time
-
             for name in files:
-                if "fastq_runid" in name:
-                    # do not add files that ay have been created with MergeFiles.py
-                    # MergeFiles.py will have "_unclassified" or "_barcode" before the file extension
-                    if "_unclassified" not in name and "_barcode" not in name:
-                        file_paths.append( os.path.join(root, name) )  # append file to file_paths
+                file_paths.append( os.path.join(root, name) )  # append file to file_paths
         return file_paths
 
     def count_barcodes(self, barcode_file_path):
