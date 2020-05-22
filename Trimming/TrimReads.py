@@ -1,6 +1,6 @@
 import subprocess
 import os
-import time
+
 
 class Trim:
     def __init__(self, input_directory, save_directory):

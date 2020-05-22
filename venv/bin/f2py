@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/joshl/PycharmProjects/ARS Projects/venv/bin/python" "$0" "$@"
-' '''
+#!/home/joshl/PycharmProjects/ARS/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

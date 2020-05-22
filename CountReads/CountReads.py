@@ -85,12 +85,16 @@ class Count:
                 elif ".fasta" in str(file):
                     identifier = ">"
 
-                # iterate over each line in the barcode file
-                for line in file:
-                    # test if the beginning of a line has the identifier (`@` or `>`)
-                    if line[0] == identifier:
-                        total_barcodes += 1
-                        file_barcodes += 1
+                # if we are not iterating over a fastq/fasta file, or the line does not have one of the above identifiers, we must account for the error that will be raised
+                try:
+                    # iterate over each line in the barcode file
+                    for line in file:
+                        # test if the beginning of a line has the identifier (`@` or `>`)
+                        if line[0] == identifier:
+                            total_barcodes += 1
+                            file_barcodes += 1
+                except UnboundLocalError:
+                    pass
 
                 self.correlate_barcodes(file_barcodes, file)
 

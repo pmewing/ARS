@@ -2,7 +2,6 @@ import subprocess
 import os
 import progressbar
 
-
 class FastQCAnalysis:
     def __init__(self, input_directory, output_directory):
         self.input_directory = input_directory
