@@ -9,10 +9,10 @@ class FastQCAnalysis:
         bar = progressbar.ProgressBar(max_value=progressbar.UnknownLength)
         for root, directory, files in os.walk(self.input_directory):
             for name in files:
-                self.perform_fastqc_analysis( os.path.join(root, name) )
+                self.__perform_fastqc_analysis(os.path.join(root, name))
                 bar.update()
 
-    def perform_fastqc_analysis(self, input_file):
+    def __perform_fastqc_analysis(self, input_file):
         """
         This function will perform FastQC analysis on all files in the _merged_files folder. It does not work at the
             moment, but it will eventually

@@ -20,7 +20,7 @@ class Trim:
 
         for root, directory, files in os.walk(self.input_directory):
             for file in files:
-                self.update_task()
+                self.__update_task()
                 # cutadapt needs the output file to be created before it is able to write to it
                 # we will create it here
                 write_file = open(os.path.join(self.save_directory, file), 'w')
@@ -38,7 +38,7 @@ class Trim:
                            ]
                 subprocess.run(message)
 
-    def update_task(self):
+    def __update_task(self):
         """
         This function will simply over-write the current line and print and update statement
         """

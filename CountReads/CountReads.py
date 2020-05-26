@@ -21,14 +21,14 @@ class Count:
         self.barcode_correlations = {}
 
         #  get locations of all barcode files
-        self.file_paths = self.return_file_paths(self.input_directory)
+        self.file_paths = self.__return_file_paths(self.input_directory)
 
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
-        self.total_barcodes = self.count_barcodes(self.file_paths)
-        self.write_correlations_to_file(self.save_directory)
+        self.total_barcodes = self.__count_barcodes(self.file_paths)
+        self.__write_correlations_to_file(self.save_directory)
 
-    def return_file_paths(self, barcode_parent):
+    def __return_file_paths(self, barcode_parent):
         """
         This method will use the os.walk() function to collect the file path of all files that have "fastq_runid" in
         the name. This is important because guppy will output multiple files; we are only interested in the ones
@@ -51,7 +51,7 @@ class Count:
                 file_paths.append( os.path.join(root, name) )  # append file to file_paths
         return file_paths
 
-    def count_barcodes(self, barcode_file_path):
+    def __count_barcodes(self, barcode_file_path):
         """
         This function will take an iterable as its parameter and count the number of barcodes present in each file
         It does this by assuming that each line that starts with two DNA base pairs (ATCG) is a barcode
@@ -132,7 +132,7 @@ class Count:
         else:
             self.barcode_correlations[folder_number] += reads_in_file
 
-    def write_correlations_to_file(self, save_directory):
+    def __write_correlations_to_file(self, save_directory):
         """
         This function will write the dictionary self.barcode_correlations to a text file. This file can be specified by
         the user. For now, this will be saved in the same directory as the barcode folders under the name

@@ -7,14 +7,14 @@ class Merge:
         """
         This class is responsible for methods that will combine mulitple text files in one folder to one file
 
-        self.concatonate_files_controll() will call first call self.return_new_file_name()
+        self.concatonate_files_controll() will call first call self.__return_new_file_name()
 
-        self.return_new_file_name() will return the file name of the new output folder where the concatonated files
+        self.__return_new_file_name() will return the file name of the new output folder where the concatonated files
             will go
 
-        Then, self.return_new_file_name() will return back to self.concatonate_files_control(), and self.concatonate_files()
+        Then, self.__return_new_file_name() will return back to self.concatonate_files_control(), and self.__concatonate_files()
             will take all files from the folder directory and place them into a new file, with the name returned by
-            self.return_new_file_name()
+            self.__return_new_file_name()
 
         :param str input_directory: This is the input location for files to merge
         :param str save_directory: This is where concatonated files will be saved
@@ -22,14 +22,14 @@ class Merge:
         """
         self.open_directory = input_directory
         self.save_directory = save_directory
-        self.concatonate_files_controller()
+        self.__concatonate_files_controller()
 
-    def concatonate_files_controller(self):
+    def __concatonate_files_controller(self):
         """
         This function will move multiple files into one
-        It is responsible for calling multiple secondary methods: return_new_file_name and concatonate_files
-        return_new_file_name will return the name of the new file that the current barcode reads will go into
-        concatonate_files will
+        It is responsible for calling multiple secondary methods: __return_new_file_name and __concatonate_files
+        __return_new_file_name will return the name of the new file that the current barcode reads will go into
+        __concatonate_files will
                                Example
         ------------------------------------------------------
         -folder1                --->        -folder1
@@ -53,12 +53,12 @@ class Merge:
             file = os.listdir(item)[0]
             path = item
 
-            new_file_name = self.return_new_file_name(file_name=file,
-                                                      file_path=path)
-            self.concatonate_files(new_file_name=new_file_name,
-                                   parent_folder=path)
+            new_file_name = self.__return_new_file_name(file_name=file,
+                                                        file_path=path)
+            self.__concatonate_files(new_file_name=new_file_name,
+                                     parent_folder=path)
 
-    def return_new_file_name(self, file_name: str, file_path: str):
+    def __return_new_file_name(self, file_name: str, file_path: str):
         """
         This function will generate the appropriate file name for multiple files in the barcode folders
         It will append the barcode number to the end of the file (but before the file extension)
@@ -78,7 +78,7 @@ class Merge:
 
         return new_file_name
 
-    def concatonate_files(self, new_file_name, parent_folder):
+    def __concatonate_files(self, new_file_name, parent_folder):
         """
         This function will concatonate all files in parent_folder and place their contents in output_file
         A new folder will be saved in the location of self.barcode_file_location called "_merged_reads"

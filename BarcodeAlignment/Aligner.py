@@ -10,6 +10,11 @@ class Alignment:
         """
         This class will be responsible for results pertaining to read alignments. This class uses the guppy_alignment tool.
         guppy_aligner MUST be added to your $PATH, otherwise it will not work
+
+        TODO: Instead of running guppy_aligner on the parent folder, run it on each fastq/fasta file within the parent folder to generate an alignment_summary.txt for each file
+            instead of one summary for all files.
+            This can be achieved by quieting the output of guppy_aligner and printing my own updates
+
         :param str input_directory: The location of input files (usually a directory)
         :param str save_directory: The location of output files (usually a directory)
         :param str align_reference: The location of the reference file to use (a file)
@@ -19,23 +24,41 @@ class Alignment:
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
+        self.file_paths = []
 
-        self.perform_alignment()
-        self.move_summary_files()
-        self.read_percentage()
+        self.__collect_files()
 
-    def perform_alignment(self):
+        self.__perform_alignment()
+        # self.__move_summary_files()
+        # self.__read_percentage()
+
+    def __collect_files(self):
         """
-        This function will call a shell command to run the guppy_aligner with the input/ouput/reference arguments provided
-
+        This function will collect all fastq/fasta files to be analyzed by guppy_aligner.
+        :param: None
         :return: None
         """
-        message = "guppy_aligner --input_path %s --save_path %s --align_ref %s" % (
-            self.input_directory, self.save_directory + "/SAM_Files", self.alignment_reference)
-        message = message.split(" ")  # we must split the messgae into a list before subprocess.run() will accept it
-        subprocess.run(message)
+        for root, directory, files in os.walk(self.input_directory):
+            for file in files:
+                if ".fastq" in file or ".fasta" in file:
+                    self.file_paths.append(file)
+                    break
 
-    def move_summary_files(self):
+    def __perform_alignment(self):
+        """
+        This function will iterate through self.file_paths and perform guppy_aligner on each file
+        :return: None
+        """
+        for file in self.file_paths:
+            input_file = self.input_directory + "/" + file
+
+            message = "guppy_aligner --input_path %s --save_path %s --align_ref %s" % (
+                input_file, self.save_directory + "/SAM_Files", self.alignment_reference)
+
+            message = message.split(" ")  # we must split the messgae into a list before subprocess.run() will accept it
+            subprocess.run(message)
+
+    def __move_summary_files(self):
         """
         guppy_aligner creates a result file, log file, and a .sam file for every .fastq file used. I don't like these files
         in the same directory, as the result file is more useful.
@@ -54,7 +77,7 @@ class Alignment:
                     except PermissionError:
                         pass
 
-    def read_percentage(self):
+    def __read_percentage(self):
         """
         This function will look at the alignment_summary.txt in the folder specified by self.save_directory.
         It will calculate the percentage of reads that have been classified, and save its own text file in the same location

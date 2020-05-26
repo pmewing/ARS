@@ -1,5 +1,4 @@
 import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 import subprocess
@@ -11,10 +10,10 @@ class Visualize:
         self.save_directory = save_directory
         self.fastq_file = fastq_file
 
-        self.create_nanoplot()
-        self.create_plotly_histogram()
+        self.__create_nanoplot()
+        self.__create_plotly_histogram()
 
-    def create_nanoplot(self):
+    def __create_nanoplot(self):
         """
         fastq_files are an optional parameter. If the user did not pass them in (i.e. does not want to perform NanoPlot,
            tell them that NanoPlot will not be run. If they did pass something in, tell them their file was not found
@@ -34,7 +33,7 @@ class Visualize:
                 print( "Your file `%s` was not found, please try again." % self.file )
                 print( "Path of file: %s" % self.fastq_file )
 
-    def create_plotly_histogram(self):
+    def __create_plotly_histogram(self):
         """
         This function will create a plotly density graph using the self.data_file paramater from __init__
         It will attempt to exclude outliers from showing on the graph, and instead show them as an overlay on the side
