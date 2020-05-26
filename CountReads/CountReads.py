@@ -21,7 +21,7 @@ class Count:
         self.barcode_correlations = {}
 
         #  get locations of all barcode files
-        self.file_paths = self.__return_file_paths(self.input_directory)
+        self.file_paths = sorted(self.__return_file_paths(self.input_directory))
 
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
@@ -85,7 +85,7 @@ class Count:
                 elif ".fasta" in str(file):
                     identifier = ">"
 
-                # if we are not iterating over a fastq/fasta file, or the line does not have one of the above identifiers, we must account for the error that will be raised
+                # if the current line does not have an identifier, an error will occur on this for loop. Use a try: except: block to catch this error
                 try:
                     # iterate over each line in the barcode file
                     for line in file:
@@ -93,10 +93,11 @@ class Count:
                         if line[0] == identifier:
                             total_barcodes += 1
                             file_barcodes += 1
-                except UnboundLocalError:
-                    pass
 
-                self.correlate_barcodes(file_barcodes, file)
+                    self.correlate_barcodes( file_barcodes, file )
+
+                except (UnboundLocalError, UnicodeError):
+                    pass
 
         return total_barcodes
 
@@ -145,6 +146,13 @@ class Count:
         save_directory += "/barcode_counts.csv"
 
         sorted_keys = sorted(self.barcode_correlations)
+
+        # make the directory to write files. The directory may exist, so move on if it does
+        try:
+            os.mkdir(self.save_directory)
+        except FileExistsError:
+            pass
+
         with open(save_directory, 'w') as file:
             csv_writer = csv.writer(file)
 

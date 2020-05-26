@@ -6,6 +6,14 @@ import subprocess
 
 class Visualize:
     def __init__(self, data_file: str, save_directory: str, fastq_file=None):
+        """
+        This will optionally create two plots: The first is a NanoPlot graph, which requires a fastq file.
+        The second is a plotly graph, which requires the csv file generated from CountReads
+        :param str data_file: This is the csv file generated from CountReads
+        :param str save_directory: This is where the output should be saved
+        :param fastq_file: This is the fastq file that NanoPlot should use to generate its own visuals
+        :return: None
+        """
         self.data_file = data_file
         self.save_directory = save_directory
         self.fastq_file = fastq_file

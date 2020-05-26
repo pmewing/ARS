@@ -91,7 +91,7 @@ class Merge:
         # make the output directory
         output_file = self.save_directory + "/" + new_file_name
 
-        # check if output_directory exists
+        # check if save_directory exists
         if not os.path.exists(self.save_directory):
             try:
                 # make the directory

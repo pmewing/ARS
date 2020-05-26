@@ -4,6 +4,13 @@ import os
 
 class Trim:
     def __init__(self, input_directory, save_directory):
+        """
+        This class is responsible for orienting and trimming reads using the cutadapt program
+        Analysis will be performed on initiating class instance
+        :param str input_directory: Where to read files from
+        :param str save_directory: Where to save program results
+        :return: None
+        """
         # cutadapt --revcomp -a <3' PRIMER SEQUENCE> -g <5' PRIMER SEQUENCE> -e <ERROR RATE (0.2)> -o <OUTPUT DIRECTORY> <INPUT FILE>
 
         self.input_directory = input_directory

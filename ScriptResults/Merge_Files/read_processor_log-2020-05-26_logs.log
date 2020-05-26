@@ -1,0 +1,10 @@
+2020-05-26 13:25:13.666082 [guppy/message] ONT Guppy barcoding software version 3.6.0+98ff765
+input path:         /home/joshl/minknow_data/basecalled
+save path:          /home/joshl/minknow_data/demultiplex_dual
+arrangement files:  barcode_arrs_pcr96.cfg 
+min. score front:   60
+min. score rear:    60
+
+2020-05-26 13:25:13.666706 [guppy/info] crashpad_handler not supported on this platform.
+2020-05-26 13:25:13.666849 [guppy/message] Found 6 fastq files.
+2020-05-26 13:25:13.666873 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_5_0.fastq
