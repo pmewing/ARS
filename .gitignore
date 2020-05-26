@@ -3,4 +3,3 @@
 /venv/etc/jupyter/nbconfig/notebook.d/
 /venv/lib/python3.6/site-packages/
 /venv/share/jupyter/nbextensions/plotlywidget/
-/pipeline.txt
