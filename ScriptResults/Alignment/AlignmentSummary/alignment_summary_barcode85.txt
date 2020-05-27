@@ -1,0 +1,2 @@
+read_id	alignment_genome	alignment_genome_start	alignment_genome_end	alignment_strand_start	alignment_strand_end	alignment_num_insertions	alignment_num_deletions	alignment_num_aligned	alignment_num_correct	alignment_identity	alignment_accuracy	alignment_score
+780c08df-5df3-4cc6-8969-194bad9c588a	Listeria_monocytogenes_16S_5	295	1464	249	1377	39	80	1089	895	0.821855	0.740894	496

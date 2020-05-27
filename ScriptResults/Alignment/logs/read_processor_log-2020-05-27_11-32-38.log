@@ -1,0 +1,16 @@
+2020-05-27 11:32:38.918644 [guppy/message] ONT Guppy alignment software version 3.6.0+98ff765
+input path:         /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp
+save path:          /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/SAM_Files
+alignment ref.:     /home/joshl/PycharmProjects/ARS/ScriptResults/GUPPY_ALIGNMENT_REFERENCE.txt
+min. coverage:      0.6
+2020-05-27 11:32:38.918897 [guppy/info] crashpad_handler not supported on this platform.
+2020-05-27 11:32:38.918992 [guppy/message] Found 4 fastq files.
+2020-05-27 11:32:38.919017 [guppy/info] Starting input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq
+2020-05-27 11:32:39.323714 [guppy/info] Successfully finished input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq (173 reads)
+2020-05-27 11:32:39.323757 [guppy/info] Starting input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode61.fastq
+2020-05-27 11:32:39.600657 [guppy/info] Successfully finished input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode61.fastq (133 reads)
+2020-05-27 11:32:39.600700 [guppy/info] Starting input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode17.fastq
+2020-05-27 11:32:39.926647 [guppy/info] Successfully finished input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode17.fastq (162 reads)
+2020-05-27 11:32:39.926685 [guppy/info] Starting input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode52.fastq
+2020-05-27 11:32:40.359212 [guppy/info] Successfully finished input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode52.fastq (202 reads)
+2020-05-27 11:32:40.359264 [guppy/message] Done in 1440 ms.

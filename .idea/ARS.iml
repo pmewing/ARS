@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/QualityControl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FastQC Reports" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MergeFiles" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Visualizations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CreateVisualizations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GUI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Trimming" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/GUI/UI Files" />
