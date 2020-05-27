@@ -1,0 +1,7 @@
+2020-05-27 11:10:35.220442 [guppy/message] ONT Guppy alignment software version 3.6.0+98ff765
+input path:         /home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq
+save path:          /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/SAM_Files
+alignment ref.:     /home/joshl/PycharmProjects/ARS/ScriptResults/GUPPY_ALIGNMENT_REFERENCE.txt
+min. coverage:      0.6
+2020-05-27 11:10:35.220732 [guppy/info] crashpad_handler not supported on this platform.
+2020-05-27 11:10:35.221460 [guppy/error] boost::filesystem::directory_iterator::construct: Not a directory: "/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode18.fastq". Exiting.

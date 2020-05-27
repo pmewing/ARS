@@ -1,8 +1,12 @@
+import time
+import re
 import os
 import shutil
 import subprocess
+from subprocess import PIPE
 import pandas as pd
 import numpy as np
+import pathlib
 
 
 class Alignment:
@@ -24,7 +28,9 @@ class Alignment:
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
-        self.file_paths = []
+        self.file_names = []
+        self.iteration = 1
+        self.number_of_files = len(self.file_names)
 
         self.__collect_files()
 
@@ -41,24 +47,45 @@ class Alignment:
         for root, directory, files in os.walk(self.input_directory):
             for file in files:
                 if ".fastq" in file or ".fasta" in file:
-                    self.file_paths.append(file)
-                    break
+                    self.file_names.append(file)
 
     def __perform_alignment(self):
         """
         This function will iterate through self.file_paths and perform guppy_aligner on each file
         :return: None
         """
-        for file in self.file_paths:
-            input_file = self.input_directory + "/" + file
+        # pass this temp folder in to guppy so an alignment sequence can be made for each file
+        temp_folder = self.save_directory + "/.temp"
+        pathlib.Path.mkdir(self=pathlib.Path( temp_folder ),  # convert a string to a path
+                           exist_ok=True)                     # it is okay if the path already exists
 
-            message = "guppy_aligner --input_path %s --save_path %s --align_ref %s" % (
-                input_file, self.save_directory + "/SAM_Files", self.alignment_reference)
+        for file in self.file_names:
+            print("\rPerforming alignent on {0} of {1} possible files".format(self.iteration, self.number_of_files))
 
-            message = message.split(" ")  # we must split the messgae into a list before subprocess.run() will accept it
-            subprocess.run(message)
+            # we want to remove all files in the .temp directory after each run of the guppy_aligner
+            for root, directory, files in os.walk(temp_folder):
+                for temp_file in files:
+                    os.remove(temp_folder + "/" + temp_file)
+                for direc in directory:
+                    os.rmdir(temp_folder + "/" + direc)
 
-    def __move_summary_files(self):
+            # copy the file to the temp folder
+            shutil.copy(src=self.input_directory + "/" + file,
+                        dst=temp_folder + "/" + file)
+
+            # create the command for guppy_aligner
+            message = "guppy_aligner --quiet --input_path %s --save_path %s --align_ref %s" % (
+                temp_folder, self.save_directory + "/SAM_Files", self.alignment_reference)
+
+            # we must split the messgae into a list before subprocess.run() will accept it
+            # additionally, we are capturing output from the guppy_aligner. I do not plan on using the output as of now, but it is there in case it is needed
+            message = message.split(" ")
+            command = subprocess.run(message, stdout=PIPE, stderr=PIPE)
+
+            # we need to move the alignment_summary.txt file into the appropriate place immediately after running guppy_aligner
+            self.__move_summary_files(file)
+
+    def __move_summary_files(self, file_name):
         """
         guppy_aligner creates a result file, log file, and a .sam file for every .fastq file used. I don't like these files
         in the same directory, as the result file is more useful.
@@ -68,14 +95,38 @@ class Alignment:
 
         :return: None
         """
+
+        # make the AlignmentSummary folder
+        alignment_summary_path = self.save_directory + "/AlignmentSummary"
+        log_path = self.save_directory + "/logs"
+
+        # make the AlignmentSummary and logs folders
+        pathlib.Path.mkdir(self=pathlib.Path(alignment_summary_path),   # convert a string to a path
+                           exist_ok=True)                               # it is okay if the path already exists
+
+        pathlib.Path.mkdir(self=pathlib.Path(log_path),     # convert a string to a path
+                           exist_ok=True)                   # it is okay if the path already exists
+
+        # get the barcode number from the file name. It will be the second to last item after splitting by `_` and `.`
+        barcode_name = re.split('[_.]', file_name)[-2]
+
         # move the alignment_summary.txt and read_processor to the parent directory
-        for root, directory, files in os.walk(self.save_directory):
+        sam_files = self.save_directory + "/SAM_Files"
+        for root, directory, files in os.walk(sam_files):
             for file in files:
-                if "alignment_summary" in file or "read_processor" in file:
-                    try:
-                        shutil.move( os.path.join(root, file), os.path.join(self.save_directory, file) )
-                    except PermissionError:
-                        pass
+                # move alignment summary into the AlignmentSummary folder (located one folder up)
+                if "alignment_summary" in file:
+                    shutil.move(src=sam_files + "/" + file,
+                                dst=alignment_summary_path + "/alignment_summary_" + barcode_name + ".txt")
+                elif "read_processor" in file:
+                    # this will rename files to the current date/time and barcode number
+                    file_name = self.__get_date_time(barcode_number=barcode_name)
+
+                    shutil.move(src=sam_files + "/" + file,
+                                dst=log_path + "/" + file_name)
+
+    def __get_date_time(self, barcode_number):
+        return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))  # YEAR_MONTH_DAY-HOUR_MINUTE-BARCODE##.txt
 
     def __read_percentage(self):
         """
