@@ -119,3 +119,104 @@ min. score rear:    60
 2020-05-26 14:13:14.506414 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode93/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
 2020-05-26 14:13:14.506787 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode95/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
 2020-05-26 14:13:14.507325 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/unclassified/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_2.fastq' will be overwitten.
+2020-05-27 10:03:56.243018 [guppy/message] ONT Guppy barcoding software version 3.6.0+98ff765
+input path:         /home/joshl/minknow_data/basecalled
+save path:          /home/joshl/minknow_data/demultiplex_dual
+arrangement files:  barcode_arrs_pcr96.cfg 
+min. score front:   60
+min. score rear:    60
+
+2020-05-27 10:03:56.244335 [guppy/info] crashpad_handler not supported on this platform.
+2020-05-27 10:03:56.244775 [guppy/message] Found 6 fastq files.
+2020-05-27 10:03:56.244835 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_5_0.fastq
+2020-05-27 10:04:02.317451 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_5_0.fastq (4000 reads)
+2020-05-27 10:04:02.317489 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0_0.fastq
+2020-05-27 10:04:14.217319 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0_0.fastq (4000 reads)
+2020-05-27 10:04:14.217368 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_4_0.fastq
+2020-05-27 10:04:14.537937 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/unclassified/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:19.867499 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_4_0.fastq (4000 reads)
+2020-05-27 10:04:19.867542 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_2_0.fastq
+2020-05-27 10:04:32.523097 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_2_0.fastq (4000 reads)
+2020-05-27 10:04:32.523136 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_1_0.fastq
+2020-05-27 10:04:32.733603 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/unclassified/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_1.fastq' will be overwitten.
+2020-05-27 10:04:44.582646 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_1_0.fastq (4000 reads)
+2020-05-27 10:04:44.582686 [guppy/info] Starting input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_3_0.fastq
+2020-05-27 10:04:50.054298 [guppy/info] Successfully finished input file /home/joshl/minknow_data/basecalled/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_3_0.fastq (4000 reads)
+2020-05-27 10:04:50.054341 [guppy/message] Done in 53809 ms.
+2020-05-27 10:04:50.064726 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode01/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.065276 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode02/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.065772 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode03/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.066256 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode04/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.066708 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode05/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.072298 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode06/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.072885 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode07/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.073473 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode08/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.074317 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode09/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.074887 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode10/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.075399 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode11/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.075981 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode12/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.076363 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode13/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.076870 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode14/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.077365 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode15/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.077850 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode16/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.078254 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode17/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.078703 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode18/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.079190 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode20/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.080013 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode21/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.080551 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode22/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.081055 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode23/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.081579 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode24/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.082024 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode25/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.082557 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode26/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.083019 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode27/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.083523 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode28/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.083955 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode29/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.084314 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode31/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.084723 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode32/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.085337 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode33/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.085785 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode35/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.086350 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode36/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.086846 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode37/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.087372 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode38/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.087848 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode39/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.088259 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode40/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.088704 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode41/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.089005 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode42/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.089377 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode45/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.089782 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode46/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.090093 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode47/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.090577 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode49/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.091014 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode50/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.091521 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode51/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.091955 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode52/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.092485 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode53/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.092876 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode54/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.093199 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode55/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.093706 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode56/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.094415 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode57/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.094788 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode58/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.095150 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode59/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.095590 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode60/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.096228 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode61/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.096577 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode62/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.096986 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode63/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.097467 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode64/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.097982 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode65/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.098321 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode66/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.098625 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode67/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.099057 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode69/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.099495 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode70/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.099804 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode76/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.100445 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode77/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.100808 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode78/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.101092 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode79/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.101649 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode81/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.101864 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode82/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.102131 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode83/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.102405 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode85/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.102457 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode89/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.102868 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode90/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.103366 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode91/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.103888 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode93/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.104222 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/barcode95/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_0.fastq' will be overwitten.
+2020-05-27 10:04:50.104723 [guppy/info] The output file '/home/joshl/minknow_data/demultiplex_dual/unclassified/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_2.fastq' will be overwitten.

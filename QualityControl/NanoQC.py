@@ -4,6 +4,7 @@ from subprocess import PIPE
 import os
 import shutil
 
+
 class NanoQCAnalysis:
     def __init__(self, input_directory, save_directory):
         self.input_directory = input_directory
@@ -30,7 +31,7 @@ class NanoQCAnalysis:
 
     def __perform_analysis(self, file_path):
         """
-        This function will perform FastQC analysis on all files in the _merged_files folder. It does not work at the
+        This function will perform QualityControl analysis on all files in the _merged_files folder. It does not work at the
             moment, but it will eventually
 
          :param str file_path: this is the location of the file to be analyzed

@@ -80,13 +80,15 @@ class Count:
             with open(barcode_file, 'r') as file:
                 file_barcodes = 0
                 # set the identifier for FASTQ ("@") or FASTA (">") files
+                identifier = ""
                 if ".fastq" in str(file):
                     identifier = "@"
                 elif ".fasta" in str(file):
                     identifier = ">"
 
-                # if the current line does not have an identifier, an error will occur on this for loop. Use a try: except: block to catch this error
-                try:
+                # we only want to use files that have .fastq/.fasta in their file name
+                # `identifier` is reset after opening each file. If identifier == "", .fastq/.fasta has not been found in the file name
+                if identifier is not "":
                     # iterate over each line in the barcode file
                     for line in file:
                         # test if the beginning of a line has the identifier (`@` or `>`)
@@ -95,9 +97,6 @@ class Count:
                             file_barcodes += 1
 
                     self.correlate_barcodes( file_barcodes, file )
-
-                except (UnboundLocalError, UnicodeError):
-                    pass
 
         return total_barcodes
 

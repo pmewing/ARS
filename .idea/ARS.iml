@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Alignment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CountReads" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FastQC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QualityControl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FastQC Reports" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MergeFiles" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Visualizations" isTestSource="false" />
