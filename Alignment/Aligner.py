@@ -16,10 +16,6 @@ class GuppyAlignment:
         This class will be responsible for results pertaining to read alignments. This class uses the guppy_alignment tool.
         guppy_aligner MUST be added to your $PATH, otherwise it will not work
 
-        TODO: Instead of running guppy_aligner on the parent folder, run it on each fastq/fasta file within the parent folder to generate an alignment_summary.txt for each file
-            instead of one summary for all files.
-            This can be achieved by quieting the output of guppy_aligner and printing my own updates
-
         :param str input_directory: The location of input files (usually a directory)
         :param str save_directory: The location of output files (usually a directory)
         :param str align_reference: The location of the reference file to use (a file)
@@ -29,16 +25,14 @@ class GuppyAlignment:
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
+        self.alignment_summary_path = self.save_directory + "/AlignmentSummary"
         self.file_names = []
         self.iteration = 1
         self.number_of_files = 0
 
         self.__collect_files()
-
-
         self.__perform_alignment()
-        # self.__move_summary_files()
-        # self.__read_percentage()
+        self.__read_percentage()
 
     def __collect_files(self):
         """
@@ -77,8 +71,8 @@ class GuppyAlignment:
                         dst=temp_folder + "/" + file)
 
             # create the command for guppy_aligner
-            message = "guppy_aligner --quiet --input_path %s --save_path %s --align_ref %s" % (
-                temp_folder, self.save_directory + "/SAM_Files", self.alignment_reference)
+            message = "guppy_aligner --quiet --input_path {input} --save_path {save} --align_ref {alignment}".format(
+                input=temp_folder, save=self.save_directory + "/SAM_Files", alignment=self.alignment_reference )
 
             # we must split the messgae into a list before subprocess.run() will accept it
             # additionally, we are capturing output from the guppy_aligner. I do not plan on using the output as of now, but it is there in case it is needed
@@ -97,19 +91,15 @@ class GuppyAlignment:
         Because of this, all files are initially saved to the
         SAM_Files directory, then the result and log files are moved one level up.
 
-        :return: None
+        :return: new_file_path: This is the path of the new file location. It can be used to modify files further (if needed)
         """
 
         # make the AlignmentSummary folder
-        alignment_summary_path = self.save_directory + "/AlignmentSummary"
         log_path = self.save_directory + "/logs"
 
         # make the AlignmentSummary and logs folders
-        pathlib.Path.mkdir(self=pathlib.Path(alignment_summary_path),   # convert a string to a path
-                           exist_ok=True)                               # it is okay if the path already exists
-
-        pathlib.Path.mkdir(self=pathlib.Path(log_path),     # convert a string to a path
-                           exist_ok=True)                   # it is okay if the path already exists
+        pathlib.Path.mkdir(self=pathlib.Path(self.alignment_summary_path), exist_ok=True)
+        pathlib.Path.mkdir(self=pathlib.Path(log_path), exist_ok=True)
 
         # get the barcode number from the file name. It will be the second to last item after splitting by `_` and `.`
         barcode_name = re.split('[_.]', file_name)[-2]
@@ -121,16 +111,21 @@ class GuppyAlignment:
                 # move alignment summary into the AlignmentSummary folder (located one folder up)
                 if "alignment_summary" in file:
                     shutil.move(src=sam_files + "/" + file,
-                                dst=alignment_summary_path + "/alignment_summary_" + barcode_name + ".txt")
+                                dst=self.alignment_summary_path + "/alignment_summary_" + barcode_name + ".csv")
                 elif "read_processor" in file:
                     # this will rename files to the current date/time and barcode number
                     file_name = self.__get_date_time(barcode_number=barcode_name)
-
                     shutil.move(src=sam_files + "/" + file,
                                 dst=log_path + "/" + file_name)
 
     def __get_date_time(self, barcode_number):
-        return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))  # YEAR_MONTH_DAY-HOUR_MINUTE-BARCODE##.txt
+        """
+        This function is simply responsible for getting the date in the following format
+        YEAR_MONTH_DAY-HOUR-MINUTE-BARCODE##.txt
+
+        :return: None
+        """
+        return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))
 
     def __read_percentage(self):
         """
@@ -183,6 +178,24 @@ class GuppyAlignment:
                 file.write(row)
                 file.write("\n")
 
+    def __convert_tabs_to_spaces(self, ):
+        """
+        This function will convert the tab-delimited files output by guppy_aligner to comma-delimited files.
+
+        :return: None
+        """
+        for root, directory, files in os.walk( self.alignment_summary_path ):
+            for file in files:
+
+                # read data from file into input_lines
+                with open( os.path.join(root, file) , 'r' ) as file_input: input_lines = file_input.read()
+
+                # replace tabs with commas
+                input_lines = input_lines.replace("\t", ",")
+
+                # write new lines back into file
+                with open( os.path.join(root, file), 'w' ) as file_output: file_output.writelines(input_lines)
+
 class MiniMap2:
     def __init__(self, input_directory, save_directory, align_reference):
         import mappy as mp
@@ -204,9 +217,7 @@ class MiniMap2:
         print("")
 
         self.__convert_tabs_to_spaces()
-
-        # go to next line for new output
-        print("")
+        self.__create_table_headers()
 
     def __collect_files(self):
         """
@@ -262,6 +273,35 @@ class MiniMap2:
                 with open( os.path.join(root, file), 'w' ) as file_output: file_output.writelines(input_lines)
 
                 self.iteration += 1
+
+    def __create_table_headers(self):
+        """
+        MiniMap2 does not provide a header row for their output. Because of this, it is very difficult to create a data frame from their results.
+        This function works to resolve this by adding a header to the very beginning of the file
+        """
+        for root, directory, files in os.walk( self.save_directory ):
+            for file in files:
+                file_path = os.path.join( root, file )
+
+                # read data from file
+                input_content = []
+                with open(file_path, 'r') as input_file:
+                    for line in input_file:
+                        input_content.append(line)
+
+                # TODO: A header line needs to be added to the MiniMap2 output before it can be read into a data frame
+                header_line = "this,is,the,header,info"
+                output_content = []
+                output_content.append(header_line)
+                for line in input_content:
+                    output_content.append(line)
+
+                with open(file_path, 'w') as output_file:
+                    for line in output_content:
+                        output_file.write(line)
+
+
+
 
     def __return_save_path(self, input_file):
         """
