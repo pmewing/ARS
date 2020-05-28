@@ -9,7 +9,8 @@ import numpy as np
 import pathlib
 
 
-class Alignment:
+class GuppyAlignment:
+
     def __init__(self, input_directory, save_directory, align_reference):
         """
         This class will be responsible for results pertaining to read alignments. This class uses the guppy_alignment tool.
@@ -30,9 +31,10 @@ class Alignment:
         self.alignment_reference = align_reference
         self.file_names = []
         self.iteration = 1
-        self.number_of_files = len(self.file_names)
+        self.number_of_files = 0
 
         self.__collect_files()
+
 
         self.__perform_alignment()
         # self.__move_summary_files()
@@ -48,6 +50,7 @@ class Alignment:
             for file in files:
                 if ".fastq" in file or ".fasta" in file:
                     self.file_names.append(file)
+                    self.number_of_files += 1
 
     def __perform_alignment(self):
         """
@@ -60,7 +63,7 @@ class Alignment:
                            exist_ok=True)                     # it is okay if the path already exists
 
         for file in self.file_names:
-            print("\rPerforming alignent on {0} of {1} possible files".format(self.iteration, self.number_of_files))
+            print("\rPerforming alignent on file {0} / {1}.".format(self.iteration, self.number_of_files), end="")
 
             # we want to remove all files in the .temp directory after each run of the guppy_aligner
             for root, directory, files in os.walk(temp_folder):
@@ -84,6 +87,7 @@ class Alignment:
 
             # we need to move the alignment_summary.txt file into the appropriate place immediately after running guppy_aligner
             self.__move_summary_files(file)
+            self.iteration += 1
 
     def __move_summary_files(self, file_name):
         """
@@ -178,3 +182,100 @@ class Alignment:
             for row in rows:
                 file.write(row)
                 file.write("\n")
+
+class MiniMap2:
+    def __init__(self, input_directory, save_directory, align_reference):
+        import mappy as mp
+        # mp.Aligner(fn_idx_in=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_community_database.fasta", preset="map-ont", fn_idx_out="/home/joshl/Desktop/temp")
+        # mp.Alignment(r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode01.fastq")
+
+        self.input_directory = input_directory
+        self.save_directory = save_directory
+        self.alignment_reference = align_reference
+        self.file_paths = []
+        self.iteration = 1
+        self.num_files = 0
+
+        self.__collect_files()
+        self.__perform_alignment()
+
+        # reset iteration to 1, go to next line for new output
+        self.iteration = 1
+        print("")
+
+        self.__convert_tabs_to_spaces()
+
+        # go to next line for new output
+        print("")
+
+    def __collect_files(self):
+        """
+        This function will collect .fastq/.fasta files from the self.input_directory and save their file path to the self.file_paths list.
+
+        :return: None
+        """
+
+        for root, directory, files in os.walk(self.input_directory):
+            for file in files:
+                if ".fasta" in file or ".fastq" in file:
+                    self.file_paths.append( os.path.join( root, file ) )
+                    self.num_files += 1
+
+    def __perform_alignment(self):
+        """
+        This function will perform MiniMap2 alignment on the file paths located in self.file_paths using the self.alignment_reference as the reference file
+
+        :return: None
+        """
+        for file in self.file_paths:
+            self.__update_task(True)
+            save_path = self.__return_save_path(file)
+
+            message = "minimap2 {reference} {input} -o {output}".format(reference=self.alignment_reference,
+                                                                        input=file,
+                                                                        output=save_path).split(" ")
+
+            # I am collecting all output from the MiniMap2 commands because it is not needed. If it is needed in the future, remove the PIPE commands from here
+            # alternatively, print the results with print(command.stdout) and print(command.stderr)
+            command = subprocess.run( message, stdout=PIPE, stderr=PIPE, universal_newlines=True )
+
+            self.iteration += 1
+
+    def __convert_tabs_to_spaces(self):
+        """
+        This function will convert the tab-delimited files output by MiniMap2 to comma-delimited files.
+
+        :return: None
+        """
+        for root, directory, files in os.walk( self.save_directory ):
+            for file in files:
+
+                self.__update_task(False)
+
+                # read data from file into input_lines
+                with open( os.path.join(root, file) , 'r' ) as file_input: input_lines = file_input.read()
+
+                # replace tabs with commas
+                input_lines = input_lines.replace("\t", ",")
+
+                # write new lines back into file
+                with open( os.path.join(root, file), 'w' ) as file_output: file_output.writelines(input_lines)
+
+                self.iteration += 1
+
+    def __return_save_path(self, input_file):
+        """
+        This function will extract the barcode number of the file MiniMap2 is going to analyze. It will return the full file path of where this output should be stored
+        MiniMap2 will create the files as needed
+
+        :return: save_path: The full file path of the new file
+        """
+        barcode_number = re.split('[_.]', input_file)[-2]  # we want the second to last item in the list, the barcode number
+        save_path = self.save_directory + "/minimap_{0}.csv".format(barcode_number)
+        return save_path
+
+    def __update_task(self, minimap_analyze:bool):
+        if minimap_analyze:
+            print("\rMiniMap2 acting on file {0} of {1}".format(self.iteration, self.num_files), end="")
+        else:
+            print("\rtabs -> spaces on file {0} of {1}".format(self.iteration, self.num_files), end="")

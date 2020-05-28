@@ -85,7 +85,7 @@ class NanoQCAnalysis:
         """
         This function will simply over-write the current line and print and update statement
         """
-        print("'\rPerforming nanoQC on {0} of {1} possible files".format(self.iteration, self.num_files), end='')
+        print("'\rPerforming nanoQC on file {0} / {1}.".format(self.iteration, self.num_files), end='')
         # print('\r', 'Trimming %s of %s' % (self.iteration, self.num_files), end='')
         self.iteration += 1
 

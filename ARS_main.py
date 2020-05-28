@@ -1,30 +1,28 @@
 from CountReads.CountReads import Count # This will count the number of raw reads in a file
 from MergeFiles.MergeFiles import Merge  # This will merge multiple files of the same barcode into one file
 from Trimming.TrimReads import Trim
-from Alignment.Aligner import Alignment
+from Alignment.Aligner import GuppyAlignment, MiniMap2
 from PlotVisualizations import Plotly, NanoPlot
 from BasecallBarcode import Basecall, Barcode
 from NanoQC import NanoQCAnalysis
 from DataFrame import Frame
 
 if __name__ == '__main__':
+    # zymogen community
+    #GuppyAlignment(input_directory=r"/home/joshl/Desktop/input",
+    #               save_directory=r"/home/joshl/Desktop/output",
+    #               align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_community_database.fasta")
+    # modified zymogen
+    GuppyAlignment(input_directory=r"/home/joshl/Desktop/input",
+             save_directory=r"/home/joshl/Desktop/output",
+                   align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/modified_zymogen_community_database.fasta")
 
-    # Basecall(input_directory=r"/home/joshl/minknow_data/SBGX_CLC", save_directory=r"/home/joshl/minknow_data/basecalled")
-    # Barcode(input_directory=r"/home/joshl/minknow_data/basecalled", save_directory=r"/home/joshl/minknow_data/demultiplex_dual")
-    # Count(input_directory=r"/home/joshl/minknow_data/demultiplex_dual", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Count_Reads")
-    # Visualize(data_file=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Count_Reads/barcode_counts.csv", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Count_Reads/")
+    # zymogen community
+    #MiniMap2(input_directory=r"/home/joshl/Desktop/input",
+    #         save_directory=r"/home/joshl/Desktop/output",
+    #         align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_community_database.fasta")
 
-    # Merge(input_directory=r"/home/joshl/minknow_data/demultiplex_dual/", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Merge_Files")
-    # Count(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Merge_Files", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/MergeVisual")
-    # Visualize(data_file=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/MergeVisual/barcode_counts.csv", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/MergeVisual/")
-
-    # Trim(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Merge_Files", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes")
-    # Count(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/TrimmedVisual")
-    # Visualize(data_file=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/TrimmedVisual/barcode_counts.csv", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/CreateVisualizations/TrimmedVisual")
-
-    # NanoQCAnalysis(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Quality_Control/")
-    # Alignment(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Alignment", align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/GUPPY_ALIGNMENT_REFERENCE.txt")
-    # NanoPlot(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/NanoPlot")
-    # Frame(output_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Data_Frame", read_ids=[], zymogen_alignment=[], zymogen_percent=[], reduced_zymogen_alignment=[], reduced_zymogen_percent=[], silva_alignment=[], silva_percent=[])
-    Plotly(data_file=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/TrimmedVisual/barcode_counts.csv",
-           save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/TrimmedVisual")
+    # modified zymogen
+    MiniMap2(input_directory=r"/home/joshl/Desktop/input",
+             save_directory=r"/home/joshl/Desktop/output",
+             align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_modified_community_database.fasta")

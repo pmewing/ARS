@@ -1,9 +1,0 @@
-2020-05-27 12:04:52.717538 [guppy/message] ONT Guppy alignment software version 3.6.0+98ff765
-input path:         /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp
-save path:          /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/SAM_Files
-alignment ref.:     /home/joshl/PycharmProjects/ARS/ScriptResults/GUPPY_ALIGNMENT_REFERENCE.txt
-min. coverage:      0.6
-2020-05-27 12:04:52.718371 [guppy/info] crashpad_handler not supported on this platform.
-2020-05-27 12:04:52.718566 [guppy/info] Starting input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode20.fastq
-2020-05-27 12:04:53.457535 [guppy/info] Successfully finished input file /home/joshl/PycharmProjects/ARS/ScriptResults/Alignment/.temp/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode20.fastq (310 reads)
-2020-05-27 12:04:53.457560 [guppy/message] Done in 739 ms.

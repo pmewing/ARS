@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/GUI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Trimming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataFrame" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pychopper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pychopper/scripts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/GUI/UI Files" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>

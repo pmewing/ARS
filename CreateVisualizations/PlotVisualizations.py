@@ -8,7 +8,7 @@ import subprocess
 from subprocess import PIPE
 
 class Plotly:
-    def __init__(self, data_file: str, save_directory: str):
+    def __init__(self, data_file: str, save_directory: str, grouped_file_name=None, individual_file_name=None):
         """
         This will optionally create two plots: The first is a NanoPlot graph, which requires a fastq file.
         The second is a plotly graph, which requires the csv file generated from CountReads
@@ -19,6 +19,8 @@ class Plotly:
         """
         self.data_file = data_file
         self.save_directory = save_directory
+        self.grouped_file_name = grouped_file_name
+        self.individual_file_name = individual_file_name
 
         self.__create_plotly_histogram()
 
@@ -46,10 +48,6 @@ class Plotly:
             if data[barcode_number][row] == "unclassified":
                 unclassified_count = data[read_count][row]
         data = data[:-1]
-
-        grouped_data_file_name = self.save_directory + "/grouped_plot.html"
-        individual_data_file_name = self.save_directory + "/individual_plot.html"
-
 
         grouped_histogram = px.histogram(data_frame=data,
                                          x=read_count,
@@ -148,6 +146,18 @@ class Plotly:
             font=font_data
         )
 
+        # set grouped-graph file name (if one is present)
+        if self.grouped_file_name is None:
+            grouped_data_file_name = self.save_directory + "/grouped_plot.html"
+        else:
+            grouped_data_file_name = self.save_directory + "/{0}.html".format(self.grouped_file_name)
+
+        # set individual-graph file name (if one is present)
+        if self.individual_file_name is None:
+            individual_data_file_name = self.save_directory + "/individual_plot.html"
+        else:
+            individual_data_file_name = self.save_directory + "/{0}.html".format(self.individual_file_name)
+
         grouped_histogram.write_html(grouped_data_file_name)
         individual_histogram.write_html(individual_data_file_name)
 
@@ -161,8 +171,8 @@ class Plotly:
 
         # write new data to grouped_html, then to individual_html
         # this will add a title to the html file (on the first line)
-        with open(grouped_html, 'w') as grouped_modified: grouped_modified.write("<title>Grouped Histogram Plot</title>\n" + grouped_data)
-        with open(individual_html, 'w') as individual_modified: individual_modified.write("<title>Individual Histogram Plot</title\n" + individual_data)
+        with open(grouped_html, 'w') as grouped_modified: grouped_modified.write("<title>{0} Grouped Plot</title>\n".format(self.grouped_file_name) + grouped_data)
+        with open(individual_html, 'w') as individual_modified: individual_modified.write("<title>{0} Plot</title\n".format(self.individual_file_name) + individual_data)
 
 
 class NanoPlot:

@@ -70,7 +70,7 @@ class MainWindow(QMainWindow):
         # set button names
         self.barcode_parent_button.setObjectName("Barcode Parent")
         self.merged_reads_button.setObjectName("Merged Reads")
-        self.guppy_alignment_button.setObjectName("Guppy Alignment")
+        self.guppy_alignment_button.setObjectName("Guppy GuppyAlignment")
         self.analyze_button.setObjectName("analyze_button")
 
         # set label geometry
@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
         # set text on button
         self.barcode_parent_button.setText("Select Barcode Parent Folder")
         self.merged_reads_button.setText("Select Save Location of Merged Reads")
-        self.guppy_alignment_button.setText("Guppy Alignment Settings")
+        self.guppy_alignment_button.setText("Guppy GuppyAlignment Settings")
         self.analyze_button.setText("Analyze")
 
         # bind buttons to functions

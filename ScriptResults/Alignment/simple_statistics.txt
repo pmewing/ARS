@@ -1,5 +1,0 @@
-Total reads: 24000
-Classified reads: 13400
-Unclassified reads: 10600
-Percent classified: 55.833%
-Percent unclassified: 44.167%

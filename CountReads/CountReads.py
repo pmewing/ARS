@@ -7,16 +7,18 @@ class Count:
     """
     This class is responsible for counting the number of barcodes present in the output of guppy_barcode
     """
-    def __init__(self, input_directory, save_directory):
+    def __init__(self, input_directory, save_directory, file_name=None):
         """
         this is the main driver function, and will be ran when a Count() class is implemented
         Creates a file in the directory selected containing which barcode folders
+        This will only work on .fastq/.fasta files
 
         :return str barcode_file_location: This is the location of the parent folder
         """
 
         self.save_directory = save_directory
         self.input_directory = input_directory
+        self.file_name = file_name
         self.unclassified_folder_duplicate_value = 0
         self.barcode_correlations = {}
 
@@ -141,8 +143,13 @@ class Count:
         :param _io.TextIO save_directory: File path where barcode_counts.txt file should be saved.
         :return: None
         """
-        pickle_file_name = save_directory + "/barcode_pickle_dump.pkl"
-        save_directory += "/barcode_counts.csv"
+
+        if self.file_name is None:
+            pickle_file_name = save_directory + "/barcode_pickle_dump.pkl"
+            save_directory = save_directory + "/barcode_counts.csv"
+        else:
+            pickle_file_name = save_directory + "/{0}.pkl".format(self.file_name)
+            save_directory = save_directory + "/{0}_barcode_counts.csv".format(self.file_name)
 
         sorted_keys = sorted(self.barcode_correlations)
 
