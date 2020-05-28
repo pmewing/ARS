@@ -47,70 +47,123 @@ class Plotly:
                 unclassified_count = data[read_count][row]
         data = data[:-1]
 
-        file_name = self.save_directory + "/density_plot.html"
-        figure = px.histogram(data_frame=data,
-                              x=read_count,
-                              y=barcode_number,
-                              hover_name=data[barcode_number],
-                              hover_data=[data[read_count]],
-                              labels={'reads_in_barcode': 'Reads in barcode',
-                                      'barcode_number': 'barcodes'},
-                              marginal="box"  # rug: data points above graph; box: boxplot above graph
-                              )
+        grouped_data_file_name = self.save_directory + "/grouped_plot.html"
+        individual_data_file_name = self.save_directory + "/individual_plot.html"
 
-        figure.update_layout(
-            # format data when hovering over points
-            hoverlabel=dict(
+
+        grouped_histogram = px.histogram(data_frame=data,
+                                         x=read_count,
+                                         y=barcode_number,
+                                         hover_name=data[barcode_number],
+                                         hover_data=[data[read_count]],
+                                         labels={'reads_in_barcode': 'Reads in barcode',
+                                                 'barcode_number': 'barcodes'},
+                                         marginal="box"  # rug: data points above graph; box: boxplot above graph
+                                         )
+
+        # TODO: The same color will appear right next to itself on some occations; see if this can be changed
+        #   so every color is surrounded by a different color. Colors may still be repeated.
+        individual_histogram = px.histogram(data_frame=data,
+                                            x=read_count,
+                                            y=barcode_number,
+                                            hover_name=data[barcode_number],
+                                            hover_data=[data[read_count]],
+                                            color=barcode_number,
+                                            labels={'reads_in_barcode':'Reads in barcode',
+                                                    'barcode_number': 'barcodes'},
+                                            marginal='violin'  # rug: data points above graph; box: boxplot above graph
+                                            )
+
+        hover_label_data = dict(
                 bgcolor="white",
                 font_size=16,
                 font_family="Rockwell"
-            ),
-            # format the title
-            title={
+            )
+
+        title_data = {
                 'text'   : 'Comparison between read length and barcode number',
                 'x'      : 0.5,
                 'xanchor': 'center',
                 'font'     : dict(size=25)
-            },
+            }
+
+        annotation_data = [dict(xref='paper',
+                                yref='paper',
+                                x=0.5,
+                                y=1.035,
+                                showarrow=False,
+                                text='Performed after trimming barcodes',
+                                font=dict(
+                                    size=18
+                                )),
+                           # add unclassified annotation
+                           dict(xref='paper',
+                                yref='paper',
+                                x=0.99,
+                                y=0.83,
+                                showarrow=False,
+                                text="Unclassified Reads: %s" % unclassified_count,
+                                font=dict(
+                                    size=18
+                                )),
+                           # average reads (excludes unclassified
+                           dict(xref='paper',
+                                yref='paper',
+                                x=0.99,
+                                y=0.79,
+                                showarrow=False,
+                                text="Average reads (excluding unclassified): %.0f" % np.average(data[read_count][:-1]),
+                                font=dict(
+                                    size=18
+                                ))
+                           ]
+
+        xaxis_title_data = "Reads in Barcode"
+        yaxis_title_data = "Frequency"
+        font_data = dict( size=17 )
+
+        grouped_histogram.update_layout(
+            # format data when hovering over points
+            hoverlabel=hover_label_data,
+            # format the title
+            title=title_data,
             # format extra info (will appear right below title)
-            annotations=[dict(xref='paper',
-                              yref='paper',
-                              x=0.5,
-                              y=1.035,
-                              showarrow=False,
-                              text='Performed after trimming barcodes',
-                              font=dict(
-                                  size=18
-                              )),
-                         # add unclassified annotation
-                         dict(xref='paper',
-                              yref='paper',
-                              x=0.99,
-                              y=0.83,
-                              showarrow=False,
-                              text="Unclassified Reads: %s" % unclassified_count,
-                              font=dict(
-                                  size=18
-                              )),
-                         # average reads (excludes unclassified
-                         dict(xref='paper',
-                              yref='paper',
-                              x=0.99,
-                              y=0.79,
-                              showarrow=False,
-                              text="Average reads (excluding unclassified): %.0f" % np.average(data[read_count][:-1]),
-                              font=dict(
-                                  size=18
-                              ))
-                         ],
+            annotations=annotation_data,
             # set axis titles and size
-            xaxis_title="Reads in Barcode",
-            yaxis_title="Frequency",
-            font=dict(
-                size=17
-            )
+            xaxis_title=xaxis_title_data,
+            yaxis_title=yaxis_title_data,
+            font=font_data
         )
-        figure.write_html(file_name)
+
+        individual_histogram.update_layout(
+            # format data when hovering over points
+            hoverlabel=hover_label_data,
+            # format the title
+            title=title_data,
+            # format extra info (will appear right below title)
+            annotations=annotation_data,
+            # set axis titles and size
+            xaxis_title=xaxis_title_data,
+            yaxis_title=yaxis_title_data,
+            font=font_data
+        )
+
+        grouped_histogram.write_html(grouped_data_file_name)
+        individual_histogram.write_html(individual_data_file_name)
+
+        self.__change_html_title_page(grouped_data_file_name, individual_data_file_name)
+
+    def __change_html_title_page(self, grouped_html, individual_html):
+
+        # read data from grouped_html, then from individual_html
+        with open(grouped_html, 'r') as grouped_original: grouped_data = grouped_original.read()
+        with open(individual_html, 'r') as individual_original: individual_data = individual_original.read()
+
+        # write new data to grouped_html, then to individual_html
+        # this will add a title to the html file (on the first line)
+        with open(grouped_html, 'w') as grouped_modified: grouped_modified.write("<title>Grouped Histogram Plot</title>\n" + grouped_data)
+        with open(individual_html, 'w') as individual_modified: individual_modified.write("<title>Individual Histogram Plot</title\n" + individual_data)
+
 
 class NanoPlot:
     def __init__(self, input_directory, save_directory):
@@ -171,5 +224,5 @@ class NanoPlot:
         else:
             print("\r{0} of {0} files processed successfully".format(self.iteration, len(self.file_paths)))
 
-    def __update_task(self):
+    def __update_task(self):    
         print( "\rNanoPlot running on file {0} of {1}.".format(self.iteration, len(self.file_paths)), end="" )

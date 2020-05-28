@@ -25,4 +25,6 @@ if __name__ == '__main__':
     # NanoQCAnalysis(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Quality_Control/")
     # Alignment(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Alignment", align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/GUPPY_ALIGNMENT_REFERENCE.txt")
     # NanoPlot(input_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes", save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/NanoPlot")
-    Frame(output_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Data_Frame")
+    # Frame(output_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Data_Frame", read_ids=[], zymogen_alignment=[], zymogen_percent=[], reduced_zymogen_alignment=[], reduced_zymogen_percent=[], silva_alignment=[], silva_percent=[])
+    Plotly(data_file=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/TrimmedVisual/barcode_counts.csv",
+           save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/VisualizationResults/TrimmedVisual")
