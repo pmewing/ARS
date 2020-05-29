@@ -7,7 +7,13 @@ from BasecallBarcode import Basecall, Barcode
 from NanoQC import NanoQCAnalysis
 from DataFrame import Frame
 
+
 if __name__ == '__main__':
+
+    GuppyAlignment(input_directory=r"/home/joshl/Desktop/input",
+                   save_directory=r"/home/joshl/Desktop/output",
+                   align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/silva_alignment_reference.fasta")
+
     MiniMap2(input_directory=r"/home/joshl/Desktop/input/",
-             save_directory=r"/home/joshl/Desktop/output",
-             align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_community_database.fasta")
+             save_directory=r"/home/joshl/Desktop/output/MiniMap2",
+             align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/silva_alignment_reference.fasta")

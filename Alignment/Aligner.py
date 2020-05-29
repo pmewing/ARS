@@ -25,14 +25,16 @@ class GuppyAlignment:
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
-        self.alignment_summary_path = self.save_directory + "/AlignmentSummary"
         self.file_names = []
         self.iteration = 1
         self.number_of_files = 0
 
+        self.alignment_summary_path = self.save_directory + "/AlignmentSummary"
+        self.log_path = self.save_directory + "/logs"
+
         self.__collect_files()
         self.__perform_alignment()
-        self.__read_percentage()
+        self.__write_simple_statistics()
 
     def __collect_files(self):
         """
@@ -53,11 +55,10 @@ class GuppyAlignment:
         """
         # pass this temp folder in to guppy so an alignment sequence can be made for each file
         temp_folder = self.save_directory + "/.temp"
-        pathlib.Path.mkdir(self=pathlib.Path( temp_folder ),  # convert a string to a path
-                           exist_ok=True)                     # it is okay if the path already exists
+        pathlib.Path.mkdir( self=pathlib.Path(temp_folder), exist_ok=True )
 
         for file in self.file_names:
-            print("\rPerforming alignent on file {0} / {1}.".format(self.iteration, self.number_of_files), end="")
+            Callable.update_task("Guppy aligner running on file", self.iteration, self.number_of_files)
 
             # we want to remove all files in the .temp directory after each run of the guppy_aligner
             for root, directory, files in os.walk(temp_folder):
@@ -71,7 +72,7 @@ class GuppyAlignment:
                         dst=temp_folder + "/" + file)
 
             # create the command for guppy_aligner
-            message = "guppy_aligner --quiet --input_path {input} --save_path {save} --align_ref {alignment}".format(
+            message = "guppy_aligner --input_path {input} --save_path {save} --align_ref {alignment}".format(
                 input=temp_folder, save=self.save_directory + "/SAM_Files", alignment=self.alignment_reference )
 
             # we must split the messgae into a list before subprocess.run() will accept it
@@ -94,12 +95,9 @@ class GuppyAlignment:
         :return: new_file_path: This is the path of the new file location. It can be used to modify files further (if needed)
         """
 
-        # make the AlignmentSummary folder
-        log_path = self.save_directory + "/logs"
-
         # make the AlignmentSummary and logs folders
         pathlib.Path.mkdir(self=pathlib.Path(self.alignment_summary_path), exist_ok=True)
-        pathlib.Path.mkdir(self=pathlib.Path(log_path), exist_ok=True)
+        pathlib.Path.mkdir(self=pathlib.Path(self.log_path), exist_ok=True)
 
         # get the barcode number from the file name. It will be the second to last item after splitting by `_` and `.`
         barcode_name = re.split('[_.]', file_name)[-2]
@@ -111,12 +109,87 @@ class GuppyAlignment:
                 # move alignment summary into the AlignmentSummary folder (located one folder up)
                 if "alignment_summary" in file:
                     shutil.move(src=sam_files + "/" + file,
-                                dst=self.alignment_summary_path + "/alignment_summary_" + barcode_name + ".csv")
+                                dst=self.alignment_summary_path + "/guppy_aligner_" + barcode_name + ".csv")
                 elif "read_processor" in file:
                     # this will rename files to the current date/time and barcode number
                     file_name = self.__get_date_time(barcode_number=barcode_name)
                     shutil.move(src=sam_files + "/" + file,
-                                dst=log_path + "/" + file_name)
+                                dst=self.log_path + "/" + file_name)
+
+    def __write_simple_statistics(self):
+        """
+        This function will look at the alignment_summary.txt in the folder specified by self.save_directory.
+        It will calculate the percentage of reads that have been classified, and save its own text file in the same location
+
+        :return: None
+        """
+
+        # read file into a data frame
+        file_paths = []
+        for root, directory, files in os.walk( self.save_directory + "/AlignmentSummary" ):
+            for file in files:
+                if "guppy_aligner_barcode" in file:
+                    file_paths.append( os.path.join(root, file) )
+
+        # iterate through each file in the file_paths list
+        for file in file_paths:
+
+            # set up the data frame for reading
+            data_frame = pd.read_csv(filepath_or_buffer=file,
+                                     sep=",",
+                                     header=0,
+                                     dtype={
+                                         "read_id": np.str,
+                                         "alignment_genome": np.str,
+                                         "alignment_genome_start": np.int,
+                                         "alignment_genome_end": np.int,
+                                         "alignment_strand_start": np.int,
+                                         "alignment_strand_end": np.int,
+                                         "alignment_num_insertions": np.int,
+                                         "alignment_num_deletions": np.int,
+                                         "alignment_num_aligned": np.int,
+                                         "alignment_num_correct": np.int,
+                                         "alignment_identity": np.float,
+                                         "alignment_accuracy": np.float,
+                                         "alignment_score": np.int
+                                     })
+
+            # set up our total reads, classified reads, and unclassified reads variables
+            total_id = 0
+            classified_id = 0
+            unclassified_id = 0
+
+            for row in data_frame['alignment_genome']:
+
+                # if the item in `alignment_genome` has data not equal to an asterisk, it is classified
+                if row != "*":
+                    classified_id += 1
+
+                # otherwise it is unclassified
+                else:
+                    unclassified_id += 1
+                total_id += 1  # always increment total reads
+
+            # set up our output results
+            rows = [
+                "Total reads: {0}".format(total_id),
+                "Classified reads: {0}".format(classified_id),
+                "Unclassified reads: {0}".format(unclassified_id),
+                "Percent classified: {:.3f}%".format( (classified_id / total_id) * 100 ) ,
+                "Percent unclassified: {:.3f}%".format( (unclassified_id / total_id) * 100 )
+            ]
+
+            # we want to make an new folder to hold the simple statistics that will be generated for each file
+            simple_statistics_folder = self.save_directory + "/SimpleStatistics"
+            pathlib.Path.mkdir( self=pathlib.Path(simple_statistics_folder), exist_ok=True )
+
+            barcode_number = re.split('[_.]', file)[-2]  # we want the second to last item in the path, the barcode number
+
+            # open the output file, and write our data from the `rows` list
+            with open(simple_statistics_folder + "/simple_statistics_{0}.txt".format(barcode_number), 'w') as output_file:
+                for row in rows:
+                    output_file.write(row)
+                    output_file.write("\n")
 
     def __get_date_time(self, barcode_number):
         """
@@ -127,88 +200,15 @@ class GuppyAlignment:
         """
         return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))
 
-    def __read_percentage(self):
-        """
-        This function will look at the alignment_summary.txt in the folder specified by self.save_directory.
-        It will calculate the percentage of reads that have been classified, and save its own text file in the same location
-
-        :return: None
-        """
-
-        # read file into a data frame
-        data_frame = pd.read_csv(filepath_or_buffer=self.save_directory + "/alignment_summary.txt",
-                                 sep="\t",
-                                 header=0,
-                                 dtype={
-                                     "read_id": np.str,
-                                     "alignment_genome": np.str,
-                                     "alignment_genome_start": np.int,
-                                     "alignment_genome_end": np.int,
-                                     "alignment_strand_start": np.int,
-                                     "alignment_strand_end": np.int,
-                                     "alignment_num_insertions": np.int,
-                                     "alignment_num_deletions": np.int,
-                                     "alignment_num_aligned": np.int,
-                                     "alignment_num_correct": np.int,
-                                     "alignment_identity": np.float,
-                                     "alignment_accuracy": np.float,
-                                     "alignment_score": np.int
-                                 })
-
-        total_id = 0
-        classified_id = 0
-        unclassified_id = 0
-        for row in range(len(data_frame)):
-            if data_frame['alignment_genome'][row] != "*":
-                classified_id += 1
-            else:
-                unclassified_id += 1
-            total_id += 1
-
-        rows = [
-            "Total reads: %s" % total_id,
-            "Classified reads: %s" % classified_id,
-            "Unclassified reads: %s" % unclassified_id,
-            "Percent classified: %.3f%%" % ((classified_id / total_id) * 100) ,
-            "Percent unclassified: %.3f%%" % ((unclassified_id / total_id) * 100)
-        ]
-
-        with open(self.save_directory + "/simple_statistics.txt", 'w') as file:
-            for row in rows:
-                file.write(row)
-                file.write("\n")
-
-    def __convert_tabs_to_spaces(self, ):
-        """
-        This function will convert the tab-delimited files output by guppy_aligner to comma-delimited files.
-
-        :return: None
-        """
-        for root, directory, files in os.walk( self.alignment_summary_path ):
-            for file in files:
-
-                # read data from file into input_lines
-                with open( os.path.join(root, file) , 'r' ) as file_input: input_lines = file_input.read()
-
-                # replace tabs with commas
-                input_lines = input_lines.replace("\t", ",")
-
-                # write new lines back into file
-                with open( os.path.join(root, file), 'w' ) as file_output: file_output.writelines(input_lines)
 
 class MiniMap2:
     def __init__(self, input_directory, save_directory, align_reference):
-        import mappy as mp
-        # mp.Aligner(fn_idx_in=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/zymogen_community_database.fasta", preset="map-ont", fn_idx_out="/home/joshl/Desktop/temp")
-        # mp.Alignment(r"/home/joshl/PycharmProjects/ARS/ScriptResults/Trimmed_Barcodes/fastq_runid_67a0761ea992f55d7000e748e88761780ca1bb60_barcode01.fastq")
-
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.alignment_reference = align_reference
         self.file_paths = []
         self.iteration = 1
-        self.num_files = 0
-
+        self.number_of_files = 0
         self.__collect_files()
         self.__perform_alignment()
 
@@ -216,7 +216,6 @@ class MiniMap2:
         self.iteration = 1
         print("")
 
-        self.__convert_tabs_to_spaces()
         self.__create_table_headers()
 
     def __collect_files(self):
@@ -230,7 +229,7 @@ class MiniMap2:
             for file in files:
                 if ".fasta" in file or ".fastq" in file:
                     self.file_paths.append( os.path.join( root, file ) )
-                    self.num_files += 1
+                    self.number_of_files += 1
 
     def __perform_alignment(self):
         """
@@ -239,7 +238,7 @@ class MiniMap2:
         :return: None
         """
         for file in self.file_paths:
-            self.__update_task(True)
+            Callable.update_task("MiniMap is aligning file", self.iteration, self.number_of_files)
             save_path = self.__return_save_path(file)
 
             message = "minimap2 {reference} {input} -o {output}".format(reference=self.alignment_reference,
@@ -249,37 +248,14 @@ class MiniMap2:
             # I am collecting all output from the MiniMap2 commands because it is not needed. If it is needed in the future, remove the PIPE commands from here
             # alternatively, print the results with print(command.stdout) and print(command.stderr)
             command = subprocess.run( message, stdout=PIPE, stderr=PIPE, universal_newlines=True )
-
             self.iteration += 1
-
-    def __convert_tabs_to_spaces(self):
-        """
-        This function will convert the tab-delimited files output by MiniMap2 to comma-delimited files.
-
-        :return: None
-        """
-        for root, directory, files in os.walk( self.save_directory ):
-            for file in files:
-
-                self.__update_task(False)
-
-                # read data from file into input_lines
-                with open( os.path.join(root, file) , 'r' ) as file_input: input_lines = file_input.read()
-
-                # replace tabs with commas
-                input_lines = input_lines.replace("\t", ",")
-
-                # write new lines back into file
-                with open( os.path.join(root, file), 'w' ) as file_output: file_output.writelines(input_lines)
-
-                self.iteration += 1
 
     def __create_table_headers(self):
         """
         MiniMap2 does not provide a header row for their output. Because of this, it is very difficult to create a data frame from their results.
         This function works to resolve this by adding a header to the very beginning of the file
         """
-        for root, directory, files in os.walk( self.save_directory ):
+        for root, directory, files in os.walk( self.save_directory):
             for file in files:
                 file_path = os.path.join( root, file )
 
@@ -290,18 +266,14 @@ class MiniMap2:
                         input_content.append(line)
 
                 # TODO: A header line needs to be added to the MiniMap2 output before it can be read into a data frame
-                header_line = "this,is,the,header,info"
-                output_content = []
-                output_content.append(header_line)
+                header_line = ""
+                output_content = [header_line]
                 for line in input_content:
                     output_content.append(line)
 
                 with open(file_path, 'w') as output_file:
                     for line in output_content:
                         output_file.write(line)
-
-
-
 
     def __return_save_path(self, input_file):
         """
@@ -314,8 +286,27 @@ class MiniMap2:
         save_path = self.save_directory + "/minimap_{0}.csv".format(barcode_number)
         return save_path
 
-    def __update_task(self, minimap_analyze:bool):
-        if minimap_analyze:
-            print("\rMiniMap2 acting on file {0} of {1}".format(self.iteration, self.num_files), end="")
-        else:
-            print("\rtabs -> spaces on file {0} of {1}".format(self.iteration, self.num_files), end="")
+
+class Callable:
+    """
+    This class is responsible for handing calls from the GuppyAlignment and MiniMap2 classes
+    These functions are needed by both classes to remove tabs from the output files, along with updating output to the user
+    """
+    @staticmethod
+    def update_task(update_message: str, current_file: int, total_files: int):
+        """
+        This function takes three parameters, and displays them on the screen in the following fashion:
+
+        `update_message` `current_file` of `total_files`
+
+        Example: [update_message](MiniMap2 is working on file) [inputfile](3) of [total_files](10).
+
+        This will be seen as: MiniMap2 is working on file 3 of 10.
+
+        :param str update_message: This is the first part of the update that you would like to print. It should contain information about what aligner is running, such
+            as "MiniMap2 is working on"
+        :param int current_file: This will be displayed directory after the message; it is the current file that the aligner is processing
+        :param int total_files: This is the total number of files that the aligner will process
+        :return: None
+        """
+        print("\r{message} {current} of {total}.".format( message=update_message, current=current_file, total=total_files ), end="")
