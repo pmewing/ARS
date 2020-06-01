@@ -1,8 +1,11 @@
+import time
 import re
 import subprocess
 from subprocess import PIPE
 import os
 import shutil
+from UpdateTask import Update
+from WriteLogs import Log
 
 
 class NanoQCAnalysis:
@@ -12,6 +15,9 @@ class NanoQCAnalysis:
         self.iteration = 1
         self.num_files = len(os.listdir(self.input_directory))
         self.unknown_files = []
+
+        # This will be updated by self.__perform_analysis. It will be used by self.__write_logs_to_file to write the file being analyzed
+        self.log_message = ""
 
         for root, directory, files in os.walk(self.input_directory):
             for name in files:
@@ -37,7 +43,9 @@ class NanoQCAnalysis:
          :param str file_path: this is the location of the file to be analyzed
          :return: None
         """
-        message = ( "nanoQC -o %s %s" % (self.save_directory, file_path) ).split(" ")
+        message = "nanoQC -o {0} {1}".format(self.save_directory, file_path)
+        self.log_message = message
+        message = message.split(" ")
         command = subprocess.run(message, stdout=PIPE, stderr=PIPE, universal_newlines=True)
 
         # we only want to bring the last item with us (the file name) to show on screen
@@ -73,6 +81,7 @@ class NanoQCAnalysis:
                 if name.lower() == "nanoqc.html":
                     os.rename(file_path, new_file_path)
                     os.remove(self.save_directory + "/nanoQC.html")
+                    self.__write_logs_to_file()
 
                 # this will move NanoQC.log to nanoQC_barcode##.log, inside the log directory
                 elif name.lower() == "nanoqc.log":
@@ -81,11 +90,21 @@ class NanoQCAnalysis:
                     temp_file.close()
                     shutil.move(self.save_directory + "/NanoQC.log", new_log_path)
 
+    def __write_logs_to_file(self):
+        """
+        This function will write log files to the location specified below after running NanoQC
+        """
+
+        log_path = "ScriptResults/Script_Logs/nanoqc_log.txt"
+
+        Log(self.log_message,
+            log_path=log_path,
+            erase_file=False)
+
     def __update_task(self):
         """
         This function will simply over-write the current line and print and update statement
         """
-        print("'\rPerforming nanoQC on file {0} / {1}.".format(self.iteration, self.num_files), end='')
-        # print('\r', 'Trimming %s of %s' % (self.iteration, self.num_files), end='')
+        Update("nanoQC", self.iteration, self.num_files)
         self.iteration += 1
 

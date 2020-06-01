@@ -7,6 +7,8 @@ from subprocess import PIPE
 import pandas as pd
 import numpy as np
 import pathlib
+from UpdateTask import Update
+from WriteLogs import Log
 
 
 class GuppyAlignment:
@@ -58,8 +60,6 @@ class GuppyAlignment:
         pathlib.Path.mkdir( self=pathlib.Path(temp_folder), exist_ok=True )
 
         for file in self.file_names:
-            Callable.update_task("Guppy aligner running on file", self.iteration, self.number_of_files)
-
             # we want to remove all files in the .temp directory after each run of the guppy_aligner
             for root, directory, files in os.walk(temp_folder):
                 for temp_file in files:
@@ -74,6 +74,7 @@ class GuppyAlignment:
             # create the command for guppy_aligner
             message = "guppy_aligner --input_path {input} --save_path {save} --align_ref {alignment}".format(
                 input=temp_folder, save=self.save_directory + "/SAM_Files", alignment=self.alignment_reference )
+            self.__write_log_to_file(file_path=self.input_directory + "/" + file)
 
             # we must split the messgae into a list before subprocess.run() will accept it
             # additionally, we are capturing output from the guppy_aligner. I do not plan on using the output as of now, but it is there in case it is needed
@@ -82,7 +83,6 @@ class GuppyAlignment:
 
             # we need to move the alignment_summary.txt file into the appropriate place immediately after running guppy_aligner
             self.__move_summary_files(file)
-            self.iteration += 1
 
     def __move_summary_files(self, file_name):
         """
@@ -136,7 +136,7 @@ class GuppyAlignment:
 
             # set up the data frame for reading
             data_frame = pd.read_csv(filepath_or_buffer=file,
-                                     sep=",",
+                                     sep="\t",
                                      header=0,
                                      dtype={
                                          "read_id": np.str,
@@ -200,6 +200,22 @@ class GuppyAlignment:
         """
         return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))
 
+    def __update_task(self):
+        Update("Guppy aligner", self.iteration, self.number_of_files)
+        self.iteration += 1
+
+    def __write_log_to_file(self, file_path):
+        """
+        This function will call the Log class to write a specific line to the log file named below
+        """
+
+        log_path = "ScriptResults/Script_Logs/guppy_aligner_log.txt"
+        line = "guppy_aligner --input_path {input} --save_path {save} --align_ref {alignment}".format(
+            input=file_path, save=self.save_directory, alignment=self.alignment_reference )
+
+        Log(log_line=line,
+            log_path=log_path,
+            erase_file=False)
 
 class MiniMap2:
     def __init__(self, input_directory, save_directory, align_reference):
@@ -209,9 +225,9 @@ class MiniMap2:
         self.file_paths = []
         self.iteration = 1
         self.number_of_files = 0
+
         self.__collect_files()
         self.__perform_alignment()
-
         # reset iteration to 1, go to next line for new output
         self.iteration = 1
         print("")
@@ -238,17 +254,18 @@ class MiniMap2:
         :return: None
         """
         for file in self.file_paths:
-            Callable.update_task("MiniMap is aligning file", self.iteration, self.number_of_files)
             save_path = self.__return_save_path(file)
 
-            message = "minimap2 {reference} {input} -o {output}".format(reference=self.alignment_reference,
-                                                                        input=file,
-                                                                        output=save_path).split(" ")
+            # try to make the output path to ensure it exists
+            pathlib.Path.mkdir( self=pathlib.Path(self.save_directory), exist_ok=True )
 
+            message = "minimap2 {reference} {input} -o {output}".format(reference=self.alignment_reference, input=file, output=save_path)
+            self.__write_logs_to_file(file, save_path)
+
+            message = message.split(" ")
             # I am collecting all output from the MiniMap2 commands because it is not needed. If it is needed in the future, remove the PIPE commands from here
             # alternatively, print the results with print(command.stdout) and print(command.stderr)
             command = subprocess.run( message, stdout=PIPE, stderr=PIPE, universal_newlines=True )
-            self.iteration += 1
 
     def __create_table_headers(self):
         """
@@ -286,27 +303,24 @@ class MiniMap2:
         save_path = self.save_directory + "/minimap_{0}.csv".format(barcode_number)
         return save_path
 
+    def __update_task(self):
+        Update("MiniMap2", self.iteration, self.number_of_files)
+        self.iteration += 1
 
-class Callable:
-    """
-    This class is responsible for handing calls from the GuppyAlignment and MiniMap2 classes
-    These functions are needed by both classes to remove tabs from the output files, along with updating output to the user
-    """
-    @staticmethod
-    def update_task(update_message: str, current_file: int, total_files: int):
+    def __write_logs_to_file(self, input_path, save_path):
         """
-        This function takes three parameters, and displays them on the screen in the following fashion:
+        This function will use the Log class to write logs to the file specified below.
 
-        `update_message` `current_file` of `total_files`
-
-        Example: [update_message](MiniMap2 is working on file) [inputfile](3) of [total_files](10).
-
-        This will be seen as: MiniMap2 is working on file 3 of 10.
-
-        :param str update_message: This is the first part of the update that you would like to print. It should contain information about what aligner is running, such
-            as "MiniMap2 is working on"
-        :param int current_file: This will be displayed directory after the message; it is the current file that the aligner is processing
-        :param int total_files: This is the total number of files that the aligner will process
-        :return: None
+        :param str input_path: This is the input file path
+        :param str save_path: This is where files will be saved
         """
-        print("\r{message} {current} of {total}.".format( message=update_message, current=current_file, total=total_files ), end="")
+
+        log_path = "ScriptResults/Script_Logs/minimap_aligner_log.txt"
+        line = "minimap2 {reference} {input} -o {output}".format(
+            reference=self.alignment_reference,
+            input=input_path,
+            output=save_path)
+
+        Log(log_line=line,
+            log_path=log_path,
+            erase_file=False)

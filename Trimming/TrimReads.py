@@ -1,7 +1,9 @@
 import subprocess
 from subprocess import PIPE
 import os
-
+import time
+from UpdateTask import Update
+from WriteLogs import Log
 
 class Trim:
     def __init__(self, input_directory, save_directory):
@@ -12,7 +14,6 @@ class Trim:
         :param str save_directory: Where to save program results
         :return: None
         """
-        # cutadapt --revcomp -a <3' PRIMER SEQUENCE> -g <5' PRIMER SEQUENCE> -e <ERROR RATE (0.2)> -o <OUTPUT DIRECTORY> <INPUT FILE>
 
         self.input_directory = input_directory
         self.save_directory = save_directory
@@ -48,17 +49,33 @@ class Trim:
                 write_file = open(os.path.join(self.save_directory, file), 'w')
                 write_file.close()
 
-                message = ("cutadapt --revcomp --quiet -j 0 -a %s -g %s -e %s -o %s/%s %s" % (
-                    self.primer_3, self.primer_5, self.error_rate, self.save_directory, file, os.path.join(root, file) ) ).split(" ")
-
+                message = "cutadapt --revcomp --quiet -j 0 -a {primer_3} -g {primer_5} -e {error_rate} -o {save_direc}/{out_file_name} {in_file_path}".format(
+                    primer_3=self.primer_3,
+                    primer_5=self.primer_5,
+                    error_rate=self.error_rate,
+                    save_direc=self.save_directory,
+                    out_file_name=file,
+                    in_file_path=os.path.join(root, file)
+                )
+                self.__write_logs_to_file(message)
+                message = message.split(" ")
                 command = subprocess.run(message, stdout=PIPE, stderr=PIPE, universal_newlines=True)
                 if "input file format" in command.stderr.lower():
                     self.unknown_files.append(file)
+
+    def __write_logs_to_file(self, command):
+        """
+        This function will output logs to the location below after trimming reads
+        """
+
+        log_path = "ScriptResults/Script_Logs/trim_reads_log.txt"
+        Log(command,
+            log_path=log_path,
+            erase_file=False)
 
     def __update_task(self):
         """
         This function will simply over-write the current line and print and update statement
         """
-        print("\rTrimming {0} of {1} of possible files".format(self.iteration, self.num_files), end='')
-        # print('\r', 'Trimming %s of %s' % (self.iteration, self.num_files), end='')
+        Update("Cutadapt", self.iteration, self.num_files)
         self.iteration += 1

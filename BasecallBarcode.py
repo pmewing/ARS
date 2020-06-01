@@ -1,10 +1,25 @@
+import subprocess
+from subprocess import PIPE
 import os
 import shutil
+from WriteLogs import Log
+from UpdateTask import Update
 
 
 class Basecall:
     def __init__(self, input_directory, save_directory):
+        self.iteration = 1
+        self.total_files = 0
+        self.input_directory = input_directory
+        self.save_directory = save_directory
+
+        self.__count_files()
         self.__basecall(input_directory=input_directory, save_directory=save_directory)
+
+    def __count_files(self):
+        for root, directory, files in os.walk(self.input_directory):
+            for file in files:
+                self.total_files += 1
 
     def __basecall(self, input_directory, save_directory):
         """
@@ -16,6 +31,8 @@ class Basecall:
         :param str save_directory: This is where the output of basecalling should be saved
         :return: None
         """
+
+        self.__update_task()
         message = "guppy_basecaller " \
                   "--recursive " \
                   "--input_path {0} " \
@@ -23,13 +40,37 @@ class Basecall:
                   "--config dna_r9.4.1_450bps_fast.cfg " \
                   "--num_callers 1 " \
                   "--cpu_threads_per_caller 12".format(input_directory, save_directory)
-        os.system(message)
+
+        self.__write_logs_to_file(command=message)
+        message = message.split(" ")
+        subprocess.run(message, stderr=PIPE, stdout=PIPE, universal_newlines=True)
         move_log_files(save_directory=save_directory)
+
+    def __write_logs_to_file(self, command):
+        log_path = "ScriptResults/Script_Logs/basecall_log.txt"
+        Log(log_line=command,
+            log_path=log_path,
+            erase_file=False)
+
+    def __update_task(self):
+        Update("Guppy basecaller", self.iteration, self.total_files)
+        self.iteration += 1
 
 
 class Barcode:
     def __init__(self, input_directory, save_directory):
+        self.iteration = 1
+        self.total_files = 0
+        self.input_directory = input_directory
+        self.save_directory = save_directory
+
+        self.__count_files()
         self.__barcode(input_directory=input_directory, save_directory=save_directory)
+
+    def __count_files(self):
+        for root, directory, files in os.walk(self.input_directory):
+            for file in files:
+                self.total_files += 1
 
     def __barcode(self, input_directory, save_directory):
         """
@@ -38,6 +79,7 @@ class Barcode:
         :param str save_directory: This is where the output of barcoding should be saved
         :return: None
         """
+        self.__update_task()
         message = "guppy_barcoder " \
                   "--input_path {0} " \
                   "--save_path {1} " \
@@ -46,8 +88,21 @@ class Barcode:
                   "--worker_threads 12 " \
                   "--barcode_kits EXP-PBC096 " \
                   "--require_barcodes_both_ends".format(input_directory, save_directory)
-        os.system(message)
+        self.__write_logs_to_file(message)
+        message = message.split(" ")
+        subprocess.run(message, stdout=PIPE, stderr=PIPE)
+
         move_log_files(save_directory=save_directory)
+
+    def __write_logs_to_file(self, command):
+        log_path = "ScriptResults/Script_Logs/barcode_log.txt"
+        Log(log_line=command,
+            log_path=log_path,
+            erase_file=False)
+
+    def __update_task(self):
+        Update("Guppy basecaller", self.iteration, self.total_files)
+        self.iteration += 1
 
 
 def move_log_files(save_directory):

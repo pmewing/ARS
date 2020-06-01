@@ -1,3 +1,4 @@
+import time
 import plotly.express as px
 import pathlib
 import os
@@ -6,15 +7,19 @@ import pandas as pd
 import numpy as np
 import subprocess
 from subprocess import PIPE
+from UpdateTask import Update
+from WriteLogs import Log
 
 class Plotly:
     def __init__(self, data_file: str, save_directory: str, grouped_file_name=None, individual_file_name=None):
         """
         This will optionally create two plots: The first is a NanoPlot graph, which requires a fastq file.
         The second is a plotly graph, which requires the csv file generated from CountReads
+
         :param str data_file: This is the csv file generated from CountReads
         :param str save_directory: This is where the output should be saved
-        :param fastq_file: This is the fastq file that NanoPlot should use to generate its own visuals
+        :param str grouped_file_name: If you would like to set a name for the plotly graph that contains all data points of the same color, set a file name here. This is not required
+        :param str individual_file_name: If you would like to set a name for the plotly graph separating the data points by color, specify a file name here. This is not required
         :return: None
         """
         self.data_file = data_file
@@ -162,26 +167,62 @@ class Plotly:
         individual_histogram.write_html(individual_data_file_name)
 
         self.__change_html_title_page(grouped_data_file_name, individual_data_file_name)
+        self.__write_logs_to_file( file_path=grouped_data_file_name )
+        self.__write_logs_to_file( file_path=individual_data_file_name )
 
     def __change_html_title_page(self, grouped_html, individual_html):
 
-        # read data from grouped_html, then from individual_html
-        with open(grouped_html, 'r') as grouped_original: grouped_data = grouped_original.read()
-        with open(individual_html, 'r') as individual_original: individual_data = individual_original.read()
+        # read data from grouped_html into grouped_data
+        with open(grouped_html, 'r') as grouped_original:
+            grouped_data = grouped_original.read()
+
+        # read data from individual_html into individual_data
+        with open(individual_html, 'r') as individual_original:
+            individual_data = individual_original.read()
 
         # write new data to grouped_html, then to individual_html
         # this will add a title to the html file (on the first line)
-        with open(grouped_html, 'w') as grouped_modified: grouped_modified.write("<title>{0} Grouped Plot</title>\n".format(self.grouped_file_name) + grouped_data)
-        with open(individual_html, 'w') as individual_modified: individual_modified.write("<title>{0} Plot</title\n".format(self.individual_file_name) + individual_data)
+        with open(grouped_html, 'w') as grouped_modified:
+            if self.grouped_file_name is None:
+                grouped_modified.write("<title>Grouped Plot</title>\n")
+                grouped_modified.write(grouped_data)
+
+            else:
+                grouped_modified.write( "<title>{0}</title>\n".format(self.grouped_file_name) )
+                grouped_modified.write(grouped_data)
+
+        with open(individual_html, 'w') as individual_modified:
+            if self.individual_file_name is None:
+                individual_modified.write("<title>Individual Plot</title>\n")
+                individual_modified.write(individual_data)
+            else:
+                individual_modified.write( "<title>{0}</title>\n".format(self.individual_file_name) )
+                individual_modified.write(individual_data)
+
+    def __write_logs_to_file(self, file_path):
+        """
+        This function will write the time that a plotly graph was created. It will be ran for each graph that is created
+        :param str file_path: This is where the file will be saved
+        """
+
+        log_path = "ScriptResults/Script_Logs/plotly_logs.txt"
+        Log("data_file: {0}\tsave_path: {1}".format(self.data_file, file_path),
+            log_path=log_path,
+            erase_file=False)
 
 
 class NanoPlot:
     def __init__(self, input_directory, save_directory):
+        """
+        This function will run NanoPlot on an input folder. Enter the directory of multiple .fastq/.fasta files as input, and the results will be saved into the save_directory
+        :param str input_directory: This is the parent folder of the .fastq/.fasta files
+        :param str save_directory: This is where you would like to save the output files of NanoPlot; NanoPlot creates many files per .fastq/.fastsa, so they will be placed in their own barcode folder
+        """
         self.input_directory = input_directory
         self.save_directory = save_directory
         self.file_paths = []
         self.invalid_files = []
-        self.iteration = 1
+        self.iteration = 0
 
         self.__collect_fastq_files()
         self.__create_nanoplot()
@@ -208,14 +249,21 @@ class NanoPlot:
         for file in self.file_paths:
             self.__update_task()
             save_folder = self.__get_new_folder_name(file)
-            message = "NanoPlot --fastq {0} --outdir {1}".format( file, save_folder )
-            message = message.split(" ")
+
+            # try to make the output directory
             try:
+                pathlib.Path.mkdir( self=pathlib.Path(self.save_directory), exist_ok=True )
+            except FileExistsError:
+                pass
+
+            message = "NanoPlot --fastq {0} --outdir {1}".format( file, save_folder )
+            try:
+                self.__write_logs_to_file(message)
+                message = message.split(" ")
                 command = subprocess.run(message, stdout=PIPE, stderr=PIPE, universal_newlines=True)
 
             except FileNotFoundError:
                 self.invalid_files.append(file)
-            self.iteration += 1
 
     def __get_new_folder_name(self, file):
         barcode_number = re.split('[_.]', file)[-2]  # get the second to last item after splitting by underscores and periods
@@ -225,14 +273,28 @@ class NanoPlot:
 
     def __print_invalid_files(self):
         if len(self.invalid_files) > 1:
-            print("\rThe following files could not be found. If a large number of files appear below, please make sure your input and output directories exist.")
+            print("\rThe following files could not be found. If you are trying to procedss a large number of files and they do not appear,")
+            print("\tensure your input and output directories are correct.")
             for file in self.invalid_files:
                 print(file)
         elif len(self.invalid_files) == 1:
             print("\rThe following file could not be found.")
             print(self.invalid_files[0])
         else:
-            print("\r{0} of {0} files processed successfully".format(self.iteration, len(self.file_paths)))
+            print("\rNanoPlot has successfully processed {0} of {0} files.".format(self.iteration, len(self.file_paths)))
 
-    def __update_task(self):    
-        print( "\rNanoPlot running on file {0} of {1}.".format(self.iteration, len(self.file_paths)), end="" )
+    def __write_logs_to_file(self, command):
+        """
+        This will call the Log function to write a line to the specified log path.
+
+        :param str command: This is the line that will be written to the log. Its parameters can be found in self.__create_nanoplot
+        """
+
+        log_path = "ScriptResults/Script_Logs/nanoplot_logs.txt"
+        Log(log_line=command,
+            log_path=log_path,
+            erase_file=False)
+
+    def __update_task(self):
+        Update("NanoPlot", self.iteration, len(self.file_paths))
+        self.iteration += 1

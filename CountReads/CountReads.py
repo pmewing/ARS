@@ -1,6 +1,8 @@
+import time
 import os  # os.walk(), os.join.path()
 import pickle
 import csv
+from WriteLogs import Log
 
 
 class Count:
@@ -28,7 +30,7 @@ class Count:
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
         self.total_barcodes = self.__count_barcodes(self.file_paths)
-        self.__write_correlations_to_file(self.save_directory)
+        self.__write_correlations_to_file()
 
     def __return_file_paths(self, barcode_parent):
         """
@@ -119,7 +121,7 @@ class Count:
         """
         Barcodes are classified into one of two categories: barcode## (where ## are integers), or unclassified
         If an unclassified folder is found, barcode_index will be -1. In this case, the unclassified_index will be
-            greater than -1. Use this index to find what 
+            greater than -1. Use this index to determine the folder name
         """
         if barcode_index > 0:
             folder_number = str_file_path[barcode_index: barcode_index + 9]
@@ -134,22 +136,22 @@ class Count:
         else:
             self.barcode_correlations[folder_number] += reads_in_file
 
-    def __write_correlations_to_file(self, save_directory):
+    def __write_correlations_to_file(self):
         """
         This function will write the dictionary self.barcode_correlations to a text file. This file can be specified by
         the user. For now, this will be saved in the same directory as the barcode folders under the name
         "barcode_counts.txt".
 
-        :param _io.TextIO save_directory: File path where barcode_counts.txt file should be saved.
+        :param: None
         :return: None
         """
 
         if self.file_name is None:
-            pickle_file_name = save_directory + "/barcode_pickle_dump.pkl"
-            save_directory = save_directory + "/barcode_counts.csv"
+            pickle_file_name = self.save_directory + "/barcode_pickle_dump.pkl"
+            save_directory = self.save_directory + "/barcode_counts.csv"
         else:
-            pickle_file_name = save_directory + "/{0}.pkl".format(self.file_name)
-            save_directory = save_directory + "/{0}_barcode_counts.csv".format(self.file_name)
+            pickle_file_name = self.save_directory + "/{0}.pkl".format(self.file_name)
+            save_directory = self.save_directory + "/{0}_barcode_counts.csv".format(self.file_name)
 
         sorted_keys = sorted(self.barcode_correlations)
 
@@ -169,6 +171,7 @@ class Count:
             for key in sorted_keys:
                 # write data to file
                 csv_writer.writerow( [key, '%d' % self.barcode_correlations[key]] )
+                self.__write_log_to_file(key)
 
         """
         Serialization is a process that saves data to a file so it can be used in its exact state at a later time
@@ -198,3 +201,34 @@ class Count:
         for key in new_dict:
             print(key, new_dict[key])
         """
+
+    def __write_log_to_file(self, barcode_number: str):
+        """
+        This function will write to a log file stating what barcode is being counted
+
+        It will write logs in the following format: YEAR-MONTH-DAY HOUR:MINUTE -- COMMAND LINE
+                                                    2020-06-01 09:35 | barcode03 completed counting
+                                                    2020-06-01 15:05 | barcode45 completed counting
+
+        :param str barcode_number: This is the current file path that is being counted
+        """
+
+        log_path = "ScriptResults/Script_Logs/count_reads_log.txt"
+
+        # find the barcode index to know that it has been counted
+        barcode_index = -1
+        for index in range(len(self.file_paths)):
+            if barcode_number in self.file_paths[index]:
+                barcode_index = index
+
+        # the barcode has NOT been found
+        if barcode_index is -1:
+            Log("Unknown Barcode: {0}".format(barcode_number),
+                log_path=log_path,
+                erase_file=False)
+
+        # the barcode HAS been found
+        else:
+            Log("Completed count on: {0}".format(self.file_paths[barcode_index]),
+                log_path=log_path,
+                erase_file=False)

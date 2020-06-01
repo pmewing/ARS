@@ -1,5 +1,7 @@
+import time
 import os  # os.walk()
 import re  # split strings on multiple characters
+from WriteLogs import Log
 
 
 class Merge:
@@ -20,7 +22,7 @@ class Merge:
         :param str save_directory: This is where concatonated files will be saved
         :return: None
         """
-        self.open_directory = input_directory
+        self.input_directory = input_directory
         self.save_directory = save_directory
         self.__concatonate_files_controller()
 
@@ -44,7 +46,7 @@ class Merge:
 
         # find all barcode file paths
         barcode_directories = []
-        for root, directory, files in os.walk(self.open_directory):
+        for root, directory, files in os.walk(self.input_directory):
             for name in directory:
                 barcode_directories.append( os.path.join(root, name) )
 
@@ -53,10 +55,9 @@ class Merge:
             file = os.listdir(item)[0]
             path = item
 
-            new_file_name = self.__return_new_file_name(file_name=file,
-                                                        file_path=path)
-            self.__concatonate_files(new_file_name=new_file_name,
-                                     parent_folder=path)
+            new_file_name = self.__return_new_file_name(file_name=file, file_path=path)
+            self.__concatonate_files(new_file_name=new_file_name, parent_folder=path)
+            self.__write_logs_to_file(new_file_name)
 
     def __return_new_file_name(self, file_name: str, file_path: str):
         """
@@ -112,3 +113,25 @@ class Merge:
                 with open(name, 'r') as reader:
                     for line in reader:
                         writer.write(line)
+
+    def __write_logs_to_file(self, file_path):
+        """
+        This function will write logs to the log file specified when a successful merge has been completed
+
+        :param str file_path: This is the name of the file path that has just been merged
+        """
+
+        """
+        The following options are used to format the date/time of logs
+        %Y  Year with century as a decimal number.
+        %m  Month as a decimal number [01,12].
+        %d  Day of the month as a decimal number [01,31].
+
+        %H  Hour (24-hour clock) as a decimal number [00,23].
+        %M  Minute as a decimal number [00,59].
+        """
+
+        log_path = "ScriptResults/Script_Logs/merge_files_log.txt"
+        Log("Merged files to: {0}".format(file_path),
+            log_path=log_path,
+            erase_file=False)

@@ -9,11 +9,14 @@ from DataFrame import Frame
 
 
 if __name__ == '__main__':
+    Basecall(input_directory=r"/home/joshl/minknow_data/SBGX_CLC",
+             save_directory=r"/home/joshl/minknow_data/basecalled")
 
-    GuppyAlignment(input_directory=r"/home/joshl/Desktop/input",
-                   save_directory=r"/home/joshl/Desktop/output",
-                   align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/silva_alignment_reference.fasta")
+    Barcode(input_directory=r"/home/joshl/minknow_data/basecalled",
+            save_directory=r"/home/joshl/minknow_data/demultiplex_dual")
 
-    MiniMap2(input_directory=r"/home/joshl/Desktop/input/",
-             save_directory=r"/home/joshl/Desktop/output/MiniMap2",
-             align_reference=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Files/silva_alignment_reference.fasta")
+    # Merge(input_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+    #       save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Merge_Files")
+
+    # Count(input_directory=r"/home/joshl/minknow_data/demultiplex_dual",
+    #       save_directory=r"/home/joshl/PycharmProjects/ARS/ScriptResults/Count_Reads")

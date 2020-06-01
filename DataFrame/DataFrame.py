@@ -1,7 +1,8 @@
+import time
 import csv
 import pandas as pd
 import numpy as np
-
+from WriteLogs import Log
 
 class Frame:
     def __init__(self, output_directory, zymogen_results_directory, reduced_zymogen_results_directory, silva_results_directory):
@@ -41,3 +42,27 @@ class Frame:
 
             # write a header row
             file_writer.writerow(["read_ids", "zymogen alignment", "zymogen %", "rzymo alignment", "rzymo %", "silva alignment", "silva %", "rzymo == zymo", "silva == zymo"])
+        self.__write_logs_to_file(file_path)
+
+    def __write_logs_to_file(self, file_name):
+        """
+        This function will write logs to the log file specified when a successful dataframe has been completed
+
+        :param str file_name: This is the name of the csv file the dataframe is located in
+        """
+
+        """
+        The following options are used to format the date/time of logs
+        %Y  Year with century as a decimal number.
+        %m  Month as a decimal number [01,12].
+        %d  Day of the month as a decimal number [01,31].
+
+        %H  Hour (24-hour clock) as a decimal number [00,23].
+        %M  Minute as a decimal number [00,59].
+        """
+
+        log_path = "ScriptResults/Script_Logs/data_frame_log.txt"
+
+        Log("DataFrame saved to file: {0}".format(file_name),
+            log_path=log_path,
+            erase_file=False)
