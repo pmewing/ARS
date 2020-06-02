@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from WriteLogs import Log
 
+
 class Frame:
     def __init__(self, output_directory, zymogen_results_directory, reduced_zymogen_results_directory, silva_results_directory):
         """

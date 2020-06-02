@@ -1,11 +1,10 @@
 import sys
-from PyQt5 import QtCore, QtWidgets, QtGui
+from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QPushButton, QLabel, QFileDialog
 
 # add the parent folder to the path so other folders can be used. Fixes import lines when running this from the command line
 sys.path.append("../")
-from CountReads.CountReads import Count
-from MergeFiles.MergeFiles import Merge
+from CountReads import Count
 
 # add these items to path so they can be imported
 # sys.path.append("/home/joshl/PycharmProjects/ARS Projects/CountReads/")

@@ -1,4 +1,5 @@
-import time
+import subprocess
+from subprocess import PIPE
 import os  # os.walk(), os.join.path()
 import pickle
 import csv
@@ -15,7 +16,10 @@ class Count:
         Creates a file in the directory selected containing which barcode folders
         This will only work on .fastq/.fasta files
 
-        :return str barcode_file_location: This is the location of the parent folder
+        :param str input_directory: The input location of .fastx files that you would like to count the number of reads of
+        :param str save_directory: This is where the resulting .csv file will be saved
+        :param str file_name: An optional parameter of the name of the file. A `.csv` extension will automatically be added at the end of your file name
+        :return: None
         """
 
         self.save_directory = save_directory
@@ -26,6 +30,9 @@ class Count:
 
         #  get locations of all barcode files
         self.file_paths = sorted(self.__return_file_paths(self.input_directory))
+
+        # we want to check the output of paths, and ensure that the argument input is correct
+        self.__validate_file_argument_input()
 
         #  count barcodes
         self.total_barcodes = -1  # no barcodes found
@@ -54,6 +61,47 @@ class Count:
             for name in files:
                 file_paths.append( os.path.join(root, name) )  # append file to file_paths
         return file_paths
+
+    def __validate_file_argument_input(self):
+        correct_input = True
+
+        # try to clear the screen
+        try:
+            subprocess.run("clear")
+        except FileNotFoundError:
+            subprocess.run("cls")
+
+        if len(self.file_paths) == 0:
+            print("")
+            print("No files were returned from your input path")
+            print("If your path contains spaces, please place quotations around them when calling CountReads.py")
+            print( "Input path: {0}".format(self.input_directory) )
+            correct_input = False
+
+        if not os.path.isdir(self.input_directory):
+            print("")
+            print("Your input path is not a directory")
+            print("If your path contains spaces, please place quotations around them when calling CountReads.py")
+            print( "Input path: {0}".format(self.save_directory) )
+            correct_input = False
+
+        if not os.path.isdir(self.save_directory):
+            print("")
+            print("Your save path is not a directory")
+            print( "Save path: {0}".format(self.save_directory) )
+            correct_input = False
+
+        # if `/` or `\` in self.file_name, tell user they cannot do this
+        if any(x in "\\/" for x in self.file_name):
+            print("")
+            print("You cannot have a slash (forward or backward) in your file name")
+            print("File name: {0}".format(self.file_name))
+            correct_input = False
+
+        if not correct_input:
+            exit(0)
+
+
 
     def __count_barcodes(self, barcode_file_path):
         """
@@ -151,7 +199,7 @@ class Count:
             save_directory = self.save_directory + "/barcode_counts.csv"
         else:
             pickle_file_name = self.save_directory + "/{0}.pkl".format(self.file_name)
-            save_directory = self.save_directory + "/{0}_barcode_counts.csv".format(self.file_name)
+            save_directory = self.save_directory + "/{0}.csv".format(self.file_name)
 
         sorted_keys = sorted(self.barcode_correlations)
 
@@ -232,3 +280,24 @@ class Count:
             Log("Completed count on: {0}".format(self.file_paths[barcode_index]),
                 log_path=log_path,
                 erase_file=False)
+
+
+if __name__ == '__main__':
+    import sys
+    arguments = sys.argv
+
+    arguments = ["This", "is", "my", "test/"]
+
+    # the file name is always passed in as an argument, so we must add 1 to the total number of argv's we think we are getting
+    if len(arguments) == 3:
+        Count(input_directory=arguments[1], save_directory=arguments[2])
+    elif len(arguments) == 4:
+        Count(input_directory=arguments[1], save_directory=arguments[2], file_name=arguments[3])
+    else:
+        print(arguments)
+        print("")
+        print("You must include an argument for the following parameters:")
+        print("input_directory: The input location of .fastx files that you would like to count the number of reads ")
+        print("save_directory: This is where the resulting .csv file will be saved")
+        print("(optional) file_name: An optional parameter of the name of the file. A `.csv` extension will automatically be added at the end of your file name")
+        print("")
