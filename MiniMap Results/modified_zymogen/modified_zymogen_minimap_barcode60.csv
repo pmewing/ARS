@@ -1,0 +1,1150 @@
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Salmonella_enterica_16S_1	1534	34	1471	793	1486	6	tp:A:P	cm:i:97	s1:i:787	s2:i:768	dv:f:0.0709	rl:i:0
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Escherichia_coli_16S_3	1542	41	1478	776	1491	0	tp:A:S	cm:i:91	s1:i:768	dv:f:0.0752	rl:i:0
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Escherichia_coli_16S_4	1542	41	1478	776	1491	0	tp:A:S	cm:i:91	s1:i:768	dv:f:0.0752	rl:i:0
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Escherichia_coli_16S_1	1542	41	1478	776	1491	0	tp:A:S	cm:i:91	s1:i:768	dv:f:0.0752	rl:i:0
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Escherichia_coli_16S_7	1542	41	1478	776	1491	0	tp:A:S	cm:i:91	s1:i:768	dv:f:0.0752	rl:i:0
+7f06b45a-24f7-489e-ac4d-2ddfe1105c84	1608	14	1488	+	Escherichia_coli_16S_8	1542	41	1478	776	1491	0	tp:A:S	cm:i:91	s1:i:768	dv:f:0.0752	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_6	1534	75	1468	848	1451	0	tp:A:P	cm:i:108	s1:i:840	s2:i:840	dv:f:0.0573	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_5	1534	75	1468	848	1451	0	tp:A:S	cm:i:108	s1:i:840	dv:f:0.0573	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_5	1534	75	1468	848	1451	0	tp:A:S	cm:i:108	s1:i:840	dv:f:0.0573	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_3	1534	75	1468	848	1451	0	tp:A:S	cm:i:108	s1:i:840	dv:f:0.0573	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_2	1534	75	1468	848	1451	0	tp:A:S	cm:i:108	s1:i:840	dv:f:0.0573	rl:i:0
+fcc6e729-8f0a-43df-a34d-1bf4c77cfe38	1599	55	1488	+	Salmonella_enterica_16S_4	1534	75	1468	848	1451	0	tp:A:S	cm:i:108	s1:i:840	dv:f:0.0573	rl:i:0
+d47a6abb-ed3d-45af-a57b-1557bdc5451a	1579	26	1488	+	Lactobacillus_fermentum_16S_2	1578	52	1526	969	1503	3	tp:A:P	cm:i:122	s1:i:963	s2:i:950	dv:f:0.0537	rl:i:0
+d47a6abb-ed3d-45af-a57b-1557bdc5451a	1579	26	1488	+	Lactobacillus_fermentum_16S_1	1568	52	1516	954	1493	0	tp:A:S	cm:i:121	s1:i:950	dv:f:0.0542	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_2	1556	38	1443	581	1408	1	tp:A:P	cm:i:72	s1:i:579	s2:i:576	dv:f:0.0856	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_4	1556	38	1443	578	1408	0	tp:A:S	cm:i:67	s1:i:576	dv:f:0.0904	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_3	1556	38	1443	578	1408	0	tp:A:S	cm:i:67	s1:i:576	dv:f:0.0904	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_5	1556	38	1443	578	1408	0	tp:A:S	cm:i:67	s1:i:576	dv:f:0.0904	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_6	1556	38	1443	578	1408	0	tp:A:S	cm:i:67	s1:i:576	dv:f:0.0904	rl:i:0
+74ef8e48-5cd4-43c3-952e-8038391f4dd9	1535	9	1389	+	Staphylococcus_aureus_16S_1	1556	38	1443	578	1408	0	tp:A:S	cm:i:67	s1:i:576	dv:f:0.0904	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1397	+	Staphylococcus_aureus_16S_5	1556	38	1443	517	1425	0	tp:A:P	cm:i:63	s1:i:510	s2:i:510	dv:f:0.0953	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1397	+	Staphylococcus_aureus_16S_1	1556	38	1443	517	1425	0	tp:A:S	cm:i:63	s1:i:510	dv:f:0.0953	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1397	+	Staphylococcus_aureus_16S_3	1556	38	1443	517	1425	0	tp:A:S	cm:i:63	s1:i:510	dv:f:0.0953	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1397	+	Staphylococcus_aureus_16S_4	1556	38	1443	517	1425	0	tp:A:S	cm:i:63	s1:i:510	dv:f:0.0953	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1397	+	Staphylococcus_aureus_16S_6	1556	38	1443	517	1425	0	tp:A:S	cm:i:63	s1:i:510	dv:f:0.0953	rl:i:0
+58e83ba5-1bb4-4fb0-9c3d-ef6f11c759a3	1558	9	1454	+	Bacillus_subtilis_16S_7	1558	38	1496	516	1479	0	tp:A:S	cm:i:62	s1:i:509	dv:f:0.0991	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_2	1552	29	1512	868	1498	1	tp:A:P	cm:i:116	s1:i:862	s2:i:856	dv:f:0.0530	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_6	1552	29	1512	862	1498	0	tp:A:S	cm:i:113	s1:i:856	dv:f:0.0548	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_1	1552	29	1512	862	1498	0	tp:A:S	cm:i:113	s1:i:856	dv:f:0.0548	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_5	1552	29	1512	862	1498	0	tp:A:S	cm:i:113	s1:i:856	dv:f:0.0548	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_4	1552	29	1512	862	1498	0	tp:A:S	cm:i:113	s1:i:856	dv:f:0.0548	rl:i:0
+6a09bd7f-ae8d-4543-aa2a-75b1cb7ce5ae	1549	2	1457	+	Listeria_monocytogenes_16S_3	1552	29	1512	852	1498	0	tp:A:S	cm:i:112	s1:i:846	dv:f:0.0554	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_4	1534	119	1499	537	1392	0	tp:A:P	cm:i:62	s1:i:525	s2:i:525	dv:f:0.0943	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_5	1534	119	1499	537	1392	0	tp:A:S	cm:i:62	s1:i:525	dv:f:0.0943	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_3	1534	119	1499	537	1392	0	tp:A:S	cm:i:62	s1:i:525	dv:f:0.0943	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_5	1534	119	1499	537	1392	0	tp:A:S	cm:i:62	s1:i:525	dv:f:0.0943	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_6	1534	119	1499	537	1392	0	tp:A:S	cm:i:62	s1:i:525	dv:f:0.0943	rl:i:0
+8492c07e-ff57-43bd-9195-c634fb60fe43	1498	94	1427	+	Salmonella_enterica_16S_2	1534	119	1499	537	1392	0	tp:A:S	cm:i:62	s1:i:525	dv:f:0.0943	rl:i:0
+fc39c177-631d-472e-8520-b99c6e72b739	1551	10	1435	+	Lactobacillus_fermentum_16S_2	1578	30	1516	600	1498	10	tp:A:P	cm:i:70	s1:i:586	s2:i:562	dv:f:0.0905	rl:i:0
+fc39c177-631d-472e-8520-b99c6e72b739	1551	10	1435	+	Lactobacillus_fermentum_16S_1	1568	30	1506	575	1488	0	tp:A:S	cm:i:67	s1:i:562	dv:f:0.0934	rl:i:0
+73ecc78d-1393-44ee-a166-0cdb575777c8	1599	10	1506	+	Lactobacillus_fermentum_16S_2	1578	30	1541	1004	1528	4	tp:A:P	cm:i:144	s1:i:1001	s2:i:983	dv:f:0.0431	rl:i:0
+73ecc78d-1393-44ee-a166-0cdb575777c8	1599	10	1506	+	Lactobacillus_fermentum_16S_1	1568	30	1531	984	1518	0	tp:A:S	cm:i:142	s1:i:983	dv:f:0.0441	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_5	1552	44	1512	705	1482	0	tp:A:P	cm:i:83	s1:i:701	s2:i:701	dv:f:0.0801	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_1	1552	44	1512	705	1482	0	tp:A:S	cm:i:83	s1:i:701	dv:f:0.0801	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_4	1552	44	1512	705	1482	0	tp:A:S	cm:i:83	s1:i:701	dv:f:0.0801	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_6	1552	44	1512	705	1482	0	tp:A:S	cm:i:83	s1:i:701	dv:f:0.0801	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_3	1552	44	1512	702	1482	0	tp:A:S	cm:i:82	s1:i:698	dv:f:0.0809	rl:i:0
+82d34146-8352-49dd-bfdb-f89c187ceb49	1543	16	1452	+	Listeria_monocytogenes_16S_2	1552	44	1512	699	1482	0	tp:A:S	cm:i:80	s1:i:695	dv:f:0.0826	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_6	1558	81	1505	825	1463	6	tp:A:P	cm:i:99	s1:i:822	s2:i:801	dv:f:0.0674	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_9	1558	81	1505	804	1463	0	tp:A:S	cm:i:93	s1:i:801	dv:f:0.0715	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_10	1558	81	1505	804	1463	0	tp:A:S	cm:i:93	s1:i:801	dv:f:0.0715	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_8	1558	81	1505	804	1463	0	tp:A:S	cm:i:93	s1:i:801	dv:f:0.0715	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_1	1558	81	1505	804	1463	0	tp:A:S	cm:i:93	s1:i:801	dv:f:0.0715	rl:i:0
+36636860-9b75-49a8-b6f6-c7cc8eed1355	1590	57	1505	+	Bacillus_subtilis_16S_3	1558	81	1505	802	1463	0	tp:A:S	cm:i:96	s1:i:799	dv:f:0.0694	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_3	1558	30	1447	466	1422	0	tp:A:P	cm:i:57	s1:i:450	s2:i:450	dv:f:0.0994	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_6	1558	30	1447	466	1422	0	tp:A:S	cm:i:57	s1:i:450	dv:f:0.0994	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_5	1558	30	1447	466	1422	0	tp:A:S	cm:i:57	s1:i:450	dv:f:0.0994	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_2	1558	30	1447	466	1422	0	tp:A:S	cm:i:57	s1:i:450	dv:f:0.0994	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_10	1558	30	1447	466	1422	0	tp:A:S	cm:i:57	s1:i:450	dv:f:0.0994	rl:i:0
+38b616d5-9758-4674-83dc-87780ff3cc45	1516	2	1349	+	Bacillus_subtilis_16S_7	1558	30	1447	466	1422	0	tp:A:S	cm:i:57	s1:i:450	dv:f:0.0994	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Enterococcus_faecalis_16S_4	1562	27	1521	799	1506	0	tp:A:P	cm:i:97	s1:i:790	s2:i:790	dv:f:0.0628	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Enterococcus_faecalis_16S_1	1562	27	1521	799	1506	0	tp:A:S	cm:i:97	s1:i:790	dv:f:0.0628	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Enterococcus_faecalis_16S_3	1562	27	1521	799	1506	0	tp:A:S	cm:i:97	s1:i:790	dv:f:0.0628	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Enterococcus_faecalis_16S_2	1562	27	1521	799	1506	0	tp:A:S	cm:i:97	s1:i:790	dv:f:0.0628	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Bacillus_subtilis_16S_7	1558	30	1513	654	1502	0	tp:A:S	cm:i:74	s1:i:642	dv:f:0.0809	rl:i:0
+fa78e02f-0998-4a53-b7b2-fa61b9b6bb25	1528	2	1438	+	Bacillus_subtilis_16S_8	1558	30	1513	646	1502	0	tp:A:S	cm:i:73	s1:i:634	dv:f:0.0818	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_1	1558	30	1461	602	1440	0	tp:A:P	cm:i:70	s1:i:600	s2:i:600	dv:f:0.0862	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_2	1558	30	1461	602	1440	0	tp:A:S	cm:i:70	s1:i:600	dv:f:0.0862	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_6	1558	30	1461	602	1440	0	tp:A:S	cm:i:70	s1:i:600	dv:f:0.0862	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_4	1558	30	1461	602	1440	0	tp:A:S	cm:i:70	s1:i:600	dv:f:0.0862	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_8	1558	30	1461	602	1440	0	tp:A:S	cm:i:70	s1:i:600	dv:f:0.0862	rl:i:0
+e16a8e02-ffd2-4241-b934-8bd0574d19cb	1559	2	1417	+	Bacillus_subtilis_16S_10	1558	30	1461	602	1440	0	tp:A:S	cm:i:70	s1:i:600	dv:f:0.0862	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_1	1552	29	1512	815	1493	0	tp:A:P	cm:i:107	s1:i:807	s2:i:807	dv:f:0.0615	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_6	1552	29	1512	815	1493	0	tp:A:S	cm:i:107	s1:i:807	dv:f:0.0615	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_2	1552	29	1512	815	1493	0	tp:A:S	cm:i:107	s1:i:807	dv:f:0.0615	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_4	1552	29	1512	815	1493	0	tp:A:S	cm:i:107	s1:i:807	dv:f:0.0615	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_5	1552	29	1512	815	1493	0	tp:A:S	cm:i:107	s1:i:807	dv:f:0.0615	rl:i:0
+b14dcb86-57bf-43d0-af1c-afeea6f4bc54	1532	2	1448	+	Listeria_monocytogenes_16S_3	1552	29	1512	805	1493	0	tp:A:S	cm:i:106	s1:i:797	dv:f:0.0621	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_2	1542	52	1506	819	1471	0	tp:A:P	cm:i:108	s1:i:815	s2:i:815	dv:f:0.0606	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_7	1542	52	1506	819	1471	0	tp:A:S	cm:i:108	s1:i:815	dv:f:0.0606	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_3	1542	52	1506	804	1471	0	tp:A:S	cm:i:107	s1:i:800	dv:f:0.0612	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_4	1542	52	1506	804	1471	0	tp:A:S	cm:i:107	s1:i:800	dv:f:0.0612	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_1	1542	52	1506	804	1471	0	tp:A:S	cm:i:107	s1:i:800	dv:f:0.0612	rl:i:0
+e184b6c1-924d-4d30-ba2c-3072208b61ab	1536	27	1464	+	Escherichia_coli_16S_8	1542	52	1506	804	1471	0	tp:A:S	cm:i:107	s1:i:800	dv:f:0.0612	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_3	1556	38	1515	717	1529	0	tp:A:P	cm:i:84	s1:i:709	s2:i:709	dv:f:0.0826	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_4	1556	38	1515	717	1529	0	tp:A:S	cm:i:84	s1:i:709	dv:f:0.0826	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_6	1556	38	1515	717	1529	0	tp:A:S	cm:i:84	s1:i:709	dv:f:0.0826	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_2	1556	38	1515	717	1529	0	tp:A:S	cm:i:84	s1:i:709	dv:f:0.0826	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_5	1556	38	1515	717	1529	0	tp:A:S	cm:i:84	s1:i:709	dv:f:0.0826	rl:i:0
+27f9597b-dabf-4c48-80de-a1ec4cd061ae	1616	9	1522	+	Staphylococcus_aureus_16S_1	1556	38	1515	702	1529	0	tp:A:S	cm:i:83	s1:i:694	dv:f:0.0834	rl:i:0
+dadb2437-ea32-405b-b0b3-a54495ef0da8	1577	11	1483	+	Enterococcus_faecalis_16S_3	1562	35	1521	895	1499	0	tp:A:P	cm:i:120	s1:i:892	s2:i:892	dv:f:0.0510	rl:i:0
+dadb2437-ea32-405b-b0b3-a54495ef0da8	1577	11	1483	+	Enterococcus_faecalis_16S_2	1562	35	1521	895	1499	0	tp:A:S	cm:i:120	s1:i:892	dv:f:0.0510	rl:i:0
+dadb2437-ea32-405b-b0b3-a54495ef0da8	1577	11	1483	+	Enterococcus_faecalis_16S_4	1562	35	1521	895	1499	0	tp:A:S	cm:i:120	s1:i:892	dv:f:0.0510	rl:i:0
+dadb2437-ea32-405b-b0b3-a54495ef0da8	1577	11	1483	+	Enterococcus_faecalis_16S_1	1562	35	1521	895	1499	0	tp:A:S	cm:i:120	s1:i:892	dv:f:0.0510	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_3	1556	28	1363	656	1346	0	tp:A:P	cm:i:75	s1:i:653	s2:i:653	dv:f:0.0761	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_5	1556	28	1363	656	1346	0	tp:A:S	cm:i:75	s1:i:653	dv:f:0.0761	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_6	1556	28	1363	656	1346	0	tp:A:S	cm:i:75	s1:i:653	dv:f:0.0761	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_1	1556	28	1363	656	1346	0	tp:A:S	cm:i:75	s1:i:653	dv:f:0.0761	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_4	1556	28	1363	656	1346	0	tp:A:S	cm:i:75	s1:i:653	dv:f:0.0761	rl:i:0
+7e907bd8-7414-45c6-805f-8c7ea17eb5c3	1563	0	1313	+	Staphylococcus_aureus_16S_2	1556	28	1363	637	1346	0	tp:A:S	cm:i:73	s1:i:633	dv:f:0.0779	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	28	1454	+	Listeria_monocytogenes_16S_2	1552	55	1486	711	1463	4	tp:A:P	cm:i:85	s1:i:702	s2:i:689	dv:f:0.0758	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	28	1454	+	Listeria_monocytogenes_16S_1	1552	55	1486	698	1463	0	tp:A:S	cm:i:82	s1:i:689	dv:f:0.0782	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	28	1454	+	Listeria_monocytogenes_16S_6	1552	55	1486	698	1463	0	tp:A:S	cm:i:82	s1:i:689	dv:f:0.0782	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	28	1454	+	Listeria_monocytogenes_16S_5	1552	55	1486	698	1463	0	tp:A:S	cm:i:82	s1:i:689	dv:f:0.0782	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	28	1454	+	Listeria_monocytogenes_16S_4	1552	55	1486	698	1463	0	tp:A:S	cm:i:82	s1:i:689	dv:f:0.0782	rl:i:0
+e57cd1d5-dcdb-4b32-9092-4e18d73a27fb	1559	76	1463	+	Bacillus_subtilis_16S_1	1558	100	1496	691	1423	0	tp:A:S	cm:i:82	s1:i:683	dv:f:0.0756	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_2	1534	45	1499	558	1495	0	tp:A:P	cm:i:76	s1:i:551	s2:i:551	dv:f:0.0857	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_3	1534	45	1499	558	1495	0	tp:A:S	cm:i:76	s1:i:551	dv:f:0.0857	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_4	1534	45	1499	558	1495	0	tp:A:S	cm:i:76	s1:i:551	dv:f:0.0857	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_5	1534	45	1499	558	1495	0	tp:A:S	cm:i:76	s1:i:551	dv:f:0.0857	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_5	1534	45	1499	558	1495	0	tp:A:S	cm:i:76	s1:i:551	dv:f:0.0857	rl:i:0
+e92cac58-d83e-4307-ad05-f3c45d833a91	1606	25	1513	+	Salmonella_enterica_16S_6	1534	45	1499	558	1495	0	tp:A:S	cm:i:76	s1:i:551	dv:f:0.0857	rl:i:0
+59adb33f-1388-4fe2-9f40-0f0dc0532b24	1574	24	1477	+	Lactobacillus_fermentum_16S_2	1578	52	1541	935	1502	5	tp:A:P	cm:i:119	s1:i:929	s2:i:909	dv:f:0.0529	rl:i:0
+59adb33f-1388-4fe2-9f40-0f0dc0532b24	1574	24	1477	+	Lactobacillus_fermentum_16S_1	1568	52	1531	913	1492	0	tp:A:S	cm:i:116	s1:i:909	dv:f:0.0546	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_1	1556	189	1498	557	1329	6	tp:A:P	cm:i:64	s1:i:553	s2:i:539	dv:f:0.0878	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_2	1556	189	1498	543	1329	0	tp:A:S	cm:i:62	s1:i:539	dv:f:0.0900	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_4	1556	189	1498	543	1329	0	tp:A:S	cm:i:62	s1:i:539	dv:f:0.0900	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_6	1556	189	1498	543	1329	0	tp:A:S	cm:i:62	s1:i:539	dv:f:0.0900	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_3	1556	189	1498	543	1329	0	tp:A:S	cm:i:62	s1:i:539	dv:f:0.0900	rl:i:0
+e030b0b7-f35e-4574-ade1-5aaa456ced2a	1571	165	1477	+	Staphylococcus_aureus_16S_5	1556	189	1498	543	1329	0	tp:A:S	cm:i:62	s1:i:539	dv:f:0.0900	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_4	1558	30	1513	1004	1495	0	tp:A:P	cm:i:146	s1:i:1000	s2:i:999	dv:f:0.0422	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_2	1558	30	1513	1003	1495	0	tp:A:S	cm:i:147	s1:i:999	dv:f:0.0418	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_3	1558	30	1513	1003	1495	0	tp:A:S	cm:i:147	s1:i:999	dv:f:0.0418	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_9	1558	30	1513	991	1495	0	tp:A:S	cm:i:143	s1:i:987	dv:f:0.0436	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_10	1558	30	1513	991	1495	0	tp:A:S	cm:i:143	s1:i:987	dv:f:0.0436	rl:i:0
+4ab092dd-66a5-4264-8b0b-8ab07e143c5e	1555	2	1468	+	Bacillus_subtilis_16S_1	1558	30	1513	991	1495	0	tp:A:S	cm:i:143	s1:i:987	dv:f:0.0436	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	295	1452	+	Lactobacillus_fermentum_16S_1	1568	347	1531	592	1192	0	tp:A:P	cm:i:78	s1:i:587	s2:i:585	dv:f:0.0709	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	295	1452	+	Lactobacillus_fermentum_16S_2	1578	347	1541	592	1201	0	tp:A:S	cm:i:78	s1:i:585	dv:f:0.0709	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	2	1452	+	Enterococcus_faecalis_16S_1	1562	27	1521	481	1501	0	tp:A:S	cm:i:48	s1:i:470	dv:f:0.1166	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	2	1452	+	Enterococcus_faecalis_16S_2	1562	27	1521	481	1501	0	tp:A:S	cm:i:48	s1:i:470	dv:f:0.1166	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	2	1452	+	Enterococcus_faecalis_16S_3	1562	27	1521	481	1501	0	tp:A:S	cm:i:48	s1:i:470	dv:f:0.1166	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	2	1452	+	Enterococcus_faecalis_16S_4	1562	27	1521	481	1501	0	tp:A:S	cm:i:48	s1:i:470	dv:f:0.1166	rl:i:0
+8f3a838e-987a-42dc-b8c2-17c8eed6c67c	1545	2	389	+	Bacillus_sporothermodurans_false_positive	463	3	399	83	403	50	tp:A:P	cm:i:6	s1:i:78	s2:i:0	dv:f:0.1599	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_3	1552	172	1360	297	1243	2	tp:A:P	cm:i:32	s1:i:287	s2:i:284	dv:f:0.1343	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_5	1552	172	1360	294	1243	0	tp:A:S	cm:i:29	s1:i:284	dv:f:0.1409	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_1	1552	172	1360	294	1243	0	tp:A:S	cm:i:29	s1:i:284	dv:f:0.1409	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_4	1552	172	1360	294	1243	0	tp:A:S	cm:i:29	s1:i:284	dv:f:0.1409	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_6	1552	172	1360	294	1243	0	tp:A:S	cm:i:29	s1:i:284	dv:f:0.1409	rl:i:0
+b70ce055-cf87-4ed4-84df-ae9a104b7b42	1625	151	1388	+	Listeria_monocytogenes_16S_2	1552	172	1360	279	1243	0	tp:A:S	cm:i:28	s1:i:269	dv:f:0.1432	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_4	1534	26	1346	559	1325	0	tp:A:P	cm:i:74	s1:i:553	s2:i:553	dv:f:0.0784	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_6	1534	26	1346	559	1325	0	tp:A:S	cm:i:74	s1:i:553	dv:f:0.0784	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_3	1534	26	1346	559	1325	0	tp:A:S	cm:i:74	s1:i:553	dv:f:0.0784	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_5	1534	26	1346	559	1325	0	tp:A:S	cm:i:74	s1:i:553	dv:f:0.0784	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_2	1534	26	1346	559	1325	0	tp:A:S	cm:i:74	s1:i:553	dv:f:0.0784	rl:i:0
+4f2c2086-2915-4074-987c-d852a861a2a3	1532	6	1289	+	Salmonella_enterica_16S_5	1534	26	1346	559	1325	0	tp:A:S	cm:i:74	s1:i:553	dv:f:0.0784	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_1	1552	245	1501	419	1268	0	tp:A:P	cm:i:46	s1:i:413	s2:i:413	dv:f:0.1084	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_3	1552	245	1501	419	1268	0	tp:A:S	cm:i:46	s1:i:413	dv:f:0.1084	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_4	1552	245	1501	419	1268	0	tp:A:S	cm:i:46	s1:i:413	dv:f:0.1084	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_2	1552	245	1501	419	1268	0	tp:A:S	cm:i:46	s1:i:413	dv:f:0.1084	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_5	1552	245	1501	419	1268	0	tp:A:S	cm:i:46	s1:i:413	dv:f:0.1084	rl:i:0
+03b6f2dc-3140-4c29-b1d4-c2bf31a02f87	1546	226	1462	+	Listeria_monocytogenes_16S_6	1552	245	1501	419	1268	0	tp:A:S	cm:i:46	s1:i:413	dv:f:0.1084	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_7	1558	251	1513	483	1269	0	tp:A:P	cm:i:47	s1:i:478	s2:i:478	dv:f:0.1053	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_1	1558	251	1513	483	1269	0	tp:A:S	cm:i:47	s1:i:478	dv:f:0.1053	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_8	1558	251	1513	483	1269	0	tp:A:S	cm:i:47	s1:i:478	dv:f:0.1053	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_10	1558	251	1513	483	1269	0	tp:A:S	cm:i:47	s1:i:478	dv:f:0.1053	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_9	1558	251	1513	483	1269	0	tp:A:S	cm:i:47	s1:i:478	dv:f:0.1053	rl:i:0
+c177a74b-f537-44b3-b6d9-018482077b38	1539	221	1444	+	Bacillus_subtilis_16S_6	1558	251	1513	480	1269	0	tp:A:S	cm:i:46	s1:i:475	dv:f:0.1067	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_1	1558	53	1513	738	1474	0	tp:A:P	cm:i:91	s1:i:732	s2:i:732	dv:f:0.0705	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_9	1558	53	1513	738	1474	0	tp:A:S	cm:i:91	s1:i:732	dv:f:0.0705	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_6	1558	53	1513	738	1474	0	tp:A:S	cm:i:91	s1:i:732	dv:f:0.0705	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_10	1558	53	1513	738	1474	0	tp:A:S	cm:i:91	s1:i:732	dv:f:0.0705	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_7	1558	53	1513	738	1474	0	tp:A:S	cm:i:91	s1:i:732	dv:f:0.0705	rl:i:0
+9d36fb92-a024-4740-bff9-947b783fb688	1546	25	1455	+	Bacillus_subtilis_16S_8	1558	53	1513	738	1474	0	tp:A:S	cm:i:91	s1:i:732	dv:f:0.0705	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_7	1558	81	1513	659	1456	0	tp:A:P	cm:i:73	s1:i:655	s2:i:652	dv:f:0.0849	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_6	1558	81	1513	656	1456	0	tp:A:S	cm:i:73	s1:i:652	dv:f:0.0849	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_8	1558	81	1513	651	1456	0	tp:A:S	cm:i:72	s1:i:647	dv:f:0.0859	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_1	1558	81	1513	651	1456	0	tp:A:S	cm:i:72	s1:i:647	dv:f:0.0859	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_9	1558	81	1513	651	1456	0	tp:A:S	cm:i:72	s1:i:647	dv:f:0.0859	rl:i:0
+7f19a5a0-300f-4974-a1d9-4cd592227e16	1561	56	1482	+	Bacillus_subtilis_16S_10	1558	81	1513	651	1456	0	tp:A:S	cm:i:72	s1:i:647	dv:f:0.0859	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_3	1552	37	1512	857	1491	0	tp:A:P	cm:i:112	s1:i:855	s2:i:855	dv:f:0.0574	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_1	1552	37	1512	857	1491	0	tp:A:S	cm:i:112	s1:i:855	dv:f:0.0574	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_2	1552	37	1512	857	1491	0	tp:A:S	cm:i:112	s1:i:855	dv:f:0.0574	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_4	1552	37	1512	857	1491	0	tp:A:S	cm:i:112	s1:i:855	dv:f:0.0574	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_5	1552	37	1512	857	1491	0	tp:A:S	cm:i:112	s1:i:855	dv:f:0.0574	rl:i:0
+7ac52e4f-3e87-44ee-b4c2-b96f0b2cc73a	1555	10	1479	+	Listeria_monocytogenes_16S_6	1552	37	1512	857	1491	0	tp:A:S	cm:i:112	s1:i:855	dv:f:0.0574	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_2	1556	317	1504	676	1204	3	tp:A:P	cm:i:80	s1:i:672	s2:i:664	dv:f:0.0643	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_4	1556	317	1504	668	1204	0	tp:A:S	cm:i:79	s1:i:664	dv:f:0.0652	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_6	1556	317	1504	668	1204	0	tp:A:S	cm:i:79	s1:i:664	dv:f:0.0652	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_3	1556	317	1504	668	1204	0	tp:A:S	cm:i:79	s1:i:664	dv:f:0.0652	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_5	1556	317	1504	668	1204	0	tp:A:S	cm:i:79	s1:i:664	dv:f:0.0652	rl:i:0
+37824d2c-ee4d-4e83-a7ff-51cb2c34020b	1560	278	1459	+	Staphylococcus_aureus_16S_1	1556	317	1504	654	1203	0	tp:A:S	cm:i:78	s1:i:650	dv:f:0.0660	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	10	1540	+	Lactobacillus_fermentum_16S_2	1578	30	1541	541	1546	6	tp:A:P	cm:i:62	s1:i:536	s2:i:522	dv:f:0.1010	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	10	1540	+	Lactobacillus_fermentum_16S_1	1568	30	1531	525	1535	0	tp:A:S	cm:i:60	s1:i:522	dv:f:0.1032	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	87	1542	+	Salmonella_enterica_16S_1	1534	90	1499	484	1462	0	tp:A:S	cm:i:55	s1:i:475	dv:f:0.1056	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	87	1542	+	Escherichia_coli_16S_5	1542	97	1506	468	1462	0	tp:A:S	cm:i:53	s1:i:459	dv:f:0.1080	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	87	1542	+	Escherichia_coli_16S_3	1542	97	1506	468	1462	0	tp:A:S	cm:i:53	s1:i:459	dv:f:0.1080	rl:i:0
+9b49fe95-5385-4037-8d0b-309d94bfc813	1636	87	1542	+	Escherichia_coli_16S_7	1542	97	1506	468	1462	0	tp:A:S	cm:i:53	s1:i:459	dv:f:0.1080	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_5	1558	30	1496	748	1495	3	tp:A:P	cm:i:94	s1:i:741	s2:i:731	dv:f:0.0713	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_7	1558	30	1496	738	1495	0	tp:A:S	cm:i:92	s1:i:731	dv:f:0.0728	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_1	1558	30	1496	736	1495	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0735	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_8	1558	30	1496	736	1495	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0735	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_9	1558	30	1496	736	1495	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0735	rl:i:0
+b3177650-71cf-4cc7-91ff-cdf08d1b2bed	1561	2	1467	+	Bacillus_subtilis_16S_10	1558	30	1496	736	1495	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0735	rl:i:0
+c3c083f9-fc8a-4e29-b4c5-a45493b8963e	1565	7	1454	+	Lactobacillus_fermentum_16S_2	1578	30	1517	607	1508	0	tp:A:P	cm:i:69	s1:i:596	s2:i:594	dv:f:0.0900	rl:i:0
+c3c083f9-fc8a-4e29-b4c5-a45493b8963e	1565	7	1454	+	Lactobacillus_fermentum_16S_1	1568	30	1507	607	1508	0	tp:A:S	cm:i:69	s1:i:594	dv:f:0.0900	rl:i:0
+70793431-1490-451e-8cd6-d728baab668e	1542	6	1452	+	Pseudomonas_aeruginosa_16S_3	1526	24	1489	715	1475	0	tp:A:P	cm:i:94	s1:i:713	s2:i:713	dv:f:0.0691	rl:i:0
+70793431-1490-451e-8cd6-d728baab668e	1542	6	1452	+	Pseudomonas_aeruginosa_16S_2	1526	24	1489	715	1475	0	tp:A:S	cm:i:94	s1:i:713	dv:f:0.0691	rl:i:0
+70793431-1490-451e-8cd6-d728baab668e	1542	6	1452	+	Pseudomonas_aeruginosa_16S_1	1526	24	1489	715	1475	0	tp:A:S	cm:i:94	s1:i:713	dv:f:0.0691	rl:i:0
+70793431-1490-451e-8cd6-d728baab668e	1542	6	1452	+	Pseudomonas_aeruginosa_16S_4	1526	24	1489	715	1475	0	tp:A:S	cm:i:94	s1:i:713	dv:f:0.0691	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_6	1552	37	1466	588	1440	0	tp:A:P	cm:i:69	s1:i:582	s2:i:582	dv:f:0.0902	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_2	1552	37	1466	588	1440	0	tp:A:S	cm:i:69	s1:i:582	dv:f:0.0902	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_5	1552	37	1466	588	1440	0	tp:A:S	cm:i:69	s1:i:582	dv:f:0.0902	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_4	1552	37	1466	588	1440	0	tp:A:S	cm:i:69	s1:i:582	dv:f:0.0902	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_1	1552	37	1466	588	1440	0	tp:A:S	cm:i:69	s1:i:582	dv:f:0.0902	rl:i:0
+109b3166-46b1-4e79-babd-cfb362db39fc	1550	11	1415	+	Listeria_monocytogenes_16S_3	1552	37	1466	588	1440	0	tp:A:S	cm:i:69	s1:i:582	dv:f:0.0902	rl:i:0
+81fb5606-b101-446f-ac00-a4f8520d8251	1596	10	1406	+	Lactobacillus_fermentum_16S_2	1578	30	1438	854	1423	11	tp:A:P	cm:i:111	s1:i:851	s2:i:815	dv:f:0.0567	rl:i:0
+81fb5606-b101-446f-ac00-a4f8520d8251	1596	10	1406	+	Lactobacillus_fermentum_16S_1	1568	30	1428	817	1413	0	tp:A:S	cm:i:106	s1:i:815	dv:f:0.0598	rl:i:0
+4d09532a-72b8-4140-9f1f-7bfb3f0ee1c5	1562	15	1466	+	Lactobacillus_fermentum_16S_2	1578	37	1541	537	1517	1	tp:A:P	cm:i:64	s1:i:521	s2:i:517	dv:f:0.0991	rl:i:0
+4d09532a-72b8-4140-9f1f-7bfb3f0ee1c5	1562	15	1466	+	Lactobacillus_fermentum_16S_1	1568	37	1531	531	1507	0	tp:A:S	cm:i:63	s1:i:517	dv:f:0.1002	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_2	1534	334	1499	420	1178	0	tp:A:P	cm:i:47	s1:i:416	s2:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_5	1534	334	1499	420	1178	0	tp:A:S	cm:i:47	s1:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_4	1534	334	1499	420	1178	0	tp:A:S	cm:i:47	s1:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_5	1534	334	1499	420	1178	0	tp:A:S	cm:i:47	s1:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_3	1534	334	1499	420	1178	0	tp:A:S	cm:i:47	s1:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	305	1462	+	Salmonella_enterica_16S_6	1534	334	1499	420	1178	0	tp:A:S	cm:i:47	s1:i:416	dv:f:0.1001	rl:i:0
+7f23e11d-a3f2-49b5-b956-dfa5ca10fff3	1532	2	395	+	Bacillus_sporothermodurans_false_positive	463	3	412	67	411	36	tp:A:P	cm:i:6	s1:i:63	s2:i:0	dv:f:0.1666	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_1	1534	564	1480	408	930	0	tp:A:P	cm:i:49	s1:i:404	s2:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_5	1534	564	1480	408	930	0	tp:A:S	cm:i:49	s1:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_2	1534	564	1480	408	930	0	tp:A:S	cm:i:49	s1:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_4	1534	564	1480	408	930	0	tp:A:S	cm:i:49	s1:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_6	1534	564	1480	408	930	0	tp:A:S	cm:i:49	s1:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	557	1465	+	Salmonella_enterica_16S_5	1534	564	1480	408	930	0	tp:A:S	cm:i:49	s1:i:404	dv:f:0.0845	rl:i:0
+959a5e6a-9775-4664-a013-f28a32b4895c	1559	2	1363	+	Listeria_monocytogenes_16S_5	1552	29	1387	261	1374	60	tp:A:P	cm:i:25	s1:i:257	s2:i:65	dv:f:0.1551	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_3	1558	100	1500	648	1411	0	tp:A:P	cm:i:84	s1:i:643	s2:i:643	dv:f:0.0738	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_2	1558	100	1500	648	1411	0	tp:A:S	cm:i:84	s1:i:643	dv:f:0.0738	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_4	1558	100	1500	648	1411	0	tp:A:S	cm:i:84	s1:i:643	dv:f:0.0738	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_6	1558	100	1500	638	1411	0	tp:A:S	cm:i:82	s1:i:633	dv:f:0.0754	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_1	1558	100	1500	638	1411	0	tp:A:S	cm:i:82	s1:i:633	dv:f:0.0754	rl:i:0
+18454c97-0bfb-437b-ad99-fb5fc9fe083a	1537	69	1444	+	Bacillus_subtilis_16S_7	1558	100	1500	638	1411	0	tp:A:S	cm:i:82	s1:i:633	dv:f:0.0754	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_5	1534	49	1480	733	1462	0	tp:A:P	cm:i:90	s1:i:726	s2:i:726	dv:f:0.0752	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_2	1534	49	1480	733	1462	0	tp:A:S	cm:i:90	s1:i:726	dv:f:0.0752	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_5	1534	49	1480	733	1462	0	tp:A:S	cm:i:90	s1:i:726	dv:f:0.0752	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_3	1534	49	1480	733	1462	0	tp:A:S	cm:i:90	s1:i:726	dv:f:0.0752	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_6	1534	49	1480	733	1462	0	tp:A:S	cm:i:90	s1:i:726	dv:f:0.0752	rl:i:0
+aa137405-5041-479a-9e7f-86fcd80ad228	1557	26	1460	+	Salmonella_enterica_16S_4	1534	49	1480	733	1462	0	tp:A:S	cm:i:90	s1:i:726	dv:f:0.0752	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_5	1534	96	1483	802	1421	0	tp:A:P	cm:i:113	s1:i:799	s2:i:799	dv:f:0.0600	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_2	1534	96	1483	802	1421	0	tp:A:S	cm:i:113	s1:i:799	dv:f:0.0600	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_4	1534	96	1483	802	1421	0	tp:A:S	cm:i:113	s1:i:799	dv:f:0.0600	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_3	1534	96	1483	802	1421	0	tp:A:S	cm:i:113	s1:i:799	dv:f:0.0600	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_5	1534	96	1483	802	1421	0	tp:A:S	cm:i:113	s1:i:799	dv:f:0.0600	rl:i:0
+2bd0a659-b03c-4423-9d57-eb1597d06e24	1588	74	1479	+	Salmonella_enterica_16S_6	1534	96	1483	802	1421	0	tp:A:S	cm:i:113	s1:i:799	dv:f:0.0600	rl:i:0
+1a3a4e13-9743-40b0-b77a-017ceaa2ba70	1558	10	1474	+	Lactobacillus_fermentum_16S_2	1578	30	1541	709	1517	9	tp:A:P	cm:i:91	s1:i:701	s2:i:675	dv:f:0.0697	rl:i:0
+1a3a4e13-9743-40b0-b77a-017ceaa2ba70	1558	10	1474	+	Lactobacillus_fermentum_16S_1	1568	30	1531	681	1507	0	tp:A:S	cm:i:86	s1:i:675	dv:f:0.0735	rl:i:0
+eeff7eba-6d3b-44b1-acf0-7e344ceb6169	1578	72	1502	+	Lactobacillus_fermentum_16S_2	1578	90	1541	686	1458	6	tp:A:P	cm:i:87	s1:i:683	s2:i:665	dv:f:0.0732	rl:i:0
+eeff7eba-6d3b-44b1-acf0-7e344ceb6169	1578	113	1502	+	Lactobacillus_fermentum_16S_1	1568	131	1531	666	1407	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0727	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	10	1462	+	Listeria_monocytogenes_16S_5	1552	37	1512	468	1481	0	tp:A:P	cm:i:54	s1:i:464	s2:i:464	dv:f:0.1048	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	10	1462	+	Listeria_monocytogenes_16S_3	1552	37	1512	468	1481	0	tp:A:S	cm:i:54	s1:i:464	dv:f:0.1048	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	10	1462	+	Listeria_monocytogenes_16S_6	1552	37	1512	468	1481	0	tp:A:S	cm:i:54	s1:i:464	dv:f:0.1048	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	10	1462	+	Listeria_monocytogenes_16S_4	1552	37	1512	468	1481	0	tp:A:S	cm:i:54	s1:i:464	dv:f:0.1048	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	295	1462	+	Pseudomonas_aeruginosa_16S_4	1526	300	1489	469	1195	0	tp:A:S	cm:i:56	s1:i:464	dv:f:0.0872	rl:i:0
+71dda856-eb3b-46f9-97a8-09fbad8d28b5	1551	295	1462	+	Pseudomonas_aeruginosa_16S_3	1526	300	1489	469	1195	0	tp:A:S	cm:i:56	s1:i:464	dv:f:0.0872	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_2	1534	53	1480	863	1446	0	tp:A:P	cm:i:108	s1:i:858	s2:i:858	dv:f:0.0603	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_3	1534	53	1480	863	1446	0	tp:A:S	cm:i:108	s1:i:858	dv:f:0.0603	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_5	1534	53	1480	863	1446	0	tp:A:S	cm:i:108	s1:i:858	dv:f:0.0603	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_6	1534	53	1480	863	1446	0	tp:A:S	cm:i:108	s1:i:858	dv:f:0.0603	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_4	1534	53	1480	863	1446	0	tp:A:S	cm:i:108	s1:i:858	dv:f:0.0603	rl:i:0
+ec71a3a9-f5a9-4dc0-8f87-4d1989f019c0	1556	33	1445	+	Salmonella_enterica_16S_5	1534	53	1480	863	1446	0	tp:A:S	cm:i:108	s1:i:858	dv:f:0.0603	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_5	1534	49	1470	823	1452	0	tp:A:P	cm:i:103	s1:i:819	s2:i:819	dv:f:0.0657	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_5	1534	49	1470	823	1452	0	tp:A:S	cm:i:103	s1:i:819	dv:f:0.0657	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_4	1534	49	1470	823	1452	0	tp:A:S	cm:i:103	s1:i:819	dv:f:0.0657	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_3	1534	49	1470	823	1452	0	tp:A:S	cm:i:103	s1:i:819	dv:f:0.0657	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_6	1534	49	1470	823	1452	0	tp:A:S	cm:i:103	s1:i:819	dv:f:0.0657	rl:i:0
+f135d2c8-c739-474f-8bfa-2592d556a802	1585	29	1465	+	Salmonella_enterica_16S_2	1534	49	1470	823	1452	0	tp:A:S	cm:i:103	s1:i:819	dv:f:0.0657	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_3	1552	101	1512	459	1419	0	tp:A:P	cm:i:58	s1:i:453	s2:i:453	dv:f:0.0990	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_5	1552	101	1512	459	1419	0	tp:A:S	cm:i:58	s1:i:453	dv:f:0.0990	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_2	1552	101	1512	459	1419	0	tp:A:S	cm:i:58	s1:i:453	dv:f:0.0990	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_1	1552	101	1512	459	1419	0	tp:A:S	cm:i:58	s1:i:453	dv:f:0.0990	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_6	1552	101	1512	459	1419	0	tp:A:S	cm:i:58	s1:i:453	dv:f:0.0990	rl:i:0
+01688d1e-82e3-4dde-9815-ebe5097903dd	1532	71	1454	+	Listeria_monocytogenes_16S_4	1552	101	1512	459	1419	0	tp:A:S	cm:i:58	s1:i:453	dv:f:0.0990	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_8	1542	56	1506	557	1471	0	tp:A:P	cm:i:68	s1:i:554	s2:i:554	dv:f:0.0946	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_1	1542	56	1506	557	1471	0	tp:A:S	cm:i:68	s1:i:554	dv:f:0.0946	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_5	1542	56	1506	557	1471	0	tp:A:S	cm:i:68	s1:i:554	dv:f:0.0946	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_3	1542	56	1506	557	1471	0	tp:A:S	cm:i:68	s1:i:554	dv:f:0.0946	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_4	1542	56	1506	543	1471	0	tp:A:S	cm:i:65	s1:i:540	dv:f:0.0976	rl:i:0
+4bfcdfbe-aed1-409f-98f5-ae34ecb4c434	1551	24	1477	+	Escherichia_coli_16S_2	1542	56	1506	536	1471	0	tp:A:S	cm:i:64	s1:i:533	dv:f:0.0986	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_5	1556	28	1515	746	1505	0	tp:A:P	cm:i:87	s1:i:743	s2:i:743	dv:f:0.0737	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_4	1556	28	1515	746	1505	0	tp:A:S	cm:i:87	s1:i:743	dv:f:0.0737	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_3	1556	28	1515	746	1505	0	tp:A:S	cm:i:87	s1:i:743	dv:f:0.0737	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_6	1556	28	1515	746	1505	0	tp:A:S	cm:i:87	s1:i:743	dv:f:0.0737	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_2	1556	28	1515	746	1505	0	tp:A:S	cm:i:87	s1:i:743	dv:f:0.0737	rl:i:0
+eb3cc242-3b91-4d5b-860b-2526b5cffb3e	1562	0	1486	+	Staphylococcus_aureus_16S_1	1556	28	1515	745	1505	0	tp:A:S	cm:i:86	s1:i:742	dv:f:0.0745	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Enterococcus_faecalis_16S_4	1562	27	1521	661	1500	0	tp:A:P	cm:i:76	s1:i:657	s2:i:657	dv:f:0.0835	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Enterococcus_faecalis_16S_3	1562	27	1521	661	1500	0	tp:A:S	cm:i:76	s1:i:657	dv:f:0.0835	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Enterococcus_faecalis_16S_1	1562	27	1521	661	1500	0	tp:A:S	cm:i:76	s1:i:657	dv:f:0.0835	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Enterococcus_faecalis_16S_2	1562	27	1521	661	1500	0	tp:A:S	cm:i:76	s1:i:657	dv:f:0.0835	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Bacillus_subtilis_16S_4	1558	30	1513	586	1503	0	tp:A:S	cm:i:63	s1:i:579	dv:f:0.0960	rl:i:0
+9e83de2f-ea79-4389-a867-ffa817cea4e3	1556	2	1466	+	Bacillus_subtilis_16S_7	1558	30	1513	586	1503	0	tp:A:S	cm:i:63	s1:i:579	dv:f:0.0960	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_1	1542	52	1506	955	1522	0	tp:A:P	cm:i:131	s1:i:943	s2:i:943	dv:f:0.0509	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_3	1542	52	1506	955	1522	0	tp:A:S	cm:i:131	s1:i:943	dv:f:0.0509	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_8	1542	52	1506	955	1522	0	tp:A:S	cm:i:131	s1:i:943	dv:f:0.0509	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_5	1542	52	1506	955	1522	0	tp:A:S	cm:i:131	s1:i:943	dv:f:0.0509	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_4	1542	52	1506	940	1522	0	tp:A:S	cm:i:126	s1:i:928	dv:f:0.0535	rl:i:0
+57e8f9d0-5930-4015-94c3-64db5eacb010	1616	25	1523	+	Escherichia_coli_16S_2	1542	52	1506	933	1522	0	tp:A:S	cm:i:125	s1:i:921	dv:f:0.0540	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_3	1552	29	1512	733	1491	1	tp:A:P	cm:i:100	s1:i:728	s2:i:725	dv:f:0.0645	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_6	1552	29	1512	730	1491	0	tp:A:S	cm:i:97	s1:i:725	dv:f:0.0665	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_4	1552	29	1512	730	1491	0	tp:A:S	cm:i:97	s1:i:725	dv:f:0.0665	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_1	1552	29	1512	730	1491	0	tp:A:S	cm:i:97	s1:i:725	dv:f:0.0665	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_5	1552	29	1512	730	1491	0	tp:A:S	cm:i:97	s1:i:725	dv:f:0.0665	rl:i:0
+3e66cc16-60f4-483f-8d98-e043abf823bf	1536	2	1461	+	Listeria_monocytogenes_16S_2	1552	29	1512	714	1491	0	tp:A:S	cm:i:95	s1:i:709	dv:f:0.0679	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_2	1556	38	1515	617	1493	7	tp:A:P	cm:i:63	s1:i:611	s2:i:592	dv:f:0.0975	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_6	1556	38	1515	598	1493	0	tp:A:S	cm:i:61	s1:i:592	dv:f:0.0997	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_3	1556	38	1515	598	1493	0	tp:A:S	cm:i:61	s1:i:592	dv:f:0.0997	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_1	1556	38	1515	598	1493	0	tp:A:S	cm:i:61	s1:i:592	dv:f:0.0997	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_5	1556	38	1515	598	1493	0	tp:A:S	cm:i:61	s1:i:592	dv:f:0.0997	rl:i:0
+2ca9f2b7-bf09-4126-b893-6e4408bf332c	1531	10	1455	+	Staphylococcus_aureus_16S_4	1556	38	1515	598	1493	0	tp:A:S	cm:i:61	s1:i:592	dv:f:0.0997	rl:i:0
+fa269895-6d9a-4d53-8623-f1dc75d02a88	1577	10	1499	+	Lactobacillus_fermentum_16S_2	1578	30	1541	748	1522	9	tp:A:P	cm:i:98	s1:i:743	s2:i:717	dv:f:0.0663	rl:i:0
+fa269895-6d9a-4d53-8623-f1dc75d02a88	1577	10	1499	+	Lactobacillus_fermentum_16S_1	1568	30	1531	720	1512	0	tp:A:S	cm:i:93	s1:i:717	dv:f:0.0698	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_3	1552	44	1512	679	1501	0	tp:A:P	cm:i:89	s1:i:669	s2:i:669	dv:f:0.0769	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_1	1552	44	1512	679	1501	0	tp:A:S	cm:i:89	s1:i:669	dv:f:0.0769	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_5	1552	44	1512	679	1501	0	tp:A:S	cm:i:89	s1:i:669	dv:f:0.0769	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_6	1552	44	1512	679	1501	0	tp:A:S	cm:i:89	s1:i:669	dv:f:0.0769	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_4	1552	44	1512	679	1501	0	tp:A:S	cm:i:89	s1:i:669	dv:f:0.0769	rl:i:0
+aae97f55-970e-4cea-9fc7-1dcfbadafe23	1571	14	1492	+	Listeria_monocytogenes_16S_2	1552	44	1512	679	1501	0	tp:A:S	cm:i:89	s1:i:669	dv:f:0.0769	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	342	1461	+	Lactobacillus_fermentum_16S_1	1568	395	1531	510	1148	0	tp:A:P	cm:i:69	s1:i:507	s2:i:505	dv:f:0.0773	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	342	1461	+	Lactobacillus_fermentum_16S_2	1578	395	1541	510	1155	0	tp:A:S	cm:i:69	s1:i:505	dv:f:0.0773	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	42	1463	+	Salmonella_enterica_16S_5	1534	61	1499	506	1455	0	tp:A:S	cm:i:64	s1:i:500	dv:f:0.0982	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	42	1463	+	Salmonella_enterica_16S_6	1534	61	1499	506	1455	0	tp:A:S	cm:i:64	s1:i:500	dv:f:0.0982	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	42	1463	+	Salmonella_enterica_16S_3	1534	61	1499	506	1455	0	tp:A:S	cm:i:64	s1:i:500	dv:f:0.0982	rl:i:0
+0ad564e2-0189-4ece-a524-d0dacce22821	1538	42	1463	+	Salmonella_enterica_16S_4	1534	61	1499	506	1455	0	tp:A:S	cm:i:64	s1:i:500	dv:f:0.0982	rl:i:0
+4e80ef47-328e-4fd7-a64a-605b3fec8895	1581	83	1506	+	Lactobacillus_fermentum_16S_2	1578	102	1541	729	1454	4	tp:A:P	cm:i:90	s1:i:726	s2:i:713	dv:f:0.0717	rl:i:0
+4e80ef47-328e-4fd7-a64a-605b3fec8895	1581	126	1506	+	Lactobacillus_fermentum_16S_1	1568	143	1531	714	1401	0	tp:A:S	cm:i:89	s1:i:713	dv:f:0.0704	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_9	1558	100	1505	564	1408	0	tp:A:P	cm:i:78	s1:i:556	s2:i:556	dv:f:0.0815	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_5	1558	100	1505	564	1408	0	tp:A:S	cm:i:78	s1:i:556	dv:f:0.0815	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_10	1558	100	1505	564	1408	0	tp:A:S	cm:i:78	s1:i:556	dv:f:0.0815	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_8	1558	100	1505	564	1408	0	tp:A:S	cm:i:78	s1:i:556	dv:f:0.0815	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_1	1558	100	1505	564	1408	0	tp:A:S	cm:i:78	s1:i:556	dv:f:0.0815	rl:i:0
+8aa5dd37-aa38-4ada-a86d-e2bcfb6f736b	1522	76	1429	+	Bacillus_subtilis_16S_6	1558	100	1505	561	1408	0	tp:A:S	cm:i:75	s1:i:553	dv:f:0.0841	rl:i:0
+14fde0d0-1c59-449f-bc7b-14e8814c5b1d	1602	32	1508	+	Lactobacillus_fermentum_16S_2	1578	52	1541	884	1502	7	tp:A:P	cm:i:114	s1:i:880	s2:i:857	dv:f:0.0552	rl:i:0
+14fde0d0-1c59-449f-bc7b-14e8814c5b1d	1602	32	1508	+	Lactobacillus_fermentum_16S_1	1568	52	1531	859	1493	0	tp:A:S	cm:i:111	s1:i:857	dv:f:0.0570	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_7	1558	30	1513	660	1523	5	tp:A:P	cm:i:92	s1:i:652	s2:i:638	dv:f:0.0756	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_4	1558	30	1513	645	1522	0	tp:A:S	cm:i:91	s1:i:638	dv:f:0.0763	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_9	1558	30	1513	645	1522	0	tp:A:S	cm:i:91	s1:i:638	dv:f:0.0763	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_8	1558	30	1513	645	1522	0	tp:A:S	cm:i:91	s1:i:638	dv:f:0.0763	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_1	1558	30	1513	645	1522	0	tp:A:S	cm:i:91	s1:i:638	dv:f:0.0763	rl:i:0
+4f460d87-bc01-4a96-bb83-dc9b67c6042e	1595	2	1519	+	Bacillus_subtilis_16S_10	1558	30	1513	645	1522	0	tp:A:S	cm:i:91	s1:i:638	dv:f:0.0763	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_3	1534	26	1499	625	1478	0	tp:A:P	cm:i:81	s1:i:623	s2:i:623	dv:f:0.0827	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_6	1534	26	1499	625	1478	0	tp:A:S	cm:i:81	s1:i:623	dv:f:0.0827	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_5	1534	26	1499	625	1478	0	tp:A:S	cm:i:81	s1:i:623	dv:f:0.0827	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_5	1534	26	1499	625	1478	0	tp:A:S	cm:i:81	s1:i:623	dv:f:0.0827	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_4	1534	26	1499	625	1478	0	tp:A:S	cm:i:81	s1:i:623	dv:f:0.0827	rl:i:0
+df2a71d4-05b2-4645-b985-88efb0b232f3	1542	6	1454	+	Salmonella_enterica_16S_2	1534	26	1499	625	1478	0	tp:A:S	cm:i:81	s1:i:623	dv:f:0.0827	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_6	1552	37	1493	699	1471	0	tp:A:P	cm:i:90	s1:i:697	s2:i:697	dv:f:0.0715	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_5	1552	37	1493	699	1471	0	tp:A:S	cm:i:90	s1:i:697	dv:f:0.0715	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_4	1552	37	1493	699	1471	0	tp:A:S	cm:i:90	s1:i:697	dv:f:0.0715	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_3	1552	37	1493	699	1471	0	tp:A:S	cm:i:90	s1:i:697	dv:f:0.0715	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_1	1552	37	1493	699	1471	0	tp:A:S	cm:i:90	s1:i:697	dv:f:0.0715	rl:i:0
+585a513c-f73e-4a13-aa88-2ab48c6d3da5	1551	6	1451	+	Listeria_monocytogenes_16S_2	1552	37	1493	699	1471	0	tp:A:S	cm:i:90	s1:i:697	dv:f:0.0715	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_syringae_pathovar_broussonetiae_false_positive_1	1538	40	1398	135	1378	0	tp:A:P	cm:i:9	s1:i:126	s2:i:126	dv:f:0.2205	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_syringae_pathovar_broussonetiae_false_positive_2	1538	40	1398	135	1378	0	tp:A:S	cm:i:9	s1:i:126	dv:f:0.2205	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_putida_false_positive_2	1477	31	1387	135	1376	0	tp:A:S	cm:i:9	s1:i:126	dv:f:0.2205	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_putida_false_positive_1	1477	31	1387	135	1376	0	tp:A:S	cm:i:9	s1:i:126	dv:f:0.2205	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_aeruginosa_16S_1	1526	32	1387	124	1374	0	tp:A:S	cm:i:9	s1:i:116	dv:f:0.2205	rl:i:0
+69e46064-bcd2-4012-981d-8f6530621b35	1532	13	1368	+	Pseudomonas_aeruginosa_16S_2	1526	32	1387	124	1374	0	tp:A:S	cm:i:9	s1:i:116	dv:f:0.2205	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_3	1558	30	1513	745	1493	0	tp:A:P	cm:i:95	s1:i:736	s2:i:736	dv:f:0.0676	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_2	1558	30	1513	745	1493	0	tp:A:S	cm:i:95	s1:i:736	dv:f:0.0676	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_4	1558	30	1513	740	1493	0	tp:A:S	cm:i:94	s1:i:731	dv:f:0.0683	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_8	1558	30	1513	725	1492	0	tp:A:S	cm:i:93	s1:i:716	dv:f:0.0690	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_10	1558	30	1513	725	1492	0	tp:A:S	cm:i:93	s1:i:716	dv:f:0.0690	rl:i:0
+789b67e2-8296-473e-8846-c3690d753a67	1521	3	1443	+	Bacillus_subtilis_16S_9	1558	30	1513	725	1492	0	tp:A:S	cm:i:93	s1:i:716	dv:f:0.0690	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	75	1478	+	Enterococcus_faecalis_16S_2	1562	109	1521	772	1424	0	tp:A:P	cm:i:110	s1:i:769	s2:i:769	dv:f:0.0599	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	75	1478	+	Enterococcus_faecalis_16S_1	1562	109	1521	772	1424	0	tp:A:S	cm:i:110	s1:i:769	dv:f:0.0599	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	75	1478	+	Enterococcus_faecalis_16S_3	1562	109	1521	772	1424	0	tp:A:S	cm:i:110	s1:i:769	dv:f:0.0599	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	75	1478	+	Enterococcus_faecalis_16S_4	1562	109	1521	772	1424	0	tp:A:S	cm:i:110	s1:i:769	dv:f:0.0599	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	59	1478	+	Listeria_monocytogenes_16S_5	1552	85	1512	702	1439	0	tp:A:S	cm:i:92	s1:i:699	dv:f:0.0723	rl:i:0
+4812efd7-7efd-4427-bb0b-414d877a6ba3	1552	59	1478	+	Listeria_monocytogenes_16S_1	1552	85	1512	702	1439	0	tp:A:S	cm:i:92	s1:i:699	dv:f:0.0723	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_4	1534	45	415	259	375	0	tp:A:P	cm:i:41	s1:i:259	s2:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_2	1534	45	415	259	375	0	tp:A:S	cm:i:41	s1:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_5	1534	45	415	259	375	0	tp:A:S	cm:i:41	s1:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_5	1534	45	415	259	375	0	tp:A:S	cm:i:41	s1:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_6	1534	45	415	259	375	0	tp:A:S	cm:i:41	s1:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	24	396	+	Salmonella_enterica_16S_3	1534	45	415	259	375	0	tp:A:S	cm:i:41	s1:i:259	dv:f:0.0454	rl:i:0
+3c6d7c17-54a4-43c4-a32f-2358b26239ee	662	419	580	-	Salmonella_enterica_16S_2	1534	6	169	145	163	0	tp:A:P	cm:i:21	s1:i:145	s2:i:145	dv:f:0.0192	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_2	1556	38	1515	952	1480	1	tp:A:P	cm:i:127	s1:i:948	s2:i:944	dv:f:0.0515	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_5	1556	38	1515	948	1480	0	tp:A:S	cm:i:125	s1:i:944	dv:f:0.0526	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_3	1556	38	1515	948	1480	0	tp:A:S	cm:i:125	s1:i:944	dv:f:0.0526	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_1	1556	38	1515	948	1480	0	tp:A:S	cm:i:125	s1:i:944	dv:f:0.0526	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_4	1556	38	1515	948	1480	0	tp:A:S	cm:i:125	s1:i:944	dv:f:0.0526	rl:i:0
+b9876d99-f2c3-45e6-b0b3-16cb08ee1717	1540	9	1447	+	Staphylococcus_aureus_16S_6	1556	38	1515	948	1480	0	tp:A:S	cm:i:125	s1:i:944	dv:f:0.0526	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_6	1558	30	1505	707	1491	2	tp:A:P	cm:i:80	s1:i:706	s2:i:700	dv:f:0.0801	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_7	1558	30	1505	701	1491	0	tp:A:S	cm:i:79	s1:i:700	dv:f:0.0809	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_10	1558	30	1505	693	1491	0	tp:A:S	cm:i:78	s1:i:692	dv:f:0.0818	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_1	1558	30	1505	693	1491	0	tp:A:S	cm:i:78	s1:i:692	dv:f:0.0818	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_9	1558	30	1505	693	1491	0	tp:A:S	cm:i:78	s1:i:692	dv:f:0.0818	rl:i:0
+3244b029-6d51-4a22-93d3-f5fba3ad049e	1550	2	1466	+	Bacillus_subtilis_16S_8	1558	30	1505	693	1491	0	tp:A:S	cm:i:78	s1:i:692	dv:f:0.0818	rl:i:0
+1ab6be82-25fe-402a-9da9-8782f44a7f3d	1584	81	1496	+	Pseudomonas_aeruginosa_16S_2	1526	88	1472	742	1429	0	tp:A:P	cm:i:96	s1:i:737	s2:i:737	dv:f:0.0669	rl:i:0
+1ab6be82-25fe-402a-9da9-8782f44a7f3d	1584	81	1496	+	Pseudomonas_aeruginosa_16S_4	1526	88	1472	742	1429	0	tp:A:S	cm:i:96	s1:i:737	dv:f:0.0669	rl:i:0
+1ab6be82-25fe-402a-9da9-8782f44a7f3d	1584	81	1496	+	Pseudomonas_aeruginosa_16S_1	1526	88	1472	742	1429	0	tp:A:S	cm:i:96	s1:i:737	dv:f:0.0669	rl:i:0
+1ab6be82-25fe-402a-9da9-8782f44a7f3d	1584	81	1496	+	Pseudomonas_aeruginosa_16S_3	1526	88	1472	742	1429	0	tp:A:S	cm:i:96	s1:i:737	dv:f:0.0669	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_5	1556	69	1498	449	1433	0	tp:A:P	cm:i:49	s1:i:430	s2:i:430	dv:f:0.1076	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_4	1556	69	1498	449	1433	0	tp:A:S	cm:i:49	s1:i:430	dv:f:0.1076	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_6	1556	69	1498	449	1433	0	tp:A:S	cm:i:49	s1:i:430	dv:f:0.1076	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_2	1556	69	1498	449	1433	0	tp:A:S	cm:i:49	s1:i:430	dv:f:0.1076	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_3	1556	69	1498	449	1433	0	tp:A:S	cm:i:49	s1:i:430	dv:f:0.1076	rl:i:0
+d1bba352-e902-4df4-98e5-3c8911ab8115	1557	136	1474	+	Staphylococcus_aureus_16S_1	1556	69	1498	434	1433	0	tp:A:S	cm:i:48	s1:i:415	dv:f:0.1089	rl:i:0
+ddcdf507-f19e-4563-8ac0-d2faf86749d6	1569	2	1194	+	Enterococcus_faecalis_16S_4	1562	27	1217	639	1208	0	tp:A:P	cm:i:75	s1:i:637	s2:i:637	dv:f:0.0690	rl:i:0
+ddcdf507-f19e-4563-8ac0-d2faf86749d6	1569	2	1194	+	Enterococcus_faecalis_16S_1	1562	27	1217	639	1208	0	tp:A:S	cm:i:75	s1:i:637	dv:f:0.0690	rl:i:0
+ddcdf507-f19e-4563-8ac0-d2faf86749d6	1569	2	1194	+	Enterococcus_faecalis_16S_2	1562	27	1217	639	1208	0	tp:A:S	cm:i:75	s1:i:637	dv:f:0.0690	rl:i:0
+ddcdf507-f19e-4563-8ac0-d2faf86749d6	1569	2	1194	+	Enterococcus_faecalis_16S_3	1562	27	1217	639	1208	0	tp:A:S	cm:i:75	s1:i:637	dv:f:0.0690	rl:i:0
+ddcdf507-f19e-4563-8ac0-d2faf86749d6	1569	711	1475	+	Pseudomonas_aeruginosa_16S_4	1526	702	1472	207	781	60	tp:A:P	cm:i:22	s1:i:203	s2:i:0	dv:f:0.1200	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_1	1558	30	1415	466	1396	0	tp:A:P	cm:i:54	s1:i:457	s2:i:457	dv:f:0.1024	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_4	1558	30	1415	466	1396	0	tp:A:S	cm:i:54	s1:i:457	dv:f:0.1024	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_8	1558	30	1415	466	1396	0	tp:A:S	cm:i:54	s1:i:457	dv:f:0.1024	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_10	1558	30	1415	466	1396	0	tp:A:S	cm:i:54	s1:i:457	dv:f:0.1024	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_3	1558	30	1415	466	1396	0	tp:A:S	cm:i:54	s1:i:457	dv:f:0.1024	rl:i:0
+b87f606c-dfc3-42e6-b6cd-ceebfba9ea28	1530	2	1348	+	Bacillus_subtilis_16S_6	1558	30	1415	466	1396	0	tp:A:S	cm:i:54	s1:i:457	dv:f:0.1024	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_1	1552	341	1511	474	1197	0	tp:A:P	cm:i:57	s1:i:471	s2:i:471	dv:f:0.0903	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_2	1552	341	1511	474	1197	0	tp:A:S	cm:i:57	s1:i:471	dv:f:0.0903	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_3	1552	341	1511	474	1197	0	tp:A:S	cm:i:57	s1:i:471	dv:f:0.0903	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_6	1552	341	1511	474	1197	0	tp:A:S	cm:i:57	s1:i:471	dv:f:0.0903	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_4	1552	341	1511	474	1197	0	tp:A:S	cm:i:57	s1:i:471	dv:f:0.0903	rl:i:0
+b7481fa4-4f03-4a99-a706-0d08ac82ce9a	1555	295	1479	+	Listeria_monocytogenes_16S_5	1552	341	1511	474	1197	0	tp:A:S	cm:i:57	s1:i:471	dv:f:0.0903	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_2	1558	30	1441	596	1441	0	tp:A:P	cm:i:78	s1:i:585	s2:i:585	dv:f:0.0813	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_6	1558	30	1441	596	1441	0	tp:A:S	cm:i:78	s1:i:585	dv:f:0.0813	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_3	1558	30	1441	596	1441	0	tp:A:S	cm:i:78	s1:i:585	dv:f:0.0813	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_10	1558	30	1441	581	1441	0	tp:A:S	cm:i:77	s1:i:570	dv:f:0.0821	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_1	1558	30	1441	581	1441	0	tp:A:S	cm:i:77	s1:i:570	dv:f:0.0821	rl:i:0
+9fc9c218-b5a2-49fc-8d99-747cf048eee8	1550	2	1404	+	Bacillus_subtilis_16S_4	1558	30	1441	581	1441	0	tp:A:S	cm:i:77	s1:i:570	dv:f:0.0821	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_2	1552	29	1486	808	1475	2	tp:A:P	cm:i:96	s1:i:802	s2:i:794	dv:f:0.0659	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_4	1552	29	1486	800	1475	0	tp:A:S	cm:i:95	s1:i:794	dv:f:0.0666	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_3	1552	29	1486	800	1475	0	tp:A:S	cm:i:95	s1:i:794	dv:f:0.0666	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_1	1552	29	1486	800	1475	0	tp:A:S	cm:i:95	s1:i:794	dv:f:0.0666	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_5	1552	29	1486	800	1475	0	tp:A:S	cm:i:95	s1:i:794	dv:f:0.0666	rl:i:0
+a49a1a87-c42b-473f-b9c7-a5f0d002dd6b	1563	2	1447	+	Listeria_monocytogenes_16S_6	1552	29	1486	800	1475	0	tp:A:S	cm:i:95	s1:i:794	dv:f:0.0666	rl:i:0
+7194cba8-f95d-4e71-aaf1-6909b1aecb69	1549	6	1426	+	Pseudomonas_aeruginosa_16S_1	1526	24	1461	758	1460	0	tp:A:P	cm:i:95	s1:i:750	s2:i:750	dv:f:0.0699	rl:i:0
+7194cba8-f95d-4e71-aaf1-6909b1aecb69	1549	6	1426	+	Pseudomonas_aeruginosa_16S_4	1526	24	1461	758	1460	0	tp:A:S	cm:i:95	s1:i:750	dv:f:0.0699	rl:i:0
+7194cba8-f95d-4e71-aaf1-6909b1aecb69	1549	6	1426	+	Pseudomonas_aeruginosa_16S_3	1526	24	1461	758	1460	0	tp:A:S	cm:i:95	s1:i:750	dv:f:0.0699	rl:i:0
+7194cba8-f95d-4e71-aaf1-6909b1aecb69	1549	6	1426	+	Pseudomonas_aeruginosa_16S_2	1526	24	1461	758	1460	0	tp:A:S	cm:i:95	s1:i:750	dv:f:0.0699	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	513	1495	+	Pseudomonas_aeruginosa_16S_3	1526	500	1472	483	988	0	tp:A:P	cm:i:58	s1:i:481	s2:i:481	dv:f:0.0709	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	513	1495	+	Pseudomonas_aeruginosa_16S_1	1526	500	1472	483	988	0	tp:A:S	cm:i:58	s1:i:481	dv:f:0.0709	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	513	1495	+	Pseudomonas_aeruginosa_16S_4	1526	500	1472	483	988	0	tp:A:S	cm:i:58	s1:i:481	dv:f:0.0709	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	513	1495	+	Pseudomonas_aeruginosa_16S_2	1526	500	1472	483	988	0	tp:A:S	cm:i:58	s1:i:481	dv:f:0.0709	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	29	1416	+	Lactobacillus_fermentum_16S_2	1578	52	1443	454	1405	0	tp:A:S	cm:i:48	s1:i:452	dv:f:0.1073	rl:i:0
+d6c49b78-f4c6-4dc9-a6f9-c4679ef71567	1595	29	1416	+	Lactobacillus_fermentum_16S_1	1568	52	1433	427	1403	0	tp:A:S	cm:i:45	s1:i:422	dv:f:0.1116	rl:i:0
+1fc78df1-0fb9-4a83-9baf-9c9e16c61468	1558	38	1475	+	Pseudomonas_aeruginosa_16S_2	1526	49	1489	775	1455	0	tp:A:P	cm:i:100	s1:i:772	s2:i:772	dv:f:0.0634	rl:i:0
+1fc78df1-0fb9-4a83-9baf-9c9e16c61468	1558	38	1475	+	Pseudomonas_aeruginosa_16S_4	1526	49	1489	775	1455	0	tp:A:S	cm:i:100	s1:i:772	dv:f:0.0634	rl:i:0
+1fc78df1-0fb9-4a83-9baf-9c9e16c61468	1558	38	1475	+	Pseudomonas_aeruginosa_16S_1	1526	49	1489	775	1455	0	tp:A:S	cm:i:100	s1:i:772	dv:f:0.0634	rl:i:0
+1fc78df1-0fb9-4a83-9baf-9c9e16c61468	1558	38	1475	+	Pseudomonas_aeruginosa_16S_3	1526	49	1489	775	1455	0	tp:A:S	cm:i:100	s1:i:772	dv:f:0.0634	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_2	1552	29	1512	1009	1501	0	tp:A:P	cm:i:136	s1:i:1005	s2:i:1003	dv:f:0.0474	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_3	1552	29	1512	1007	1501	0	tp:A:S	cm:i:138	s1:i:1003	dv:f:0.0465	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_1	1552	29	1512	1007	1501	0	tp:A:S	cm:i:138	s1:i:1003	dv:f:0.0465	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_5	1552	29	1512	1007	1501	0	tp:A:S	cm:i:138	s1:i:1003	dv:f:0.0465	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_6	1552	29	1512	1007	1501	0	tp:A:S	cm:i:138	s1:i:1003	dv:f:0.0465	rl:i:0
+8f356349-e0a9-42f0-bb65-77b0eab8eb49	1555	2	1475	+	Listeria_monocytogenes_16S_4	1552	29	1512	1007	1501	0	tp:A:S	cm:i:138	s1:i:1003	dv:f:0.0465	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_4	1552	29	1512	555	1521	0	tp:A:P	cm:i:60	s1:i:550	s2:i:550	dv:f:0.1032	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_1	1552	29	1512	555	1521	0	tp:A:S	cm:i:60	s1:i:550	dv:f:0.1032	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_6	1552	29	1512	555	1521	0	tp:A:S	cm:i:60	s1:i:550	dv:f:0.1032	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_3	1552	29	1512	555	1521	0	tp:A:S	cm:i:60	s1:i:550	dv:f:0.1032	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_2	1552	29	1512	555	1521	0	tp:A:S	cm:i:60	s1:i:550	dv:f:0.1032	rl:i:0
+85bb986d-9fe1-4e47-a858-8725372202ce	1601	2	1505	+	Listeria_monocytogenes_16S_5	1552	29	1512	555	1521	0	tp:A:S	cm:i:60	s1:i:550	dv:f:0.1032	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_3	1558	30	1513	544	1495	0	tp:A:P	cm:i:65	s1:i:529	s2:i:529	dv:f:0.0937	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_2	1558	30	1513	544	1495	0	tp:A:S	cm:i:65	s1:i:529	dv:f:0.0937	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_6	1558	30	1513	544	1495	0	tp:A:S	cm:i:65	s1:i:529	dv:f:0.0937	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_1	1558	30	1513	530	1495	0	tp:A:S	cm:i:63	s1:i:515	dv:f:0.0958	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_7	1558	30	1513	530	1495	0	tp:A:S	cm:i:63	s1:i:515	dv:f:0.0958	rl:i:0
+e607f962-b0de-4fbf-9702-a87a49af4713	1511	2	1423	+	Bacillus_subtilis_16S_10	1558	30	1513	530	1495	0	tp:A:S	cm:i:63	s1:i:515	dv:f:0.0958	rl:i:0
+c3ea24ce-0573-4b9e-9db4-dc6b062fa1f3	1629	11	1552	+	Lactobacillus_fermentum_16S_2	1578	30	1541	825	1561	5	tp:A:P	cm:i:104	s1:i:818	s2:i:801	dv:f:0.0677	rl:i:0
+c3ea24ce-0573-4b9e-9db4-dc6b062fa1f3	1629	11	1552	+	Lactobacillus_fermentum_16S_1	1568	30	1531	810	1559	0	tp:A:S	cm:i:103	s1:i:801	dv:f:0.0683	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_5	1556	92	1514	823	1441	0	tp:A:P	cm:i:107	s1:i:818	s2:i:818	dv:f:0.0627	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_6	1556	92	1514	823	1441	0	tp:A:S	cm:i:107	s1:i:818	dv:f:0.0627	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_1	1556	92	1514	823	1441	0	tp:A:S	cm:i:107	s1:i:818	dv:f:0.0627	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_3	1556	92	1514	823	1441	0	tp:A:S	cm:i:107	s1:i:818	dv:f:0.0627	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_4	1556	92	1514	823	1441	0	tp:A:S	cm:i:107	s1:i:818	dv:f:0.0627	rl:i:0
+1b873315-f463-4f68-a862-023b8bd19b34	1559	65	1479	+	Staphylococcus_aureus_16S_2	1556	92	1514	803	1441	0	tp:A:S	cm:i:107	s1:i:798	dv:f:0.0627	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_7	1558	38	1487	828	1460	0	tp:A:P	cm:i:100	s1:i:820	s2:i:820	dv:f:0.0637	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_10	1558	38	1487	828	1460	0	tp:A:S	cm:i:100	s1:i:820	dv:f:0.0637	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_6	1558	38	1487	828	1460	0	tp:A:S	cm:i:100	s1:i:820	dv:f:0.0637	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_8	1558	38	1487	828	1460	0	tp:A:S	cm:i:100	s1:i:820	dv:f:0.0637	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_9	1558	38	1487	828	1460	0	tp:A:S	cm:i:100	s1:i:820	dv:f:0.0637	rl:i:0
+31f323e8-a1ec-4829-94bc-08a076803b0f	1523	9	1403	+	Bacillus_subtilis_16S_1	1558	38	1487	828	1460	0	tp:A:S	cm:i:100	s1:i:820	dv:f:0.0637	rl:i:0
+cfe63f2b-aa04-4aa4-83fa-30bc5feacd38	1587	31	1510	+	Lactobacillus_fermentum_16S_2	1578	45	1541	625	1511	10	tp:A:P	cm:i:67	s1:i:619	s2:i:594	dv:f:0.0944	rl:i:0
+cfe63f2b-aa04-4aa4-83fa-30bc5feacd38	1587	31	1510	+	Lactobacillus_fermentum_16S_1	1568	45	1531	598	1503	0	tp:A:S	cm:i:64	s1:i:594	dv:f:0.0974	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_3	1552	101	1512	468	1437	0	tp:A:P	cm:i:54	s1:i:462	s2:i:462	dv:f:0.1050	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_6	1552	101	1512	468	1437	0	tp:A:S	cm:i:54	s1:i:462	dv:f:0.1050	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_1	1552	101	1512	468	1437	0	tp:A:S	cm:i:54	s1:i:462	dv:f:0.1050	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_2	1552	101	1512	468	1437	0	tp:A:S	cm:i:54	s1:i:462	dv:f:0.1050	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_5	1552	101	1512	468	1437	0	tp:A:S	cm:i:54	s1:i:462	dv:f:0.1050	rl:i:0
+35d95a57-3a77-4d85-92d5-97d3e4daf5a7	1596	98	1503	+	Listeria_monocytogenes_16S_4	1552	101	1512	468	1437	0	tp:A:S	cm:i:54	s1:i:462	dv:f:0.1050	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_3	1552	29	1512	854	1498	0	tp:A:P	cm:i:124	s1:i:851	s2:i:848	dv:f:0.0531	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_5	1552	29	1512	851	1498	0	tp:A:S	cm:i:121	s1:i:848	dv:f:0.0547	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_6	1552	29	1512	851	1498	0	tp:A:S	cm:i:121	s1:i:848	dv:f:0.0547	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_1	1552	29	1512	851	1498	0	tp:A:S	cm:i:121	s1:i:848	dv:f:0.0547	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_4	1552	29	1512	851	1498	0	tp:A:S	cm:i:121	s1:i:848	dv:f:0.0547	rl:i:0
+76521bd6-a8fc-4c03-a13a-ec0c0036ed7d	1565	2	1475	+	Listeria_monocytogenes_16S_2	1552	29	1512	838	1498	0	tp:A:S	cm:i:118	s1:i:835	dv:f:0.0564	rl:i:0
+5e91dc98-ed10-478c-b701-b611559f39ec	1563	77	1472	+	Pseudomonas_aeruginosa_16S_2	1526	88	1489	658	1418	0	tp:A:P	cm:i:80	s1:i:654	s2:i:654	dv:f:0.0801	rl:i:0
+5e91dc98-ed10-478c-b701-b611559f39ec	1563	77	1472	+	Pseudomonas_aeruginosa_16S_3	1526	88	1489	658	1418	0	tp:A:S	cm:i:80	s1:i:654	dv:f:0.0801	rl:i:0
+5e91dc98-ed10-478c-b701-b611559f39ec	1563	77	1472	+	Pseudomonas_aeruginosa_16S_4	1526	88	1489	658	1418	0	tp:A:S	cm:i:80	s1:i:654	dv:f:0.0801	rl:i:0
+5e91dc98-ed10-478c-b701-b611559f39ec	1563	77	1472	+	Pseudomonas_aeruginosa_16S_1	1526	88	1489	658	1418	0	tp:A:S	cm:i:80	s1:i:654	dv:f:0.0801	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_2	1552	37	1512	514	1491	7	tp:A:P	cm:i:66	s1:i:505	s2:i:490	dv:f:0.0966	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_5	1552	37	1512	499	1490	0	tp:A:S	cm:i:65	s1:i:490	dv:f:0.0976	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_1	1552	37	1512	499	1490	0	tp:A:S	cm:i:65	s1:i:490	dv:f:0.0976	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_4	1552	37	1512	499	1490	0	tp:A:S	cm:i:65	s1:i:490	dv:f:0.0976	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_6	1552	37	1512	499	1490	0	tp:A:S	cm:i:65	s1:i:490	dv:f:0.0976	rl:i:0
+a43c29a8-ae25-4172-92f9-cb1c5b05d987	1528	7	1448	+	Listeria_monocytogenes_16S_3	1552	37	1512	499	1490	0	tp:A:S	cm:i:65	s1:i:490	dv:f:0.0976	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_6	1534	96	1499	476	1413	0	tp:A:P	cm:i:57	s1:i:472	s2:i:472	dv:f:0.0988	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_3	1534	96	1499	476	1413	0	tp:A:S	cm:i:57	s1:i:472	dv:f:0.0988	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_5	1534	96	1499	476	1413	0	tp:A:S	cm:i:57	s1:i:472	dv:f:0.0988	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_5	1534	96	1499	476	1413	0	tp:A:S	cm:i:57	s1:i:472	dv:f:0.0988	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_4	1534	96	1499	476	1413	0	tp:A:S	cm:i:57	s1:i:472	dv:f:0.0988	rl:i:0
+5b308a20-0adb-4283-af1d-9047e36aa0d8	1540	72	1453	+	Salmonella_enterica_16S_2	1534	96	1499	476	1413	0	tp:A:S	cm:i:57	s1:i:472	dv:f:0.0988	rl:i:0
+ed7eacc7-a986-45c4-b39c-1ab9ff1e46a0	1530	9	1395	+	Enterococcus_faecalis_16S_1	1562	35	1483	496	1452	0	tp:A:P	cm:i:57	s1:i:486	s2:i:486	dv:f:0.0994	rl:i:0
+ed7eacc7-a986-45c4-b39c-1ab9ff1e46a0	1530	9	1395	+	Enterococcus_faecalis_16S_3	1562	35	1483	496	1452	0	tp:A:S	cm:i:57	s1:i:486	dv:f:0.0994	rl:i:0
+ed7eacc7-a986-45c4-b39c-1ab9ff1e46a0	1530	9	1395	+	Enterococcus_faecalis_16S_2	1562	35	1483	496	1452	0	tp:A:S	cm:i:57	s1:i:486	dv:f:0.0994	rl:i:0
+ed7eacc7-a986-45c4-b39c-1ab9ff1e46a0	1530	9	1395	+	Enterococcus_faecalis_16S_4	1562	35	1483	496	1452	0	tp:A:S	cm:i:57	s1:i:486	dv:f:0.0994	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_4	1556	69	1443	371	1424	0	tp:A:P	cm:i:38	s1:i:356	s2:i:356	dv:f:0.1272	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_6	1556	69	1443	371	1424	0	tp:A:S	cm:i:38	s1:i:356	dv:f:0.1272	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_1	1556	69	1443	371	1424	0	tp:A:S	cm:i:38	s1:i:356	dv:f:0.1272	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_3	1556	69	1443	371	1424	0	tp:A:S	cm:i:38	s1:i:356	dv:f:0.1272	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_5	1556	69	1443	371	1424	0	tp:A:S	cm:i:38	s1:i:356	dv:f:0.1272	rl:i:0
+4a73974b-7eef-46ca-a7ae-cb45d39298ee	1602	41	1445	+	Staphylococcus_aureus_16S_2	1556	69	1443	355	1424	0	tp:A:S	cm:i:35	s1:i:340	dv:f:0.1327	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_3	1552	29	1475	576	1470	0	tp:A:P	cm:i:75	s1:i:567	s2:i:567	dv:f:0.0849	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_5	1552	29	1475	576	1470	0	tp:A:S	cm:i:75	s1:i:567	dv:f:0.0849	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_4	1552	29	1475	576	1470	0	tp:A:S	cm:i:75	s1:i:567	dv:f:0.0849	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_6	1552	29	1475	576	1470	0	tp:A:S	cm:i:75	s1:i:567	dv:f:0.0849	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_2	1552	29	1475	576	1470	0	tp:A:S	cm:i:75	s1:i:567	dv:f:0.0849	rl:i:0
+e196148a-fec2-47d0-8815-53a60f3cbb81	1561	2	1439	+	Listeria_monocytogenes_16S_1	1552	29	1475	576	1470	0	tp:A:S	cm:i:75	s1:i:567	dv:f:0.0849	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_6	1552	44	1493	749	1475	0	tp:A:P	cm:i:98	s1:i:739	s2:i:739	dv:f:0.0640	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_1	1552	44	1493	749	1475	0	tp:A:S	cm:i:98	s1:i:739	dv:f:0.0640	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_3	1552	44	1493	749	1475	0	tp:A:S	cm:i:98	s1:i:739	dv:f:0.0640	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_4	1552	44	1493	749	1475	0	tp:A:S	cm:i:98	s1:i:739	dv:f:0.0640	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_2	1552	44	1493	749	1475	0	tp:A:S	cm:i:98	s1:i:739	dv:f:0.0640	rl:i:0
+13484606-574c-48f3-b1e0-e3aac5fcf4b0	1560	17	1450	+	Listeria_monocytogenes_16S_5	1552	44	1493	749	1475	0	tp:A:S	cm:i:98	s1:i:739	dv:f:0.0640	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_4	1534	69	1494	622	1446	0	tp:A:P	cm:i:77	s1:i:611	s2:i:611	dv:f:0.0846	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_2	1534	69	1494	622	1446	0	tp:A:S	cm:i:77	s1:i:611	dv:f:0.0846	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_3	1534	69	1494	622	1446	0	tp:A:S	cm:i:77	s1:i:611	dv:f:0.0846	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_5	1534	69	1494	622	1446	0	tp:A:S	cm:i:77	s1:i:611	dv:f:0.0846	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_6	1534	69	1494	622	1446	0	tp:A:S	cm:i:77	s1:i:611	dv:f:0.0846	rl:i:0
+df05168b-dcb8-42a2-adb4-5369035b8ec0	1612	154	1543	+	Salmonella_enterica_16S_5	1534	69	1494	622	1446	0	tp:A:S	cm:i:77	s1:i:611	dv:f:0.0846	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_5	1556	333	1426	412	1098	0	tp:A:P	cm:i:40	s1:i:407	s2:i:407	dv:f:0.1073	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_6	1556	333	1426	412	1098	0	tp:A:S	cm:i:40	s1:i:407	dv:f:0.1073	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_3	1556	333	1426	412	1098	0	tp:A:S	cm:i:40	s1:i:407	dv:f:0.1073	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_4	1556	333	1426	412	1098	0	tp:A:S	cm:i:40	s1:i:407	dv:f:0.1073	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_1	1556	333	1426	411	1098	0	tp:A:S	cm:i:39	s1:i:406	dv:f:0.1090	rl:i:0
+18675794-5753-43e7-9ef6-65ee426aee3e	1535	287	1352	+	Staphylococcus_aureus_16S_2	1556	333	1426	405	1098	0	tp:A:S	cm:i:39	s1:i:400	dv:f:0.1090	rl:i:0
+c7ac9d18-6d3a-492e-b782-7fab49c7c1ed	1608	34	1503	+	Lactobacillus_fermentum_16S_1	1568	52	1502	820	1489	0	tp:A:P	cm:i:101	s1:i:813	s2:i:811	dv:f:0.0670	rl:i:0
+c7ac9d18-6d3a-492e-b782-7fab49c7c1ed	1608	34	1503	+	Lactobacillus_fermentum_16S_2	1578	52	1512	820	1496	0	tp:A:S	cm:i:101	s1:i:811	dv:f:0.0670	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_1	1534	26	1499	636	1480	0	tp:A:P	cm:i:77	s1:i:624	s2:i:622	dv:f:0.0841	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_2	1534	26	1499	633	1480	0	tp:A:S	cm:i:76	s1:i:622	dv:f:0.0850	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_5	1534	26	1499	633	1480	0	tp:A:S	cm:i:76	s1:i:622	dv:f:0.0850	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_6	1534	26	1499	633	1480	0	tp:A:S	cm:i:76	s1:i:622	dv:f:0.0850	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_4	1534	26	1499	633	1480	0	tp:A:S	cm:i:76	s1:i:622	dv:f:0.0850	rl:i:0
+a489b49d-befd-4d0a-9c42-01088d5d7a9d	1504	6	1417	+	Salmonella_enterica_16S_3	1534	26	1499	633	1480	0	tp:A:S	cm:i:76	s1:i:622	dv:f:0.0850	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_4	1534	26	1497	921	1508	0	tp:A:P	cm:i:119	s1:i:916	s2:i:916	dv:f:0.0546	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_5	1534	26	1497	921	1508	0	tp:A:S	cm:i:119	s1:i:916	dv:f:0.0546	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_2	1534	26	1497	921	1508	0	tp:A:S	cm:i:119	s1:i:916	dv:f:0.0546	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_5	1534	26	1497	921	1508	0	tp:A:S	cm:i:119	s1:i:916	dv:f:0.0546	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_6	1534	26	1497	921	1508	0	tp:A:S	cm:i:119	s1:i:916	dv:f:0.0546	rl:i:0
+6fa50764-d872-487e-87a2-118553dadb11	1595	6	1500	+	Salmonella_enterica_16S_3	1534	26	1497	921	1508	0	tp:A:S	cm:i:119	s1:i:916	dv:f:0.0546	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_3	1534	64	1499	402	1439	0	tp:A:P	cm:i:54	s1:i:391	s2:i:391	dv:f:0.1058	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_4	1534	64	1499	402	1439	0	tp:A:S	cm:i:54	s1:i:391	dv:f:0.1058	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_2	1534	64	1499	402	1439	0	tp:A:S	cm:i:54	s1:i:391	dv:f:0.1058	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_6	1534	64	1499	402	1439	0	tp:A:S	cm:i:54	s1:i:391	dv:f:0.1058	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_5	1534	64	1499	402	1439	0	tp:A:S	cm:i:54	s1:i:391	dv:f:0.1058	rl:i:0
+ac9d21dc-1c5d-49c6-b4bf-9130c8d3cea6	1515	47	1428	+	Salmonella_enterica_16S_5	1534	64	1499	402	1439	0	tp:A:S	cm:i:54	s1:i:391	dv:f:0.1058	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_10	1558	38	1487	374	1452	0	tp:A:P	cm:i:48	s1:i:367	s2:i:367	dv:f:0.1149	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_9	1558	38	1487	374	1452	0	tp:A:S	cm:i:48	s1:i:367	dv:f:0.1149	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_5	1558	38	1487	374	1452	0	tp:A:S	cm:i:48	s1:i:367	dv:f:0.1149	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_1	1558	38	1487	374	1452	0	tp:A:S	cm:i:48	s1:i:367	dv:f:0.1149	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_6	1558	38	1487	374	1452	0	tp:A:S	cm:i:48	s1:i:367	dv:f:0.1149	rl:i:0
+6c954e6a-fe38-497e-b248-dd66d085235f	1539	8	1422	+	Bacillus_subtilis_16S_4	1558	38	1487	374	1452	0	tp:A:S	cm:i:48	s1:i:367	dv:f:0.1149	rl:i:0
+4d1288da-52a3-47ae-8280-dc67fc5b727a	1560	57	1480	+	Pseudomonas_aeruginosa_16S_2	1526	72	1488	928	1445	0	tp:A:P	cm:i:118	s1:i:925	s2:i:925	dv:f:0.0549	rl:i:0
+4d1288da-52a3-47ae-8280-dc67fc5b727a	1560	57	1480	+	Pseudomonas_aeruginosa_16S_1	1526	72	1488	928	1445	0	tp:A:S	cm:i:118	s1:i:925	dv:f:0.0549	rl:i:0
+4d1288da-52a3-47ae-8280-dc67fc5b727a	1560	57	1480	+	Pseudomonas_aeruginosa_16S_3	1526	72	1488	928	1445	0	tp:A:S	cm:i:118	s1:i:925	dv:f:0.0549	rl:i:0
+4d1288da-52a3-47ae-8280-dc67fc5b727a	1560	57	1480	+	Pseudomonas_aeruginosa_16S_4	1526	72	1488	928	1445	0	tp:A:S	cm:i:118	s1:i:925	dv:f:0.0549	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_6	1552	29	1440	929	1429	0	tp:A:P	cm:i:124	s1:i:928	s2:i:928	dv:f:0.0496	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_3	1552	29	1440	929	1429	0	tp:A:S	cm:i:124	s1:i:928	dv:f:0.0496	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_1	1552	29	1440	929	1429	0	tp:A:S	cm:i:124	s1:i:928	dv:f:0.0496	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_4	1552	29	1440	929	1429	0	tp:A:S	cm:i:124	s1:i:928	dv:f:0.0496	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_5	1552	29	1440	929	1429	0	tp:A:S	cm:i:124	s1:i:928	dv:f:0.0496	rl:i:0
+9601c4a4-0a92-4d8f-9a19-eb545579cfda	1567	2	1408	+	Listeria_monocytogenes_16S_2	1552	29	1440	913	1427	0	tp:A:S	cm:i:122	s1:i:912	dv:f:0.0507	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_4	1558	30	1487	425	1463	0	tp:A:P	cm:i:43	s1:i:414	s2:i:414	dv:f:0.1210	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_1	1558	30	1487	425	1463	0	tp:A:S	cm:i:43	s1:i:414	dv:f:0.1210	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_8	1558	30	1487	425	1463	0	tp:A:S	cm:i:43	s1:i:414	dv:f:0.1210	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_2	1558	30	1487	425	1463	0	tp:A:S	cm:i:43	s1:i:414	dv:f:0.1210	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_5	1558	30	1487	425	1463	0	tp:A:S	cm:i:43	s1:i:414	dv:f:0.1210	rl:i:0
+36184d3e-dd80-4467-847d-ecb0b5f30618	1526	2	1412	+	Bacillus_subtilis_16S_7	1558	30	1487	425	1463	0	tp:A:S	cm:i:43	s1:i:414	dv:f:0.1210	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_2	1558	30	1513	830	1494	0	tp:A:P	cm:i:111	s1:i:827	s2:i:827	dv:f:0.0588	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_4	1558	30	1513	830	1494	0	tp:A:S	cm:i:111	s1:i:827	dv:f:0.0588	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_7	1558	30	1513	830	1494	0	tp:A:S	cm:i:111	s1:i:827	dv:f:0.0588	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_1	1558	30	1513	830	1494	0	tp:A:S	cm:i:111	s1:i:827	dv:f:0.0588	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_10	1558	30	1513	830	1494	0	tp:A:S	cm:i:111	s1:i:827	dv:f:0.0588	rl:i:0
+9a63df28-c84c-4e4b-a107-0f991a200bda	1549	2	1459	+	Bacillus_subtilis_16S_6	1558	30	1513	830	1494	0	tp:A:S	cm:i:111	s1:i:827	dv:f:0.0588	rl:i:0
+95844115-f9e3-4312-8f65-8bae8cf8af2b	1545	6	1382	+	Pseudomonas_aeruginosa_16S_1	1526	24	1410	884	1402	0	tp:A:P	cm:i:122	s1:i:881	s2:i:881	dv:f:0.0520	rl:i:0
+95844115-f9e3-4312-8f65-8bae8cf8af2b	1545	6	1382	+	Pseudomonas_aeruginosa_16S_2	1526	24	1410	884	1402	0	tp:A:S	cm:i:122	s1:i:881	dv:f:0.0520	rl:i:0
+95844115-f9e3-4312-8f65-8bae8cf8af2b	1545	6	1382	+	Pseudomonas_aeruginosa_16S_4	1526	24	1410	884	1402	0	tp:A:S	cm:i:122	s1:i:881	dv:f:0.0520	rl:i:0
+95844115-f9e3-4312-8f65-8bae8cf8af2b	1545	6	1382	+	Pseudomonas_aeruginosa_16S_3	1526	24	1410	884	1402	0	tp:A:S	cm:i:122	s1:i:881	dv:f:0.0520	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_6	1556	55	1443	634	1391	0	tp:A:P	cm:i:72	s1:i:627	s2:i:627	dv:f:0.0833	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_5	1556	55	1443	634	1391	0	tp:A:S	cm:i:72	s1:i:627	dv:f:0.0833	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_4	1556	55	1443	634	1391	0	tp:A:S	cm:i:72	s1:i:627	dv:f:0.0833	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_3	1556	55	1443	634	1391	0	tp:A:S	cm:i:72	s1:i:627	dv:f:0.0833	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_1	1556	55	1443	634	1391	0	tp:A:S	cm:i:72	s1:i:627	dv:f:0.0833	rl:i:0
+252df238-7b00-41ab-b964-80eee6a4ec7b	1509	26	1369	+	Staphylococcus_aureus_16S_2	1556	55	1443	617	1391	0	tp:A:S	cm:i:69	s1:i:610	dv:f:0.0861	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_2	1552	105	1512	678	1418	5	tp:A:P	cm:i:85	s1:i:673	s2:i:660	dv:f:0.0727	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_4	1552	105	1512	665	1418	0	tp:A:S	cm:i:82	s1:i:660	dv:f:0.0751	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_5	1552	105	1512	665	1418	0	tp:A:S	cm:i:82	s1:i:660	dv:f:0.0751	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_1	1552	105	1512	665	1418	0	tp:A:S	cm:i:82	s1:i:660	dv:f:0.0751	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_6	1552	105	1512	665	1418	0	tp:A:S	cm:i:82	s1:i:660	dv:f:0.0751	rl:i:0
+f2e0151e-0fe1-4603-b22c-474346ce6c71	1550	82	1472	+	Listeria_monocytogenes_16S_3	1552	105	1512	655	1418	0	tp:A:S	cm:i:81	s1:i:650	dv:f:0.0759	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_2	1534	26	1456	625	1439	0	tp:A:P	cm:i:77	s1:i:619	s2:i:619	dv:f:0.0804	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_4	1534	26	1456	625	1439	0	tp:A:S	cm:i:77	s1:i:619	dv:f:0.0804	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_5	1534	26	1456	625	1439	0	tp:A:S	cm:i:77	s1:i:619	dv:f:0.0804	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_5	1534	26	1456	625	1439	0	tp:A:S	cm:i:77	s1:i:619	dv:f:0.0804	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_3	1534	26	1456	625	1439	0	tp:A:S	cm:i:77	s1:i:619	dv:f:0.0804	rl:i:0
+cfa277f6-a452-43a7-aa9e-588ec8123829	1541	6	1413	+	Salmonella_enterica_16S_6	1534	26	1456	625	1439	0	tp:A:S	cm:i:77	s1:i:619	dv:f:0.0804	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_3	1556	38	1515	559	1487	0	tp:A:P	cm:i:66	s1:i:549	s2:i:549	dv:f:0.0932	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_6	1556	38	1515	559	1487	0	tp:A:S	cm:i:66	s1:i:549	dv:f:0.0932	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_4	1556	38	1515	559	1487	0	tp:A:S	cm:i:66	s1:i:549	dv:f:0.0932	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_1	1556	38	1515	559	1487	0	tp:A:S	cm:i:66	s1:i:549	dv:f:0.0932	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_5	1556	38	1515	559	1487	0	tp:A:S	cm:i:66	s1:i:549	dv:f:0.0932	rl:i:0
+00140a7b-b586-4942-b8af-6e4317d798b9	1535	9	1444	+	Staphylococcus_aureus_16S_2	1556	38	1515	548	1487	0	tp:A:S	cm:i:61	s1:i:538	dv:f:0.0984	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	27	1353	+	Enterococcus_faecalis_16S_2	1562	54	1423	557	1375	0	tp:A:P	cm:i:66	s1:i:550	s2:i:550	dv:f:0.0874	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	27	1353	+	Enterococcus_faecalis_16S_4	1562	54	1423	557	1375	0	tp:A:S	cm:i:66	s1:i:550	dv:f:0.0874	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	27	1353	+	Enterococcus_faecalis_16S_1	1562	54	1423	557	1375	0	tp:A:S	cm:i:66	s1:i:550	dv:f:0.0874	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	27	1353	+	Enterococcus_faecalis_16S_3	1562	54	1423	557	1375	0	tp:A:S	cm:i:66	s1:i:550	dv:f:0.0874	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	94	1353	+	Bacillus_subtilis_16S_10	1558	113	1415	468	1306	0	tp:A:S	cm:i:55	s1:i:459	dv:f:0.0960	rl:i:0
+5f6f849c-6ee5-413a-9d4c-dba4869e5e8f	1525	94	1353	+	Bacillus_subtilis_16S_9	1558	113	1415	468	1306	0	tp:A:S	cm:i:55	s1:i:459	dv:f:0.0960	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_5	1534	119	1497	728	1391	0	tp:A:P	cm:i:96	s1:i:721	s2:i:721	dv:f:0.0662	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_5	1534	119	1497	728	1391	0	tp:A:S	cm:i:96	s1:i:721	dv:f:0.0662	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_6	1534	119	1497	728	1391	0	tp:A:S	cm:i:96	s1:i:721	dv:f:0.0662	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_3	1534	119	1497	728	1391	0	tp:A:S	cm:i:96	s1:i:721	dv:f:0.0662	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_2	1534	119	1497	728	1391	0	tp:A:S	cm:i:96	s1:i:721	dv:f:0.0662	rl:i:0
+5af11731-b50c-4a5c-a1fd-232bfec306e4	1536	99	1459	+	Salmonella_enterica_16S_4	1534	119	1497	728	1391	0	tp:A:S	cm:i:96	s1:i:721	dv:f:0.0662	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_7	1558	90	1513	622	1431	0	tp:A:P	cm:i:67	s1:i:616	s2:i:595	dv:f:0.0901	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_8	1558	90	1513	601	1431	0	tp:A:S	cm:i:65	s1:i:595	dv:f:0.0922	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_3	1558	90	1513	601	1431	0	tp:A:S	cm:i:65	s1:i:595	dv:f:0.0922	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_10	1558	90	1513	601	1431	0	tp:A:S	cm:i:65	s1:i:595	dv:f:0.0922	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_4	1558	90	1513	601	1431	0	tp:A:S	cm:i:65	s1:i:595	dv:f:0.0922	rl:i:0
+af70b5e3-89ef-427b-a77a-7da50e6306f6	1541	64	1451	+	Bacillus_subtilis_16S_2	1558	90	1513	601	1431	0	tp:A:S	cm:i:65	s1:i:595	dv:f:0.0922	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_8	1558	30	1351	578	1354	0	tp:A:P	cm:i:64	s1:i:572	s2:i:572	dv:f:0.0895	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_1	1558	30	1351	578	1354	0	tp:A:S	cm:i:64	s1:i:572	dv:f:0.0895	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_3	1558	30	1351	578	1354	0	tp:A:S	cm:i:65	s1:i:572	dv:f:0.0885	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_5	1558	30	1351	578	1354	0	tp:A:S	cm:i:64	s1:i:572	dv:f:0.0895	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_9	1558	30	1351	578	1354	0	tp:A:S	cm:i:64	s1:i:572	dv:f:0.0895	rl:i:0
+1231890d-e02e-4b64-9ade-935110149813	1570	2	1329	+	Bacillus_subtilis_16S_2	1558	30	1351	578	1354	0	tp:A:S	cm:i:65	s1:i:572	dv:f:0.0885	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_5	1558	30	1513	941	1494	5	tp:A:P	cm:i:122	s1:i:934	s2:i:916	dv:f:0.0522	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_10	1558	30	1513	923	1494	0	tp:A:S	cm:i:118	s1:i:916	dv:f:0.0544	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_1	1558	30	1513	923	1494	0	tp:A:S	cm:i:118	s1:i:916	dv:f:0.0544	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_8	1558	30	1513	923	1494	0	tp:A:S	cm:i:118	s1:i:916	dv:f:0.0544	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_9	1558	30	1513	923	1494	0	tp:A:S	cm:i:118	s1:i:916	dv:f:0.0544	rl:i:0
+43a45f2b-60db-403b-a05e-248ee0f71d9e	1533	2	1442	+	Bacillus_subtilis_16S_7	1558	30	1513	913	1494	0	tp:A:S	cm:i:115	s1:i:906	dv:f:0.0562	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_2	1558	340	1512	697	1179	0	tp:A:P	cm:i:102	s1:i:695	s2:i:695	dv:f:0.0524	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_3	1558	340	1512	697	1179	0	tp:A:S	cm:i:102	s1:i:695	dv:f:0.0524	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_4	1558	340	1512	697	1179	0	tp:A:S	cm:i:102	s1:i:695	dv:f:0.0524	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_1	1558	340	1512	689	1179	0	tp:A:S	cm:i:98	s1:i:687	dv:f:0.0551	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_10	1558	340	1512	689	1179	0	tp:A:S	cm:i:98	s1:i:687	dv:f:0.0551	rl:i:0
+1ffbffa5-8125-4aab-9682-9ed804bafaa1	1521	288	1444	+	Bacillus_subtilis_16S_5	1558	340	1512	689	1179	0	tp:A:S	cm:i:98	s1:i:687	dv:f:0.0551	rl:i:0
+b3c39342-c21d-4cc5-aa06-ca9aa7cbd96e	1570	9	1481	+	Lactobacillus_fermentum_16S_2	1578	30	1541	706	1524	9	tp:A:P	cm:i:88	s1:i:698	s2:i:672	dv:f:0.0750	rl:i:0
+b3c39342-c21d-4cc5-aa06-ca9aa7cbd96e	1570	9	1481	+	Lactobacillus_fermentum_16S_1	1568	30	1531	678	1515	0	tp:A:S	cm:i:83	s1:i:672	dv:f:0.0789	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	10	1484	+	Staphylococcus_aureus_16S_1	1556	38	1514	645	1498	0	tp:A:P	cm:i:75	s1:i:640	s2:i:626	dv:f:0.0871	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	10	1484	+	Staphylococcus_aureus_16S_6	1556	38	1514	631	1498	0	tp:A:S	cm:i:73	s1:i:626	dv:f:0.0889	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	10	1484	+	Staphylococcus_aureus_16S_3	1556	38	1514	631	1498	0	tp:A:S	cm:i:73	s1:i:626	dv:f:0.0889	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	10	1484	+	Staphylococcus_aureus_16S_5	1556	38	1514	631	1498	0	tp:A:S	cm:i:73	s1:i:626	dv:f:0.0889	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	10	1484	+	Staphylococcus_aureus_16S_4	1556	38	1514	631	1498	0	tp:A:S	cm:i:73	s1:i:626	dv:f:0.0889	rl:i:0
+e43f0024-1c1d-4b5a-b587-372d8694a7aa	1560	2	1484	+	Enterococcus_faecalis_16S_4	1562	27	1520	626	1508	0	tp:A:S	cm:i:77	s1:i:624	dv:f:0.0856	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_9	1558	59	1513	594	1466	0	tp:A:P	cm:i:67	s1:i:583	s2:i:583	dv:f:0.0917	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_8	1558	59	1513	594	1466	0	tp:A:S	cm:i:67	s1:i:583	dv:f:0.0917	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_4	1558	59	1513	594	1466	0	tp:A:S	cm:i:67	s1:i:583	dv:f:0.0917	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_10	1558	59	1513	594	1466	0	tp:A:S	cm:i:67	s1:i:583	dv:f:0.0917	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_7	1558	59	1513	594	1466	0	tp:A:S	cm:i:67	s1:i:583	dv:f:0.0917	rl:i:0
+1cbd98c7-0555-481f-91d5-f3ca42fde783	1505	28	1428	+	Bacillus_subtilis_16S_5	1558	59	1513	594	1466	0	tp:A:S	cm:i:67	s1:i:583	dv:f:0.0917	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	23	1458	+	Pseudomonas_aeruginosa_16S_4	1526	42	1489	563	1464	0	tp:A:P	cm:i:69	s1:i:559	s2:i:559	dv:f:0.0922	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	23	1458	+	Pseudomonas_aeruginosa_16S_3	1526	42	1489	563	1464	0	tp:A:S	cm:i:69	s1:i:559	dv:f:0.0922	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	23	1458	+	Pseudomonas_aeruginosa_16S_1	1526	42	1489	563	1464	0	tp:A:S	cm:i:69	s1:i:559	dv:f:0.0922	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	23	1458	+	Pseudomonas_aeruginosa_16S_2	1526	42	1489	563	1464	0	tp:A:S	cm:i:69	s1:i:559	dv:f:0.0922	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	66	1460	+	Salmonella_enterica_16S_5	1534	96	1499	456	1411	0	tp:A:S	cm:i:57	s1:i:455	dv:f:0.1032	rl:i:0
+185bdf7e-5b65-43a4-8736-934037ed586b	1537	66	1460	+	Salmonella_enterica_16S_2	1534	96	1499	456	1411	0	tp:A:S	cm:i:57	s1:i:455	dv:f:0.1032	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_3	1552	29	1436	432	1423	0	tp:A:P	cm:i:48	s1:i:422	s2:i:422	dv:f:0.1105	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_5	1552	29	1436	432	1423	0	tp:A:S	cm:i:48	s1:i:422	dv:f:0.1105	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_4	1552	29	1436	432	1423	0	tp:A:S	cm:i:48	s1:i:422	dv:f:0.1105	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_1	1552	29	1436	432	1423	0	tp:A:S	cm:i:48	s1:i:422	dv:f:0.1105	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_6	1552	29	1436	432	1423	0	tp:A:S	cm:i:48	s1:i:422	dv:f:0.1105	rl:i:0
+a60047ef-e121-472d-8afb-45aa9f14ed31	1549	2	1378	+	Listeria_monocytogenes_16S_2	1552	29	1436	432	1423	0	tp:A:S	cm:i:48	s1:i:422	dv:f:0.1105	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	10	1501	+	Lactobacillus_fermentum_16S_2	1578	30	1541	381	1522	0	tp:A:P	cm:i:42	s1:i:374	s2:i:361	dv:f:0.1269	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	10	1501	+	Lactobacillus_fermentum_16S_1	1568	30	1531	366	1512	0	tp:A:S	cm:i:41	s1:i:361	dv:f:0.1286	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	25	1501	+	Salmonella_enterica_16S_1	1534	45	1497	334	1497	0	tp:A:S	cm:i:44	s1:i:323	dv:f:0.1231	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	25	1501	+	Escherichia_coli_16S_1	1542	52	1504	334	1497	0	tp:A:S	cm:i:44	s1:i:323	dv:f:0.1231	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	25	1501	+	Escherichia_coli_16S_4	1542	52	1504	334	1497	0	tp:A:S	cm:i:44	s1:i:323	dv:f:0.1231	rl:i:0
+f5e367a4-33b4-489e-a1c9-8dbc98241c47	1578	25	1501	+	Escherichia_coli_16S_7	1542	52	1504	334	1497	0	tp:A:S	cm:i:44	s1:i:323	dv:f:0.1231	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_3	1534	53	1381	872	1336	0	tp:A:P	cm:i:121	s1:i:867	s2:i:867	dv:f:0.0486	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_2	1534	53	1381	872	1336	0	tp:A:S	cm:i:121	s1:i:867	dv:f:0.0486	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_4	1534	53	1381	872	1336	0	tp:A:S	cm:i:121	s1:i:867	dv:f:0.0486	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_5	1534	53	1381	872	1336	0	tp:A:S	cm:i:121	s1:i:867	dv:f:0.0486	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_5	1534	53	1381	872	1336	0	tp:A:S	cm:i:121	s1:i:867	dv:f:0.0486	rl:i:0
+b35ed18b-afda-4091-8771-5a2771a10b55	1518	31	1328	+	Salmonella_enterica_16S_6	1534	53	1381	872	1336	0	tp:A:S	cm:i:121	s1:i:867	dv:f:0.0486	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_4	1556	28	1515	1100	1495	0	tp:A:P	cm:i:151	s1:i:1094	s2:i:1094	dv:f:0.0402	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_5	1556	28	1515	1100	1495	0	tp:A:S	cm:i:151	s1:i:1094	dv:f:0.0402	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_3	1556	28	1515	1100	1495	0	tp:A:S	cm:i:151	s1:i:1094	dv:f:0.0402	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_6	1556	28	1515	1100	1495	0	tp:A:S	cm:i:151	s1:i:1094	dv:f:0.0402	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_1	1556	28	1515	1081	1495	0	tp:A:S	cm:i:146	s1:i:1075	dv:f:0.0425	rl:i:0
+2d09d3b0-c0aa-49d4-a39e-a16054da6d78	1537	0	1445	+	Staphylococcus_aureus_16S_2	1556	28	1515	1080	1495	0	tp:A:S	cm:i:143	s1:i:1074	dv:f:0.0438	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_5	1558	30	1496	948	1497	3	tp:A:P	cm:i:138	s1:i:944	s2:i:932	dv:f:0.0481	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_8	1558	30	1496	936	1497	0	tp:A:S	cm:i:135	s1:i:932	dv:f:0.0496	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_10	1558	30	1496	936	1497	0	tp:A:S	cm:i:135	s1:i:932	dv:f:0.0496	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_7	1558	30	1496	936	1497	0	tp:A:S	cm:i:135	s1:i:932	dv:f:0.0496	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_3	1558	30	1496	936	1497	0	tp:A:S	cm:i:135	s1:i:932	dv:f:0.0496	rl:i:0
+8b4096e1-23aa-4f29-bae8-f77c5d79af62	1575	2	1478	+	Bacillus_subtilis_16S_9	1558	30	1496	936	1497	0	tp:A:S	cm:i:135	s1:i:932	dv:f:0.0496	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_2	1558	45	1513	982	1476	0	tp:A:P	cm:i:145	s1:i:976	s2:i:976	dv:f:0.0414	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_3	1558	45	1513	982	1476	0	tp:A:S	cm:i:145	s1:i:976	dv:f:0.0414	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_4	1558	45	1513	982	1476	0	tp:A:S	cm:i:145	s1:i:976	dv:f:0.0414	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_10	1558	45	1513	980	1476	0	tp:A:S	cm:i:144	s1:i:974	dv:f:0.0419	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_8	1558	45	1513	980	1476	0	tp:A:S	cm:i:144	s1:i:974	dv:f:0.0419	rl:i:0
+6406b6ce-7488-4995-a75c-8494758eed4c	1526	17	1447	+	Bacillus_subtilis_16S_9	1558	45	1513	980	1476	0	tp:A:S	cm:i:144	s1:i:974	dv:f:0.0419	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_2	1556	28	1426	512	1402	0	tp:A:P	cm:i:52	s1:i:504	s2:i:504	dv:f:0.1020	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_5	1556	28	1426	512	1402	0	tp:A:S	cm:i:52	s1:i:504	dv:f:0.1020	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_3	1556	28	1426	512	1402	0	tp:A:S	cm:i:52	s1:i:504	dv:f:0.1020	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_6	1556	28	1426	512	1402	0	tp:A:S	cm:i:52	s1:i:504	dv:f:0.1020	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_4	1556	28	1426	512	1402	0	tp:A:S	cm:i:52	s1:i:504	dv:f:0.1020	rl:i:0
+2a02de84-6f46-4fa1-bd24-60a26aad751a	1531	0	1355	+	Staphylococcus_aureus_16S_1	1556	28	1426	497	1401	0	tp:A:S	cm:i:51	s1:i:489	dv:f:0.1033	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_5	1552	29	1409	535	1407	0	tp:A:P	cm:i:61	s1:i:524	s2:i:524	dv:f:0.0919	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_1	1552	29	1409	535	1407	0	tp:A:S	cm:i:61	s1:i:524	dv:f:0.0919	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_3	1552	29	1409	535	1407	0	tp:A:S	cm:i:61	s1:i:524	dv:f:0.0919	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_6	1552	29	1409	535	1407	0	tp:A:S	cm:i:61	s1:i:524	dv:f:0.0919	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_4	1552	29	1409	535	1407	0	tp:A:S	cm:i:61	s1:i:524	dv:f:0.0919	rl:i:0
+9b6fd23e-f6e8-489b-9e19-ca095931694a	1539	2	1358	+	Listeria_monocytogenes_16S_2	1552	29	1409	519	1407	0	tp:A:S	cm:i:59	s1:i:508	dv:f:0.0941	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_4	1558	46	1513	971	1480	0	tp:A:P	cm:i:122	s1:i:969	s2:i:969	dv:f:0.0504	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_3	1558	46	1513	971	1480	0	tp:A:S	cm:i:122	s1:i:969	dv:f:0.0504	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_2	1558	46	1513	971	1480	0	tp:A:S	cm:i:122	s1:i:969	dv:f:0.0504	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_6	1558	46	1513	961	1480	0	tp:A:S	cm:i:120	s1:i:959	dv:f:0.0515	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_8	1558	46	1513	961	1480	0	tp:A:S	cm:i:120	s1:i:959	dv:f:0.0515	rl:i:0
+0584bc8b-3378-4c15-b68e-716a4cb9e57e	1548	16	1456	+	Bacillus_subtilis_16S_9	1558	46	1513	961	1480	0	tp:A:S	cm:i:120	s1:i:959	dv:f:0.0515	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_3	1558	30	1513	831	1525	0	tp:A:P	cm:i:114	s1:i:825	s2:i:825	dv:f:0.0616	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_2	1558	30	1513	831	1525	0	tp:A:S	cm:i:114	s1:i:825	dv:f:0.0616	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_4	1558	30	1513	831	1525	0	tp:A:S	cm:i:114	s1:i:825	dv:f:0.0616	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_7	1558	30	1513	813	1525	0	tp:A:S	cm:i:112	s1:i:807	dv:f:0.0627	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_9	1558	30	1513	813	1525	0	tp:A:S	cm:i:112	s1:i:807	dv:f:0.0627	rl:i:0
+5f5a1559-d73d-4f54-8d12-e5a656f3a080	1601	2	1510	+	Bacillus_subtilis_16S_6	1558	30	1513	813	1525	0	tp:A:S	cm:i:112	s1:i:807	dv:f:0.0627	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Enterococcus_faecalis_16S_3	1562	27	1521	886	1507	0	tp:A:P	cm:i:123	s1:i:881	s2:i:881	dv:f:0.0522	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Enterococcus_faecalis_16S_1	1562	27	1521	886	1507	0	tp:A:S	cm:i:123	s1:i:881	dv:f:0.0522	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Enterococcus_faecalis_16S_4	1562	27	1521	886	1507	0	tp:A:S	cm:i:123	s1:i:881	dv:f:0.0522	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Enterococcus_faecalis_16S_2	1562	27	1521	886	1507	0	tp:A:S	cm:i:123	s1:i:881	dv:f:0.0522	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Listeria_monocytogenes_16S_6	1552	29	1512	747	1501	0	tp:A:S	cm:i:105	s1:i:742	dv:f:0.0627	rl:i:0
+eb37b9ff-1ac7-4db4-9502-2bf3e00caf3c	1569	2	1478	+	Listeria_monocytogenes_16S_5	1552	29	1512	747	1501	0	tp:A:S	cm:i:105	s1:i:742	dv:f:0.0627	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_4	1556	28	1515	899	1490	0	tp:A:P	cm:i:109	s1:i:892	s2:i:892	dv:f:0.0559	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_6	1556	28	1515	899	1490	0	tp:A:S	cm:i:109	s1:i:892	dv:f:0.0559	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_5	1556	28	1515	899	1490	0	tp:A:S	cm:i:109	s1:i:892	dv:f:0.0559	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_3	1556	28	1515	899	1490	0	tp:A:S	cm:i:109	s1:i:892	dv:f:0.0559	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_1	1556	28	1515	893	1490	0	tp:A:S	cm:i:107	s1:i:886	dv:f:0.0571	rl:i:0
+254d48cb-b7fb-466b-9d20-e3236d51f887	1525	0	1431	+	Staphylococcus_aureus_16S_2	1556	28	1515	888	1490	0	tp:A:S	cm:i:106	s1:i:881	dv:f:0.0577	rl:i:0
+17d0b6c4-5fcf-4ffc-81d5-ebf447358be4	1577	385	1503	+	Lactobacillus_fermentum_16S_1	1568	446	1531	316	1125	0	tp:A:P	cm:i:35	s1:i:308	s2:i:308	dv:f:0.1226	rl:i:0
+17d0b6c4-5fcf-4ffc-81d5-ebf447358be4	1577	385	1503	+	Lactobacillus_fermentum_16S_2	1578	446	1541	316	1129	0	tp:A:S	cm:i:35	s1:i:308	dv:f:0.1226	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_1	1534	26	1499	965	1487	5	tp:A:P	cm:i:132	s1:i:961	s2:i:942	dv:f:0.0487	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_6	1534	26	1499	946	1487	0	tp:A:S	cm:i:129	s1:i:942	dv:f:0.0502	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_4	1534	26	1499	946	1487	0	tp:A:S	cm:i:129	s1:i:942	dv:f:0.0502	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_3	1534	26	1499	946	1487	0	tp:A:S	cm:i:129	s1:i:942	dv:f:0.0502	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_5	1534	26	1499	946	1487	0	tp:A:S	cm:i:129	s1:i:942	dv:f:0.0502	rl:i:0
+a818239f-7534-4cfb-bab2-9f9aa9e16f21	1544	6	1456	+	Salmonella_enterica_16S_2	1534	26	1499	946	1487	0	tp:A:S	cm:i:129	s1:i:942	dv:f:0.0502	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_6	1556	55	1487	909	1455	0	tp:A:P	cm:i:113	s1:i:904	s2:i:904	dv:f:0.0586	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_3	1556	55	1487	909	1455	0	tp:A:S	cm:i:113	s1:i:904	dv:f:0.0586	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_4	1556	55	1487	909	1455	0	tp:A:S	cm:i:113	s1:i:904	dv:f:0.0586	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_5	1556	55	1487	909	1455	0	tp:A:S	cm:i:113	s1:i:904	dv:f:0.0586	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_1	1556	55	1487	904	1455	0	tp:A:S	cm:i:112	s1:i:899	dv:f:0.0592	rl:i:0
+f429d795-a43f-46e2-b3af-7d252c0799d1	1542	26	1460	+	Staphylococcus_aureus_16S_2	1556	55	1487	878	1455	0	tp:A:S	cm:i:108	s1:i:873	dv:f:0.0616	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_6	1558	67	1415	542	1452	0	tp:A:P	cm:i:60	s1:i:524	s2:i:524	dv:f:0.0983	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_3	1558	67	1415	542	1452	0	tp:A:S	cm:i:60	s1:i:524	dv:f:0.0983	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_2	1558	67	1415	542	1452	0	tp:A:S	cm:i:60	s1:i:524	dv:f:0.0983	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_4	1558	67	1415	537	1452	0	tp:A:S	cm:i:59	s1:i:519	dv:f:0.0994	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_10	1558	67	1415	537	1452	0	tp:A:S	cm:i:59	s1:i:519	dv:f:0.0994	rl:i:0
+425c4203-3ee2-404a-bf7c-c3c810fecdcd	1679	45	1495	+	Bacillus_subtilis_16S_9	1558	67	1415	537	1452	0	tp:A:S	cm:i:59	s1:i:519	dv:f:0.0994	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_7	1558	53	1441	723	1403	5	tp:A:P	cm:i:85	s1:i:720	s2:i:705	dv:f:0.0730	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_10	1558	53	1441	708	1403	0	tp:A:S	cm:i:84	s1:i:705	dv:f:0.0738	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_6	1558	53	1441	708	1403	0	tp:A:S	cm:i:84	s1:i:705	dv:f:0.0738	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_3	1558	53	1441	708	1403	0	tp:A:S	cm:i:84	s1:i:705	dv:f:0.0738	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_1	1558	53	1441	708	1403	0	tp:A:S	cm:i:84	s1:i:705	dv:f:0.0738	rl:i:0
+575690b7-6244-4b32-8c37-811901b64c95	1553	21	1401	+	Bacillus_subtilis_16S_9	1558	53	1441	708	1403	0	tp:A:S	cm:i:84	s1:i:705	dv:f:0.0738	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_5	1534	49	1497	740	1454	0	tp:A:P	cm:i:90	s1:i:729	s2:i:729	dv:f:0.0712	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_5	1534	49	1497	740	1454	0	tp:A:S	cm:i:90	s1:i:729	dv:f:0.0712	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_4	1534	49	1497	740	1454	0	tp:A:S	cm:i:90	s1:i:729	dv:f:0.0712	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_2	1534	49	1497	740	1454	0	tp:A:S	cm:i:90	s1:i:729	dv:f:0.0712	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_3	1534	49	1497	740	1454	0	tp:A:S	cm:i:90	s1:i:729	dv:f:0.0712	rl:i:0
+7681303e-70de-4371-a4ab-5be97d10e596	1489	26	1414	+	Salmonella_enterica_16S_6	1534	49	1497	740	1454	0	tp:A:S	cm:i:90	s1:i:729	dv:f:0.0712	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_5	1552	29	1512	810	1490	0	tp:A:P	cm:i:109	s1:i:809	s2:i:809	dv:f:0.0595	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_1	1552	29	1512	810	1490	0	tp:A:S	cm:i:109	s1:i:809	dv:f:0.0595	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_6	1552	29	1512	810	1490	0	tp:A:S	cm:i:109	s1:i:809	dv:f:0.0595	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_3	1552	29	1512	810	1490	0	tp:A:S	cm:i:109	s1:i:809	dv:f:0.0595	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_4	1552	29	1512	810	1490	0	tp:A:S	cm:i:109	s1:i:809	dv:f:0.0595	rl:i:0
+84b35662-dc55-45f7-8b13-84d902a68bc5	1548	2	1471	+	Listeria_monocytogenes_16S_2	1552	29	1512	810	1490	0	tp:A:S	cm:i:109	s1:i:809	dv:f:0.0595	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_2	1552	37	1512	695	1494	6	tp:A:P	cm:i:87	s1:i:694	s2:i:676	dv:f:0.0748	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_3	1552	37	1512	677	1494	0	tp:A:S	cm:i:85	s1:i:676	dv:f:0.0763	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_5	1552	37	1512	677	1494	0	tp:A:S	cm:i:85	s1:i:676	dv:f:0.0763	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_4	1552	37	1512	677	1494	0	tp:A:S	cm:i:85	s1:i:676	dv:f:0.0763	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_6	1552	37	1512	677	1494	0	tp:A:S	cm:i:85	s1:i:676	dv:f:0.0763	rl:i:0
+53bcfefc-b58c-4aa6-a716-a0817fbdc7c4	1562	11	1487	+	Listeria_monocytogenes_16S_1	1552	37	1512	677	1494	0	tp:A:S	cm:i:85	s1:i:676	dv:f:0.0763	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_2	1556	28	1515	395	1497	0	tp:A:P	cm:i:40	s1:i:388	s2:i:387	dv:f:0.1243	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_5	1556	28	1515	394	1497	0	tp:A:S	cm:i:39	s1:i:387	dv:f:0.1260	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_6	1556	28	1515	394	1497	0	tp:A:S	cm:i:39	s1:i:387	dv:f:0.1260	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_3	1556	28	1515	394	1497	0	tp:A:S	cm:i:39	s1:i:387	dv:f:0.1260	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_4	1556	28	1515	394	1497	0	tp:A:S	cm:i:39	s1:i:387	dv:f:0.1260	rl:i:0
+b3ba7e4c-958f-4b4c-b147-5e67af4f253f	1532	0	1455	+	Staphylococcus_aureus_16S_1	1556	28	1515	394	1497	0	tp:A:S	cm:i:39	s1:i:387	dv:f:0.1260	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_4	1556	45	1515	610	1505	0	tp:A:P	cm:i:72	s1:i:604	s2:i:604	dv:f:0.0915	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_6	1556	45	1515	610	1505	0	tp:A:S	cm:i:72	s1:i:604	dv:f:0.0915	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_3	1556	45	1515	610	1505	0	tp:A:S	cm:i:72	s1:i:604	dv:f:0.0915	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_1	1556	45	1515	610	1505	0	tp:A:S	cm:i:72	s1:i:604	dv:f:0.0915	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_5	1556	45	1515	610	1505	0	tp:A:S	cm:i:72	s1:i:604	dv:f:0.0915	rl:i:0
+b3809d21-b7b6-4fbe-a61b-7aa2c3831ab9	1580	17	1502	+	Staphylococcus_aureus_16S_2	1556	45	1515	607	1505	0	tp:A:S	cm:i:71	s1:i:601	dv:f:0.0924	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_3	1552	29	1493	825	1490	0	tp:A:P	cm:i:108	s1:i:814	s2:i:811	dv:f:0.0598	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_6	1552	29	1493	822	1490	0	tp:A:S	cm:i:105	s1:i:811	dv:f:0.0617	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_4	1552	29	1493	822	1490	0	tp:A:S	cm:i:105	s1:i:811	dv:f:0.0617	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_5	1552	29	1493	822	1490	0	tp:A:S	cm:i:105	s1:i:811	dv:f:0.0617	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_1	1552	29	1493	822	1490	0	tp:A:S	cm:i:105	s1:i:811	dv:f:0.0617	rl:i:0
+5aab7efc-b8cd-4f70-a939-a4e02d5d5e85	1556	5	1445	+	Listeria_monocytogenes_16S_2	1552	29	1493	809	1490	0	tp:A:S	cm:i:102	s1:i:798	dv:f:0.0637	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_4	1552	29	1512	734	1506	0	tp:A:P	cm:i:91	s1:i:729	s2:i:729	dv:f:0.0732	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_3	1552	29	1512	734	1506	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0732	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_6	1552	29	1512	734	1506	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0732	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_5	1552	29	1512	734	1506	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0732	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_1	1552	29	1512	734	1506	0	tp:A:S	cm:i:91	s1:i:729	dv:f:0.0732	rl:i:0
+4e8c9646-a456-413b-ae01-4f5196798597	1562	2	1483	+	Listeria_monocytogenes_16S_2	1552	29	1512	718	1506	0	tp:A:S	cm:i:89	s1:i:713	dv:f:0.0747	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_5	1556	523	1504	490	992	0	tp:A:P	cm:i:62	s1:i:488	s2:i:488	dv:f:0.0757	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_6	1556	523	1504	490	992	0	tp:A:S	cm:i:62	s1:i:488	dv:f:0.0757	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_4	1556	523	1504	490	992	0	tp:A:S	cm:i:62	s1:i:488	dv:f:0.0757	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_3	1556	523	1504	490	992	0	tp:A:S	cm:i:62	s1:i:488	dv:f:0.0757	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_2	1556	523	1504	490	992	0	tp:A:S	cm:i:62	s1:i:488	dv:f:0.0757	rl:i:0
+5439b331-7571-44a5-ae54-9d0662c74092	1570	485	1460	+	Staphylococcus_aureus_16S_1	1556	523	1504	480	992	0	tp:A:S	cm:i:59	s1:i:478	dv:f:0.0790	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_7	1558	30	1513	387	1490	0	tp:A:P	cm:i:40	s1:i:383	s2:i:383	dv:f:0.1273	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_9	1558	30	1513	387	1490	0	tp:A:S	cm:i:40	s1:i:383	dv:f:0.1273	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_1	1558	30	1513	387	1490	0	tp:A:S	cm:i:40	s1:i:383	dv:f:0.1273	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_10	1558	30	1513	387	1490	0	tp:A:S	cm:i:40	s1:i:383	dv:f:0.1273	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_5	1558	30	1513	387	1490	0	tp:A:S	cm:i:40	s1:i:383	dv:f:0.1273	rl:i:0
+c041017d-75d0-4a98-ab13-f425792975d1	1545	2	1467	+	Bacillus_subtilis_16S_2	1558	30	1513	387	1490	0	tp:A:S	cm:i:40	s1:i:383	dv:f:0.1273	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_7	1558	154	1441	619	1294	6	tp:A:P	cm:i:75	s1:i:612	s2:i:597	dv:f:0.0744	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_9	1558	154	1441	604	1293	0	tp:A:S	cm:i:74	s1:i:597	dv:f:0.0753	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_5	1558	154	1441	604	1293	0	tp:A:S	cm:i:74	s1:i:597	dv:f:0.0753	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_4	1558	154	1441	604	1293	0	tp:A:S	cm:i:74	s1:i:597	dv:f:0.0753	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_1	1558	154	1441	604	1293	0	tp:A:S	cm:i:74	s1:i:597	dv:f:0.0753	rl:i:0
+6e0c0176-60fb-40ca-a396-0673e0338507	1500	120	1352	+	Bacillus_subtilis_16S_10	1558	154	1441	604	1293	0	tp:A:S	cm:i:74	s1:i:597	dv:f:0.0753	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_10	1558	59	1513	884	1469	0	tp:A:P	cm:i:127	s1:i:880	s2:i:880	dv:f:0.0498	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_8	1558	59	1513	884	1469	0	tp:A:S	cm:i:127	s1:i:880	dv:f:0.0498	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_1	1558	59	1513	884	1469	0	tp:A:S	cm:i:127	s1:i:880	dv:f:0.0498	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_9	1558	59	1513	884	1469	0	tp:A:S	cm:i:127	s1:i:880	dv:f:0.0498	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_4	1558	59	1513	884	1469	0	tp:A:S	cm:i:127	s1:i:880	dv:f:0.0498	rl:i:0
+e6343c15-1b07-47f0-90ec-4053fb3961aa	1542	25	1465	+	Bacillus_subtilis_16S_7	1558	59	1513	884	1469	0	tp:A:S	cm:i:127	s1:i:880	dv:f:0.0498	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_3	1552	29	1512	622	1522	1	tp:A:P	cm:i:82	s1:i:617	s2:i:614	dv:f:0.0807	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_6	1552	29	1512	619	1522	0	tp:A:S	cm:i:79	s1:i:614	dv:f:0.0832	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_5	1552	29	1512	619	1522	0	tp:A:S	cm:i:79	s1:i:614	dv:f:0.0832	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_1	1552	29	1512	619	1522	0	tp:A:S	cm:i:79	s1:i:614	dv:f:0.0832	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_4	1552	29	1512	619	1522	0	tp:A:S	cm:i:79	s1:i:614	dv:f:0.0832	rl:i:0
+7e41ff20-3628-44b5-b422-dfbba9b7a7ac	1590	2	1513	+	Listeria_monocytogenes_16S_2	1552	29	1512	603	1522	0	tp:A:S	cm:i:77	s1:i:598	dv:f:0.0849	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	63	1460	+	Lactobacillus_fermentum_16S_1	1568	118	1531	815	1419	0	tp:A:P	cm:i:119	s1:i:813	s2:i:811	dv:f:0.0500	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	63	1460	+	Lactobacillus_fermentum_16S_2	1578	118	1541	815	1429	0	tp:A:S	cm:i:119	s1:i:811	dv:f:0.0500	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	16	1460	+	Listeria_monocytogenes_16S_3	1552	55	1512	708	1464	0	tp:A:S	cm:i:88	s1:i:707	dv:f:0.0727	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	16	1460	+	Listeria_monocytogenes_16S_5	1552	55	1512	694	1464	0	tp:A:S	cm:i:85	s1:i:693	dv:f:0.0750	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	16	1460	+	Listeria_monocytogenes_16S_4	1552	55	1512	694	1464	0	tp:A:S	cm:i:85	s1:i:693	dv:f:0.0750	rl:i:0
+1171e762-2cfd-4064-befa-f90dbae7971e	1551	16	1460	+	Listeria_monocytogenes_16S_2	1552	55	1512	694	1464	0	tp:A:S	cm:i:85	s1:i:693	dv:f:0.0750	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_1	1552	44	1512	630	1486	0	tp:A:P	cm:i:76	s1:i:628	s2:i:628	dv:f:0.0843	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_6	1552	44	1512	630	1486	0	tp:A:S	cm:i:76	s1:i:628	dv:f:0.0843	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_5	1552	44	1512	630	1486	0	tp:A:S	cm:i:76	s1:i:628	dv:f:0.0843	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_4	1552	44	1512	630	1486	0	tp:A:S	cm:i:76	s1:i:628	dv:f:0.0843	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_2	1552	44	1512	624	1486	0	tp:A:S	cm:i:73	s1:i:622	dv:f:0.0870	rl:i:0
+b51c9683-01cf-45a7-b909-c2025031018b	1575	18	1485	+	Listeria_monocytogenes_16S_3	1552	44	1512	622	1486	0	tp:A:S	cm:i:75	s1:i:620	dv:f:0.0851	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_6	1552	29	1475	971	1456	0	tp:A:P	cm:i:125	s1:i:963	s2:i:963	dv:f:0.0459	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_5	1552	29	1475	971	1456	0	tp:A:S	cm:i:125	s1:i:963	dv:f:0.0459	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_4	1552	29	1475	971	1456	0	tp:A:S	cm:i:125	s1:i:963	dv:f:0.0459	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_1	1552	29	1475	971	1456	0	tp:A:S	cm:i:125	s1:i:963	dv:f:0.0459	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_3	1552	29	1475	968	1456	0	tp:A:S	cm:i:124	s1:i:960	dv:f:0.0465	rl:i:0
+fa5e0b26-8e3d-4e24-9ab7-f9971b562418	1535	2	1400	+	Listeria_monocytogenes_16S_2	1552	29	1475	965	1456	0	tp:A:S	cm:i:123	s1:i:957	dv:f:0.0470	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_2	1556	941	1515	364	578	9	tp:A:P	cm:i:54	s1:i:362	s2:i:347	dv:f:0.0474	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_4	1556	941	1515	349	578	0	tp:A:S	cm:i:53	s1:i:347	dv:f:0.0487	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_3	1556	941	1515	349	578	0	tp:A:S	cm:i:53	s1:i:347	dv:f:0.0487	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_6	1556	941	1515	349	578	0	tp:A:S	cm:i:53	s1:i:347	dv:f:0.0487	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_5	1556	941	1515	349	578	0	tp:A:S	cm:i:53	s1:i:347	dv:f:0.0487	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	139	708	+	Staphylococcus_aureus_16S_1	1556	941	1515	340	578	0	tp:A:S	cm:i:48	s1:i:338	dv:f:0.0553	rl:i:0
+49e9aa8b-eb5f-41ad-8386-bf3bdd45f4a7	795	2	132	+	Enterococcus_faecalis_16S_2	1562	27	153	83	130	0	tp:A:P	cm:i:10	s1:i:83	s2:i:83	dv:f:0.0637	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_5	1558	100	1241	323	1162	5	tp:A:P	cm:i:35	s1:i:311	s2:i:303	dv:f:0.1175	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_4	1558	100	1241	315	1162	0	tp:A:S	cm:i:34	s1:i:303	dv:f:0.1195	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_7	1558	100	1241	315	1162	0	tp:A:S	cm:i:34	s1:i:303	dv:f:0.1195	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_9	1558	100	1241	315	1162	0	tp:A:S	cm:i:34	s1:i:303	dv:f:0.1195	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_6	1558	100	1241	315	1162	0	tp:A:S	cm:i:34	s1:i:303	dv:f:0.1195	rl:i:0
+b1b998a0-dadc-4c88-b111-0a2c37efbc31	1559	91	1204	+	Bacillus_subtilis_16S_3	1558	100	1241	315	1162	0	tp:A:S	cm:i:34	s1:i:303	dv:f:0.1195	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_4	1558	100	1484	819	1398	0	tp:A:P	cm:i:108	s1:i:819	s2:i:817	dv:f:0.0568	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_10	1558	100	1484	817	1398	0	tp:A:S	cm:i:107	s1:i:817	dv:f:0.0574	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_8	1558	100	1484	817	1398	0	tp:A:S	cm:i:107	s1:i:817	dv:f:0.0574	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_9	1558	100	1484	817	1398	0	tp:A:S	cm:i:107	s1:i:817	dv:f:0.0574	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_1	1558	100	1484	817	1398	0	tp:A:S	cm:i:107	s1:i:817	dv:f:0.0574	rl:i:0
+d2dac9f0-6fdc-4a45-b916-3c8d539d5efb	1567	75	1458	+	Bacillus_subtilis_16S_2	1558	100	1484	812	1398	0	tp:A:S	cm:i:106	s1:i:812	dv:f:0.0580	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_9	1558	30	1513	773	1493	0	tp:A:P	cm:i:101	s1:i:765	s2:i:765	dv:f:0.0641	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_4	1558	30	1513	773	1493	0	tp:A:S	cm:i:101	s1:i:765	dv:f:0.0641	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_7	1558	30	1513	773	1493	0	tp:A:S	cm:i:101	s1:i:765	dv:f:0.0641	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_1	1558	30	1513	773	1493	0	tp:A:S	cm:i:101	s1:i:765	dv:f:0.0641	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_10	1558	30	1513	773	1493	0	tp:A:S	cm:i:101	s1:i:765	dv:f:0.0641	rl:i:0
+0ea768a4-8d35-4186-86e2-d855f2d57129	1531	2	1443	+	Bacillus_subtilis_16S_8	1558	30	1513	773	1493	0	tp:A:S	cm:i:101	s1:i:765	dv:f:0.0641	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_5	1534	53	1499	670	1462	0	tp:A:P	cm:i:85	s1:i:665	s2:i:665	dv:f:0.0785	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_4	1534	53	1499	670	1462	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0785	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_5	1534	53	1499	670	1462	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0785	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_6	1534	53	1499	670	1462	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0785	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_3	1534	53	1499	670	1462	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0785	rl:i:0
+7423e7df-541c-48c0-bd1b-0400dda26575	1538	30	1465	+	Salmonella_enterica_16S_2	1534	53	1499	670	1462	0	tp:A:S	cm:i:85	s1:i:665	dv:f:0.0785	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_10	1558	30	1513	753	1501	0	tp:A:P	cm:i:82	s1:i:749	s2:i:749	dv:f:0.0787	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_9	1558	30	1513	753	1501	0	tp:A:S	cm:i:82	s1:i:749	dv:f:0.0787	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_1	1558	30	1513	753	1501	0	tp:A:S	cm:i:82	s1:i:749	dv:f:0.0787	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_8	1558	30	1513	753	1501	0	tp:A:S	cm:i:82	s1:i:749	dv:f:0.0787	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_6	1558	30	1513	745	1501	0	tp:A:S	cm:i:83	s1:i:741	dv:f:0.0779	rl:i:0
+a9bf4746-4744-439a-af4d-dad858f6fabc	1551	2	1474	+	Bacillus_subtilis_16S_5	1558	30	1513	744	1501	0	tp:A:S	cm:i:81	s1:i:740	dv:f:0.0795	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_1	1542	52	1353	643	1322	0	tp:A:P	cm:i:73	s1:i:640	s2:i:640	dv:f:0.0813	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_5	1542	52	1353	643	1322	0	tp:A:S	cm:i:73	s1:i:640	dv:f:0.0813	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_3	1542	52	1353	643	1322	0	tp:A:S	cm:i:73	s1:i:640	dv:f:0.0813	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_8	1542	52	1353	643	1322	0	tp:A:S	cm:i:73	s1:i:640	dv:f:0.0813	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_7	1542	52	1353	618	1322	0	tp:A:S	cm:i:71	s1:i:615	dv:f:0.0831	rl:i:0
+caea160f-7afd-4b06-8b9c-3a40988906f7	1562	24	1327	+	Escherichia_coli_16S_2	1542	52	1353	618	1322	0	tp:A:S	cm:i:71	s1:i:615	dv:f:0.0831	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	69	1483	+	Enterococcus_faecalis_16S_3	1562	109	1521	679	1443	0	tp:A:P	cm:i:92	s1:i:670	s2:i:670	dv:f:0.0708	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	69	1483	+	Enterococcus_faecalis_16S_1	1562	109	1521	679	1443	0	tp:A:S	cm:i:92	s1:i:670	dv:f:0.0708	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	69	1483	+	Enterococcus_faecalis_16S_2	1562	109	1521	679	1443	0	tp:A:S	cm:i:92	s1:i:670	dv:f:0.0708	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	69	1483	+	Enterococcus_faecalis_16S_4	1562	109	1521	679	1443	0	tp:A:S	cm:i:92	s1:i:670	dv:f:0.0708	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	54	1483	+	Staphylococcus_aureus_16S_3	1556	87	1515	663	1457	0	tp:A:S	cm:i:92	s1:i:653	dv:f:0.0718	rl:i:0
+f1334c6e-986d-4671-9e17-0a5c37879e5d	1555	54	1483	+	Staphylococcus_aureus_16S_1	1556	87	1515	663	1457	0	tp:A:S	cm:i:92	s1:i:653	dv:f:0.0718	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	0	1468	+	Staphylococcus_aureus_16S_6	1556	28	1515	576	1496	0	tp:A:P	cm:i:69	s1:i:573	s2:i:573	dv:f:0.0897	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	0	1468	+	Staphylococcus_aureus_16S_4	1556	28	1515	576	1496	0	tp:A:S	cm:i:69	s1:i:573	dv:f:0.0897	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	0	1468	+	Staphylococcus_aureus_16S_5	1556	28	1515	576	1496	0	tp:A:S	cm:i:69	s1:i:573	dv:f:0.0897	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	0	1468	+	Staphylococcus_aureus_16S_1	1556	28	1515	576	1496	0	tp:A:S	cm:i:69	s1:i:573	dv:f:0.0897	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	0	1468	+	Staphylococcus_aureus_16S_3	1556	28	1515	576	1496	0	tp:A:S	cm:i:69	s1:i:573	dv:f:0.0897	rl:i:0
+697566e0-a591-4889-96d0-8a2c183e8da9	1554	303	1470	+	Salmonella_enterica_16S_1	1534	318	1499	558	1188	0	tp:A:S	cm:i:68	s1:i:557	dv:f:0.0752	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_4	1558	30	1487	713	1482	0	tp:A:P	cm:i:79	s1:i:708	s2:i:708	dv:f:0.0817	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_1	1558	30	1487	713	1482	0	tp:A:S	cm:i:79	s1:i:708	dv:f:0.0817	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_8	1558	30	1487	713	1482	0	tp:A:S	cm:i:79	s1:i:708	dv:f:0.0817	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_9	1558	30	1487	713	1482	0	tp:A:S	cm:i:79	s1:i:708	dv:f:0.0817	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_5	1558	30	1487	713	1482	0	tp:A:S	cm:i:79	s1:i:708	dv:f:0.0817	rl:i:0
+7fd83f53-afd7-4704-afce-df64c2cba8fd	1547	2	1447	+	Bacillus_subtilis_16S_10	1558	30	1487	713	1482	0	tp:A:S	cm:i:79	s1:i:708	dv:f:0.0817	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_5	1534	26	1346	887	1324	0	tp:A:P	cm:i:118	s1:i:887	s2:i:887	dv:f:0.0471	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_2	1534	26	1346	887	1324	0	tp:A:S	cm:i:118	s1:i:887	dv:f:0.0471	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_6	1534	26	1346	887	1324	0	tp:A:S	cm:i:118	s1:i:887	dv:f:0.0471	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_5	1534	26	1346	887	1324	0	tp:A:S	cm:i:118	s1:i:887	dv:f:0.0471	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_4	1534	26	1346	887	1324	0	tp:A:S	cm:i:118	s1:i:887	dv:f:0.0471	rl:i:0
+085bd89f-e735-4058-8955-d2d7768d3404	1552	6	1304	+	Salmonella_enterica_16S_3	1534	26	1346	887	1324	0	tp:A:S	cm:i:118	s1:i:887	dv:f:0.0471	rl:i:0
+26776c59-2625-42a6-a572-4715f93f50b7	1548	18	1457	+	Lactobacillus_fermentum_16S_1	1568	37	1531	726	1502	0	tp:A:P	cm:i:91	s1:i:716	s2:i:714	dv:f:0.0735	rl:i:0
+26776c59-2625-42a6-a572-4715f93f50b7	1548	18	1457	+	Lactobacillus_fermentum_16S_2	1578	37	1541	726	1512	0	tp:A:S	cm:i:91	s1:i:714	dv:f:0.0735	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_6	1558	45	1424	607	1397	0	tp:A:P	cm:i:83	s1:i:605	s2:i:605	dv:f:0.0722	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_3	1558	45	1424	607	1397	0	tp:A:S	cm:i:83	s1:i:605	dv:f:0.0722	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_9	1558	45	1424	607	1397	0	tp:A:S	cm:i:83	s1:i:605	dv:f:0.0722	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_7	1558	45	1424	607	1397	0	tp:A:S	cm:i:83	s1:i:605	dv:f:0.0722	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_2	1558	45	1424	607	1397	0	tp:A:S	cm:i:83	s1:i:605	dv:f:0.0722	rl:i:0
+a6e8113d-8509-4e8f-9dbd-3c9465ec0b37	1568	19	1401	+	Bacillus_subtilis_16S_4	1558	45	1424	607	1397	0	tp:A:S	cm:i:83	s1:i:605	dv:f:0.0722	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_9	1558	38	1415	458	1390	0	tp:A:P	cm:i:53	s1:i:449	s2:i:449	dv:f:0.1004	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_8	1558	38	1415	458	1390	0	tp:A:S	cm:i:53	s1:i:449	dv:f:0.1004	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_4	1558	38	1415	458	1390	0	tp:A:S	cm:i:53	s1:i:449	dv:f:0.1004	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_10	1558	38	1415	458	1390	0	tp:A:S	cm:i:53	s1:i:449	dv:f:0.1004	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_7	1558	38	1415	458	1390	0	tp:A:S	cm:i:53	s1:i:449	dv:f:0.1004	rl:i:0
+cc78c491-a50a-4846-bdf8-c502e61f580b	1533	9	1348	+	Bacillus_subtilis_16S_1	1558	38	1415	458	1390	0	tp:A:S	cm:i:53	s1:i:449	dv:f:0.1004	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Salmonella_enterica_16S_5	1534	61	1499	622	1449	0	tp:A:P	cm:i:74	s1:i:616	s2:i:616	dv:f:0.0865	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Salmonella_enterica_16S_4	1534	61	1499	622	1449	0	tp:A:S	cm:i:74	s1:i:616	dv:f:0.0865	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Escherichia_coli_16S_4	1542	68	1506	622	1447	0	tp:A:S	cm:i:71	s1:i:616	dv:f:0.0893	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Salmonella_enterica_16S_3	1534	61	1499	622	1449	0	tp:A:S	cm:i:74	s1:i:616	dv:f:0.0865	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Salmonella_enterica_16S_6	1534	61	1499	622	1449	0	tp:A:S	cm:i:74	s1:i:616	dv:f:0.0865	rl:i:0
+bea4a413-d9ef-4e32-b165-ea34bab1ea6e	1527	44	1453	+	Salmonella_enterica_16S_5	1534	61	1499	622	1449	0	tp:A:S	cm:i:74	s1:i:616	dv:f:0.0865	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_6	1552	29	1512	814	1504	0	tp:A:P	cm:i:101	s1:i:811	s2:i:811	dv:f:0.0656	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_4	1552	29	1512	814	1504	0	tp:A:S	cm:i:101	s1:i:811	dv:f:0.0656	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_5	1552	29	1512	814	1504	0	tp:A:S	cm:i:101	s1:i:811	dv:f:0.0656	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_1	1552	29	1512	814	1504	0	tp:A:S	cm:i:101	s1:i:811	dv:f:0.0656	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_3	1552	29	1512	811	1504	0	tp:A:S	cm:i:100	s1:i:808	dv:f:0.0662	rl:i:0
+cd0f1ac2-22f5-4921-897c-b687d1fe3ca1	1535	2	1482	+	Listeria_monocytogenes_16S_2	1552	29	1512	805	1504	0	tp:A:S	cm:i:99	s1:i:802	dv:f:0.0669	rl:i:0
+691d8b41-504e-4ff6-82ce-26888cec8aff	1627	10	1531	+	Lactobacillus_fermentum_16S_2	1578	30	1540	866	1551	7	tp:A:P	cm:i:101	s1:i:859	s2:i:834	dv:f:0.0668	rl:i:0
+691d8b41-504e-4ff6-82ce-26888cec8aff	1627	10	1531	+	Lactobacillus_fermentum_16S_1	1568	30	1530	839	1541	0	tp:A:S	cm:i:98	s1:i:834	dv:f:0.0688	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_2	1556	38	1515	903	1500	2	tp:A:P	cm:i:110	s1:i:898	s2:i:890	dv:f:0.0566	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_6	1556	38	1515	895	1500	0	tp:A:S	cm:i:109	s1:i:890	dv:f:0.0572	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_1	1556	38	1515	895	1500	0	tp:A:S	cm:i:109	s1:i:890	dv:f:0.0572	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_4	1556	38	1515	895	1500	0	tp:A:S	cm:i:109	s1:i:890	dv:f:0.0572	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_3	1556	38	1515	895	1500	0	tp:A:S	cm:i:109	s1:i:890	dv:f:0.0572	rl:i:0
+6357bfa5-6bc3-4bf8-8299-f8ace55702f1	1571	9	1481	+	Staphylococcus_aureus_16S_5	1556	38	1515	895	1500	0	tp:A:S	cm:i:109	s1:i:890	dv:f:0.0572	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_4	1558	30	1496	942	1488	0	tp:A:P	cm:i:122	s1:i:941	s2:i:941	dv:f:0.0507	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_3	1558	30	1496	942	1488	0	tp:A:S	cm:i:122	s1:i:941	dv:f:0.0507	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_2	1558	30	1496	942	1488	0	tp:A:S	cm:i:122	s1:i:941	dv:f:0.0507	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_7	1558	30	1496	927	1487	0	tp:A:S	cm:i:121	s1:i:926	dv:f:0.0512	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_10	1558	30	1496	927	1487	0	tp:A:S	cm:i:121	s1:i:926	dv:f:0.0512	rl:i:0
+dd9608b2-fa27-41b4-9fe2-1ce789c4e4f6	1570	2	1461	+	Bacillus_subtilis_16S_6	1558	30	1496	927	1487	0	tp:A:S	cm:i:121	s1:i:926	dv:f:0.0512	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_7	1558	30	1513	785	1496	0	tp:A:P	cm:i:92	s1:i:778	s2:i:778	dv:f:0.0713	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_10	1558	30	1513	785	1496	0	tp:A:S	cm:i:92	s1:i:778	dv:f:0.0713	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_8	1558	30	1513	785	1496	0	tp:A:S	cm:i:92	s1:i:778	dv:f:0.0713	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_2	1558	30	1513	785	1496	0	tp:A:S	cm:i:92	s1:i:778	dv:f:0.0713	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_3	1558	30	1513	785	1496	0	tp:A:S	cm:i:92	s1:i:778	dv:f:0.0713	rl:i:0
+daeeb278-e518-40f4-90fe-1fe84dde3395	1539	2	1446	+	Bacillus_subtilis_16S_9	1558	30	1513	785	1496	0	tp:A:S	cm:i:92	s1:i:778	dv:f:0.0713	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_4	1534	119	1346	661	1250	0	tp:A:P	cm:i:89	s1:i:659	s2:i:659	dv:f:0.0653	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_5	1534	119	1346	661	1250	0	tp:A:S	cm:i:89	s1:i:659	dv:f:0.0653	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_2	1534	119	1346	661	1250	0	tp:A:S	cm:i:89	s1:i:659	dv:f:0.0653	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_3	1534	119	1346	661	1250	0	tp:A:S	cm:i:89	s1:i:659	dv:f:0.0653	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_6	1534	119	1346	661	1250	0	tp:A:S	cm:i:89	s1:i:659	dv:f:0.0653	rl:i:0
+9d6a3aad-6d18-4d77-bc90-af0fed5b41eb	1553	96	1327	+	Salmonella_enterica_16S_5	1534	119	1346	661	1250	0	tp:A:S	cm:i:89	s1:i:659	dv:f:0.0653	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_3	1552	29	1395	488	1382	1	tp:A:P	cm:i:57	s1:i:483	s2:i:480	dv:f:0.0999	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_6	1552	29	1395	485	1382	0	tp:A:S	cm:i:54	s1:i:480	dv:f:0.1035	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_1	1552	29	1395	485	1382	0	tp:A:S	cm:i:54	s1:i:480	dv:f:0.1035	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_5	1552	29	1395	485	1382	0	tp:A:S	cm:i:54	s1:i:480	dv:f:0.1035	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_4	1552	29	1395	485	1382	0	tp:A:S	cm:i:54	s1:i:480	dv:f:0.1035	rl:i:0
+49225402-4a65-4b49-92e9-4da7a8189a5d	1555	2	1358	+	Listeria_monocytogenes_16S_2	1552	29	1395	472	1382	0	tp:A:S	cm:i:51	s1:i:467	dv:f:0.1073	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	44	1442	+	Escherichia_coli_16S_3	1542	66	1506	693	1444	0	tp:A:P	cm:i:89	s1:i:687	s2:i:687	dv:f:0.0710	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	44	1442	+	Escherichia_coli_16S_8	1542	66	1506	693	1444	0	tp:A:S	cm:i:89	s1:i:687	dv:f:0.0710	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	44	1442	+	Escherichia_coli_16S_1	1542	66	1506	693	1444	0	tp:A:S	cm:i:89	s1:i:687	dv:f:0.0710	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	44	1442	+	Escherichia_coli_16S_5	1542	66	1506	693	1444	0	tp:A:S	cm:i:89	s1:i:687	dv:f:0.0710	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	68	1442	+	Escherichia_coli_16S_4	1542	90	1506	669	1420	0	tp:A:S	cm:i:84	s1:i:663	dv:f:0.0735	rl:i:0
+ab5e3961-2473-4082-a261-101e821da477	1526	75	1442	+	Escherichia_coli_16S_2	1542	97	1506	662	1413	0	tp:A:S	cm:i:83	s1:i:656	dv:f:0.0740	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_6	1556	55	1486	952	1438	0	tp:A:P	cm:i:136	s1:i:951	s2:i:951	dv:f:0.0414	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_3	1556	55	1486	952	1438	0	tp:A:S	cm:i:136	s1:i:951	dv:f:0.0414	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_4	1556	55	1486	952	1438	0	tp:A:S	cm:i:136	s1:i:951	dv:f:0.0414	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_5	1556	55	1486	952	1438	0	tp:A:S	cm:i:136	s1:i:951	dv:f:0.0414	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_1	1556	55	1486	937	1438	0	tp:A:S	cm:i:132	s1:i:936	dv:f:0.0434	rl:i:0
+a0018eea-56b9-462c-a0da-4d4ced86318c	1552	26	1442	+	Staphylococcus_aureus_16S_2	1556	55	1486	934	1438	0	tp:A:S	cm:i:132	s1:i:933	dv:f:0.0434	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_2	1534	227	1235	371	1016	0	tp:A:P	cm:i:52	s1:i:367	s2:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_5	1534	227	1235	371	1016	0	tp:A:S	cm:i:52	s1:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_5	1534	227	1235	371	1016	0	tp:A:S	cm:i:52	s1:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_3	1534	227	1235	371	1016	0	tp:A:S	cm:i:52	s1:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_4	1534	227	1235	371	1016	0	tp:A:S	cm:i:52	s1:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	191	1182	+	Salmonella_enterica_16S_6	1534	227	1235	371	1016	0	tp:A:S	cm:i:52	s1:i:367	dv:f:0.0860	rl:i:0
+d55f3a77-4280-40dc-a9c1-71536ddef768	1526	471	1432	+	Bacillus_hemicellulosilyticus_false_positive	1535	526	1500	230	990	60	tp:A:P	cm:i:23	s1:i:223	s2:i:0	dv:f:0.1375	rl:i:0
+2d12634c-fd46-4fc1-85cb-e0d26dc996cc	1578	76	1470	+	Lactobacillus_fermentum_16S_2	1578	118	1517	597	1424	0	tp:A:P	cm:i:75	s1:i:592	s2:i:590	dv:f:0.0826	rl:i:0
+2d12634c-fd46-4fc1-85cb-e0d26dc996cc	1578	76	1470	+	Lactobacillus_fermentum_16S_1	1568	118	1507	597	1424	0	tp:A:S	cm:i:75	s1:i:590	dv:f:0.0826	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	78	1456	+	Staphylococcus_aureus_16S_1	1556	102	1515	516	1427	0	tp:A:P	cm:i:59	s1:i:507	s2:i:502	dv:f:0.0963	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	6	1458	+	Salmonella_enterica_16S_5	1534	26	1499	506	1480	0	tp:A:S	cm:i:70	s1:i:502	dv:f:0.0880	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	6	1458	+	Salmonella_enterica_16S_2	1534	26	1499	506	1480	0	tp:A:S	cm:i:70	s1:i:502	dv:f:0.0880	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	6	1458	+	Salmonella_enterica_16S_3	1534	26	1499	506	1480	0	tp:A:S	cm:i:70	s1:i:502	dv:f:0.0880	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	6	1458	+	Salmonella_enterica_16S_5	1534	26	1499	506	1480	0	tp:A:S	cm:i:70	s1:i:502	dv:f:0.0880	rl:i:0
+d3847c39-91cc-4d7e-a09e-2df5d947f8d8	1543	6	1458	+	Salmonella_enterica_16S_4	1534	26	1499	506	1480	0	tp:A:S	cm:i:70	s1:i:502	dv:f:0.0880	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_5	1556	55	1515	752	1467	0	tp:A:P	cm:i:98	s1:i:752	s2:i:752	dv:f:0.0688	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_6	1556	55	1515	752	1467	0	tp:A:S	cm:i:98	s1:i:752	dv:f:0.0688	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_1	1556	55	1515	752	1467	0	tp:A:S	cm:i:98	s1:i:752	dv:f:0.0688	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_4	1556	55	1515	752	1467	0	tp:A:S	cm:i:98	s1:i:752	dv:f:0.0688	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_3	1556	55	1515	752	1467	0	tp:A:S	cm:i:98	s1:i:752	dv:f:0.0688	rl:i:0
+27c3eb9f-ef9d-48e0-bdc9-3fe16cd224ab	1551	28	1472	+	Staphylococcus_aureus_16S_2	1556	55	1515	749	1467	0	tp:A:S	cm:i:97	s1:i:749	dv:f:0.0695	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_2	1558	122	1513	506	1403	0	tp:A:P	cm:i:60	s1:i:487	s2:i:487	dv:f:0.0881	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_10	1558	122	1513	506	1403	0	tp:A:S	cm:i:60	s1:i:487	dv:f:0.0881	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_6	1558	122	1513	506	1403	0	tp:A:S	cm:i:60	s1:i:487	dv:f:0.0881	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_8	1558	122	1513	506	1403	0	tp:A:S	cm:i:60	s1:i:487	dv:f:0.0881	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_3	1558	122	1513	506	1403	0	tp:A:S	cm:i:60	s1:i:487	dv:f:0.0881	rl:i:0
+45788eb3-bbb4-40c3-b5a5-648e12be2a8c	1472	88	1388	+	Bacillus_subtilis_16S_4	1558	122	1513	506	1403	0	tp:A:S	cm:i:60	s1:i:487	dv:f:0.0881	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_5	1534	26	1499	780	1502	0	tp:A:P	cm:i:100	s1:i:775	s2:i:775	dv:f:0.0647	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_6	1534	26	1499	780	1502	0	tp:A:S	cm:i:100	s1:i:775	dv:f:0.0647	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_5	1534	26	1499	780	1502	0	tp:A:S	cm:i:100	s1:i:775	dv:f:0.0647	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_3	1534	26	1499	780	1502	0	tp:A:S	cm:i:100	s1:i:775	dv:f:0.0647	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_2	1534	26	1499	780	1502	0	tp:A:S	cm:i:100	s1:i:775	dv:f:0.0647	rl:i:0
+0a65d36c-3bf2-4517-a107-99c520a971d3	1557	5	1481	+	Salmonella_enterica_16S_4	1534	26	1499	780	1502	0	tp:A:S	cm:i:100	s1:i:775	dv:f:0.0647	rl:i:0
+73ea4dc3-ecc4-4b37-8f51-f44d7cd2f6b3	1599	24	1425	+	Lactobacillus_fermentum_16S_2	1578	45	1443	720	1426	5	tp:A:P	cm:i:87	s1:i:715	s2:i:701	dv:f:0.0725	rl:i:0
+73ea4dc3-ecc4-4b37-8f51-f44d7cd2f6b3	1599	24	1425	+	Lactobacillus_fermentum_16S_1	1568	45	1433	705	1416	0	tp:A:S	cm:i:86	s1:i:701	dv:f:0.0732	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_5	1552	37	1512	624	1481	0	tp:A:P	cm:i:81	s1:i:620	s2:i:620	dv:f:0.0817	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_1	1552	37	1512	624	1481	0	tp:A:S	cm:i:81	s1:i:620	dv:f:0.0817	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_6	1552	37	1512	624	1481	0	tp:A:S	cm:i:81	s1:i:620	dv:f:0.0817	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_4	1552	37	1512	624	1481	0	tp:A:S	cm:i:81	s1:i:620	dv:f:0.0817	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_2	1552	37	1512	624	1481	0	tp:A:S	cm:i:81	s1:i:620	dv:f:0.0817	rl:i:0
+fa08fa86-b8fc-4894-9a2d-7d4f9124ca65	1552	9	1458	+	Listeria_monocytogenes_16S_3	1552	37	1512	624	1481	0	tp:A:S	cm:i:81	s1:i:620	dv:f:0.0817	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_5	1534	34	1386	506	1371	0	tp:A:P	cm:i:53	s1:i:499	s2:i:499	dv:f:0.1037	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_2	1534	34	1386	506	1371	0	tp:A:S	cm:i:53	s1:i:499	dv:f:0.1037	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_4	1534	34	1386	506	1371	0	tp:A:S	cm:i:53	s1:i:499	dv:f:0.1037	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_3	1534	34	1386	506	1371	0	tp:A:S	cm:i:53	s1:i:499	dv:f:0.1037	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_6	1534	34	1386	506	1371	0	tp:A:S	cm:i:53	s1:i:499	dv:f:0.1037	rl:i:0
+9640a981-0531-477d-a3c3-dd94480b172a	1641	127	1458	+	Salmonella_enterica_16S_5	1534	34	1386	506	1371	0	tp:A:S	cm:i:53	s1:i:499	dv:f:0.1037	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_1	1542	52	1504	364	1460	0	tp:A:P	cm:i:44	s1:i:358	s2:i:358	dv:f:0.1202	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_4	1542	52	1504	364	1460	0	tp:A:S	cm:i:44	s1:i:358	dv:f:0.1202	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_7	1542	52	1504	364	1460	0	tp:A:S	cm:i:44	s1:i:358	dv:f:0.1202	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_8	1542	52	1504	364	1460	0	tp:A:S	cm:i:44	s1:i:358	dv:f:0.1202	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_3	1542	52	1504	364	1460	0	tp:A:S	cm:i:44	s1:i:358	dv:f:0.1202	rl:i:0
+e23beb4f-bbbb-42e4-8172-b1e22f1df8b4	1515	24	1440	+	Escherichia_coli_16S_2	1542	52	1504	364	1460	0	tp:A:S	cm:i:44	s1:i:358	dv:f:0.1202	rl:i:0
+18b6ca83-febe-4a6f-b78f-c99b09dd56f3	1594	10	1514	+	Lactobacillus_fermentum_16S_2	1578	30	1540	855	1531	7	tp:A:P	cm:i:118	s1:i:853	s2:i:828	dv:f:0.0606	rl:i:0
+18b6ca83-febe-4a6f-b78f-c99b09dd56f3	1594	10	1514	+	Lactobacillus_fermentum_16S_1	1568	30	1530	828	1521	0	tp:A:S	cm:i:115	s1:i:828	dv:f:0.0623	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_4	1542	56	1506	851	1462	6	tp:A:P	cm:i:114	s1:i:849	s2:i:830	dv:f:0.0587	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_3	1542	56	1506	832	1462	0	tp:A:S	cm:i:111	s1:i:830	dv:f:0.0605	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_2	1542	56	1506	832	1462	0	tp:A:S	cm:i:111	s1:i:830	dv:f:0.0605	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_7	1542	56	1506	832	1462	0	tp:A:S	cm:i:111	s1:i:830	dv:f:0.0605	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_5	1542	56	1506	832	1462	0	tp:A:S	cm:i:111	s1:i:830	dv:f:0.0605	rl:i:0
+1bbf0a1d-dcb9-4ba9-81c5-a60779ba31dd	1537	31	1463	+	Escherichia_coli_16S_1	1542	56	1506	832	1462	0	tp:A:S	cm:i:111	s1:i:830	dv:f:0.0605	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_2	1552	44	1512	670	1496	0	tp:A:P	cm:i:90	s1:i:666	s2:i:666	dv:f:0.0749	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_5	1552	44	1512	670	1496	0	tp:A:S	cm:i:90	s1:i:666	dv:f:0.0749	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_4	1552	44	1512	670	1496	0	tp:A:S	cm:i:90	s1:i:666	dv:f:0.0749	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_6	1552	44	1512	670	1496	0	tp:A:S	cm:i:90	s1:i:666	dv:f:0.0749	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_3	1552	44	1512	670	1496	0	tp:A:S	cm:i:90	s1:i:666	dv:f:0.0749	rl:i:0
+e16db8d3-588b-4787-bdf6-bb1b4dba1abd	1572	15	1493	+	Listeria_monocytogenes_16S_1	1552	44	1512	670	1496	0	tp:A:S	cm:i:90	s1:i:666	dv:f:0.0749	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_10	1558	30	1513	780	1500	0	tp:A:P	cm:i:103	s1:i:779	s2:i:779	dv:f:0.0685	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_2	1558	30	1513	780	1500	0	tp:A:S	cm:i:103	s1:i:779	dv:f:0.0685	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_3	1558	30	1513	780	1500	0	tp:A:S	cm:i:103	s1:i:779	dv:f:0.0685	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_1	1558	30	1513	780	1500	0	tp:A:S	cm:i:103	s1:i:779	dv:f:0.0685	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_6	1558	30	1513	780	1500	0	tp:A:S	cm:i:103	s1:i:779	dv:f:0.0685	rl:i:0
+d7aae56b-8612-47a5-886a-052893fb9772	1574	2	1484	+	Bacillus_subtilis_16S_7	1558	30	1513	780	1500	0	tp:A:S	cm:i:103	s1:i:779	dv:f:0.0685	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_6	1552	37	1486	927	1472	0	tp:A:P	cm:i:115	s1:i:925	s2:i:925	dv:f:0.0541	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_4	1552	37	1486	927	1472	0	tp:A:S	cm:i:115	s1:i:925	dv:f:0.0541	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_1	1552	37	1486	927	1472	0	tp:A:S	cm:i:115	s1:i:925	dv:f:0.0541	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_3	1552	37	1486	927	1472	0	tp:A:S	cm:i:115	s1:i:925	dv:f:0.0541	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_5	1552	37	1486	927	1472	0	tp:A:S	cm:i:115	s1:i:925	dv:f:0.0541	rl:i:0
+8c3e2384-9044-4e09-91b8-6166b6820813	1566	11	1461	+	Listeria_monocytogenes_16S_2	1552	37	1486	927	1472	0	tp:A:S	cm:i:115	s1:i:925	dv:f:0.0541	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_5	1534	49	1499	541	1474	0	tp:A:P	cm:i:65	s1:i:531	s2:i:531	dv:f:0.0939	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_3	1534	49	1499	541	1474	0	tp:A:S	cm:i:65	s1:i:531	dv:f:0.0939	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_4	1534	49	1499	541	1474	0	tp:A:S	cm:i:65	s1:i:531	dv:f:0.0939	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_5	1534	49	1499	541	1474	0	tp:A:S	cm:i:65	s1:i:531	dv:f:0.0939	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_6	1534	49	1499	541	1474	0	tp:A:S	cm:i:65	s1:i:531	dv:f:0.0939	rl:i:0
+ee69be90-96b0-49ad-890d-f817e16a2cfc	1558	29	1466	+	Salmonella_enterica_16S_2	1534	49	1499	541	1474	0	tp:A:S	cm:i:65	s1:i:531	dv:f:0.0939	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_5	1556	61	429	247	375	0	tp:A:P	cm:i:25	s1:i:246	s2:i:246	dv:f:0.0686	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_4	1556	61	429	247	375	0	tp:A:S	cm:i:25	s1:i:246	dv:f:0.0686	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_3	1556	61	429	247	375	0	tp:A:S	cm:i:25	s1:i:246	dv:f:0.0686	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_6	1556	61	429	247	375	0	tp:A:S	cm:i:25	s1:i:246	dv:f:0.0686	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_1	1556	61	429	247	375	0	tp:A:S	cm:i:25	s1:i:246	dv:f:0.0686	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	36	404	+	Staphylococcus_aureus_16S_2	1556	61	429	237	375	0	tp:A:S	cm:i:24	s1:i:236	dv:f:0.0714	rl:i:0
+0669559c-6fde-433e-84ea-e838cb4d7eb6	713	410	622	-	Staphylococcus_aureus_16S_5	1556	23	238	154	216	0	tp:A:P	cm:i:18	s1:i:154	s2:i:154	dv:f:0.0480	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_aeruginosa_16S_1	1526	24	1392	599	1373	0	tp:A:P	cm:i:78	s1:i:594	s2:i:594	dv:f:0.0790	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_aeruginosa_16S_3	1526	24	1392	599	1373	0	tp:A:S	cm:i:78	s1:i:594	dv:f:0.0790	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_aeruginosa_16S_4	1526	24	1392	599	1373	0	tp:A:S	cm:i:78	s1:i:594	dv:f:0.0790	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_aeruginosa_16S_2	1526	24	1392	599	1373	0	tp:A:S	cm:i:78	s1:i:594	dv:f:0.0790	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_putida_false_positive_1	1477	23	1392	513	1374	0	tp:A:S	cm:i:51	s1:i:508	dv:f:0.1073	rl:i:0
+afc3ad98-e781-4244-a1b7-e5ed268410ee	1532	6	1345	+	Pseudomonas_putida_false_positive_2	1477	23	1392	513	1374	0	tp:A:S	cm:i:51	s1:i:508	dv:f:0.1073	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_2	1552	101	1475	440	1380	0	tp:A:P	cm:i:53	s1:i:432	s2:i:432	dv:f:0.1015	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_5	1552	101	1475	440	1380	0	tp:A:S	cm:i:53	s1:i:432	dv:f:0.1015	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_6	1552	101	1475	440	1380	0	tp:A:S	cm:i:53	s1:i:432	dv:f:0.1015	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_3	1552	101	1475	440	1380	0	tp:A:S	cm:i:53	s1:i:432	dv:f:0.1015	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_4	1552	101	1475	440	1380	0	tp:A:S	cm:i:53	s1:i:432	dv:f:0.1015	rl:i:0
+03767cf7-d20a-4065-8d38-fb7ecea7c6fe	1523	73	1404	+	Listeria_monocytogenes_16S_1	1552	101	1475	440	1380	0	tp:A:S	cm:i:53	s1:i:432	dv:f:0.1015	rl:i:0
+48bb8da9-4a53-4851-bd9e-1c55c0a394c3	1551	17	1475	+	Lactobacillus_fermentum_16S_1	1568	37	1531	661	1514	0	tp:A:P	cm:i:80	s1:i:649	s2:i:647	dv:f:0.0793	rl:i:0
+48bb8da9-4a53-4851-bd9e-1c55c0a394c3	1551	17	1475	+	Lactobacillus_fermentum_16S_2	1578	37	1541	661	1524	0	tp:A:S	cm:i:80	s1:i:647	dv:f:0.0793	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_5	1558	38	1513	636	1500	4	tp:A:P	cm:i:76	s1:i:630	s2:i:618	dv:f:0.0840	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_10	1558	38	1513	624	1500	0	tp:A:S	cm:i:73	s1:i:618	dv:f:0.0867	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_6	1558	38	1513	624	1500	0	tp:A:S	cm:i:73	s1:i:618	dv:f:0.0867	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_7	1558	38	1513	624	1500	0	tp:A:S	cm:i:73	s1:i:618	dv:f:0.0867	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_9	1558	38	1513	624	1500	0	tp:A:S	cm:i:73	s1:i:618	dv:f:0.0867	rl:i:0
+19434e2f-c947-4da8-9d9a-0f20f319c806	1559	6	1481	+	Bacillus_subtilis_16S_1	1558	38	1513	624	1500	0	tp:A:S	cm:i:73	s1:i:618	dv:f:0.0867	rl:i:0
+8ed29cf3-5ead-4a8f-8090-af86aa948b19	1583	10	1496	+	Lactobacillus_fermentum_16S_2	1578	30	1541	1045	1521	6	tp:A:P	cm:i:149	s1:i:1043	s2:i:1017	dv:f:0.0384	rl:i:0
+8ed29cf3-5ead-4a8f-8090-af86aa948b19	1583	10	1496	+	Lactobacillus_fermentum_16S_1	1568	30	1531	1017	1511	0	tp:A:S	cm:i:144	s1:i:1017	dv:f:0.0407	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_5	1542	33	1506	1009	1484	0	tp:A:P	cm:i:131	s1:i:1003	s2:i:1003	dv:f:0.0444	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_1	1542	33	1506	1009	1484	0	tp:A:S	cm:i:131	s1:i:1003	dv:f:0.0444	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_3	1542	33	1506	1009	1484	0	tp:A:S	cm:i:131	s1:i:1003	dv:f:0.0444	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_8	1542	33	1506	1009	1484	0	tp:A:S	cm:i:131	s1:i:1003	dv:f:0.0444	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_4	1542	33	1506	993	1484	0	tp:A:S	cm:i:128	s1:i:987	dv:f:0.0459	rl:i:0
+581af529-2479-4baf-8d1b-5c7bbfb250ac	2184	657	2095	+	Escherichia_coli_16S_2	1542	33	1506	993	1484	0	tp:A:S	cm:i:128	s1:i:987	dv:f:0.0459	rl:i:0
+7355f21a-f5cc-405b-a3bb-056af69849d3	1634	10	1449	+	Lactobacillus_fermentum_16S_1	1568	30	1433	668	1447	0	tp:A:P	cm:i:85	s1:i:661	s2:i:659	dv:f:0.0763	rl:i:0
+7355f21a-f5cc-405b-a3bb-056af69849d3	1634	10	1449	+	Lactobacillus_fermentum_16S_2	1578	30	1443	668	1454	0	tp:A:S	cm:i:85	s1:i:659	dv:f:0.0763	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_7	1558	45	1513	574	1477	3	tp:A:P	cm:i:63	s1:i:565	s2:i:557	dv:f:0.0924	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_9	1558	45	1513	566	1477	0	tp:A:S	cm:i:62	s1:i:557	dv:f:0.0935	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_1	1558	45	1513	566	1477	0	tp:A:S	cm:i:62	s1:i:557	dv:f:0.0935	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_8	1558	45	1513	566	1477	0	tp:A:S	cm:i:62	s1:i:557	dv:f:0.0935	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_6	1558	45	1513	566	1477	0	tp:A:S	cm:i:62	s1:i:557	dv:f:0.0935	rl:i:0
+54046635-3220-4882-af59-41b45176c3ff	1525	17	1437	+	Bacillus_subtilis_16S_10	1558	45	1513	566	1477	0	tp:A:S	cm:i:62	s1:i:557	dv:f:0.0935	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_2	1558	143	1513	782	1382	0	tp:A:P	cm:i:106	s1:i:778	s2:i:778	dv:f:0.0559	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_7	1558	143	1513	782	1382	0	tp:A:S	cm:i:106	s1:i:778	dv:f:0.0559	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_10	1558	143	1513	782	1382	0	tp:A:S	cm:i:106	s1:i:778	dv:f:0.0559	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_8	1558	143	1513	782	1382	0	tp:A:S	cm:i:106	s1:i:778	dv:f:0.0559	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_1	1558	143	1513	782	1382	0	tp:A:S	cm:i:106	s1:i:778	dv:f:0.0559	rl:i:0
+6d299e1c-4ac9-45ac-9613-4ef5f1c44135	1556	117	1466	+	Bacillus_subtilis_16S_9	1558	143	1513	782	1382	0	tp:A:S	cm:i:106	s1:i:778	dv:f:0.0559	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_3	1534	26	1400	438	1377	0	tp:A:P	cm:i:54	s1:i:432	s2:i:432	dv:f:0.1019	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_5	1534	26	1400	438	1377	0	tp:A:S	cm:i:54	s1:i:432	dv:f:0.1019	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_4	1534	26	1400	438	1377	0	tp:A:S	cm:i:54	s1:i:432	dv:f:0.1019	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_2	1534	26	1400	438	1377	0	tp:A:S	cm:i:54	s1:i:432	dv:f:0.1019	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_6	1534	26	1400	438	1377	0	tp:A:S	cm:i:54	s1:i:432	dv:f:0.1019	rl:i:0
+5a835609-152d-4f13-9eb3-0b27f0db6cec	1528	6	1342	+	Salmonella_enterica_16S_5	1534	26	1400	438	1377	0	tp:A:S	cm:i:54	s1:i:432	dv:f:0.1019	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	76	1432	+	Enterococcus_faecalis_16S_2	1562	109	1513	480	1409	0	tp:A:P	cm:i:50	s1:i:474	s2:i:474	dv:f:0.1051	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	76	1432	+	Enterococcus_faecalis_16S_1	1562	109	1513	480	1409	0	tp:A:S	cm:i:50	s1:i:474	dv:f:0.1051	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	76	1432	+	Enterococcus_faecalis_16S_3	1562	109	1513	480	1409	0	tp:A:S	cm:i:50	s1:i:474	dv:f:0.1051	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	76	1432	+	Enterococcus_faecalis_16S_4	1562	109	1513	480	1409	0	tp:A:S	cm:i:50	s1:i:474	dv:f:0.1051	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	25	1342	+	Lactobacillus_fermentum_16S_2	1578	45	1443	473	1407	0	tp:A:S	cm:i:54	s1:i:455	dv:f:0.0978	rl:i:0
+5b789ffe-8c3d-4e7d-9971-ad1127314b4f	1533	25	1342	+	Lactobacillus_fermentum_16S_1	1568	45	1433	467	1397	0	tp:A:S	cm:i:53	s1:i:451	dv:f:0.0990	rl:i:0
+64c7a3e8-72c3-4223-8f75-6593f9533b0e	1598	32	1518	+	Lactobacillus_fermentum_16S_2	1578	52	1541	761	1519	4	tp:A:P	cm:i:89	s1:i:755	s2:i:741	dv:f:0.0752	rl:i:0
+64c7a3e8-72c3-4223-8f75-6593f9533b0e	1598	32	1518	+	Lactobacillus_fermentum_16S_1	1568	52	1531	745	1510	0	tp:A:S	cm:i:86	s1:i:741	dv:f:0.0775	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_9	1558	28	1401	555	1400	0	tp:A:P	cm:i:69	s1:i:552	s2:i:552	dv:f:0.0869	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_8	1558	28	1401	555	1400	0	tp:A:S	cm:i:69	s1:i:552	dv:f:0.0869	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_7	1558	28	1401	555	1400	0	tp:A:S	cm:i:69	s1:i:552	dv:f:0.0869	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_4	1558	28	1401	555	1400	0	tp:A:S	cm:i:69	s1:i:552	dv:f:0.0869	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_10	1558	28	1401	555	1400	0	tp:A:S	cm:i:69	s1:i:552	dv:f:0.0869	rl:i:0
+b8d27312-d835-4859-ae4d-08cb5cd2d115	1659	100	1484	+	Bacillus_subtilis_16S_1	1558	28	1401	555	1400	0	tp:A:S	cm:i:69	s1:i:552	dv:f:0.0869	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1494	+	Pseudomonas_aeruginosa_16S_1	1526	88	1489	531	1424	0	tp:A:P	cm:i:71	s1:i:528	s2:i:528	dv:f:0.0873	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1494	+	Pseudomonas_aeruginosa_16S_2	1526	88	1489	531	1424	0	tp:A:S	cm:i:71	s1:i:528	dv:f:0.0873	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1494	+	Pseudomonas_aeruginosa_16S_3	1526	88	1489	531	1424	0	tp:A:S	cm:i:71	s1:i:528	dv:f:0.0873	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1494	+	Pseudomonas_aeruginosa_16S_4	1526	88	1489	531	1424	0	tp:A:S	cm:i:71	s1:i:528	dv:f:0.0873	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1496	+	Salmonella_enterica_16S_6	1534	96	1499	505	1433	0	tp:A:S	cm:i:59	s1:i:500	dv:f:0.0999	rl:i:0
+b3e99ec2-c8fb-40bb-b3bf-5d1e9a7a3af7	1574	76	1496	+	Salmonella_enterica_16S_2	1534	96	1499	505	1433	0	tp:A:S	cm:i:59	s1:i:500	dv:f:0.0999	rl:i:0
