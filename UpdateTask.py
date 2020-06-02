@@ -4,4 +4,4 @@ class Update:
             program=program,
             current=current,
             total=total)
-        )
+        , end="")

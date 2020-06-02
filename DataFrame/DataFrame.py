@@ -51,16 +51,6 @@ class Frame:
         :param str file_name: This is the name of the csv file the dataframe is located in
         """
 
-        """
-        The following options are used to format the date/time of logs
-        %Y  Year with century as a decimal number.
-        %m  Month as a decimal number [01,12].
-        %d  Day of the month as a decimal number [01,31].
-
-        %H  Hour (24-hour clock) as a decimal number [00,23].
-        %M  Minute as a decimal number [00,59].
-        """
-
         log_path = "ScriptResults/Script_Logs/data_frame_log.txt"
 
         Log("DataFrame saved to file: {0}".format(file_name),

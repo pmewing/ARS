@@ -33,10 +33,13 @@ class GuppyAlignment:
 
         self.alignment_summary_path = self.save_directory + "/AlignmentSummary"
         self.log_path = self.save_directory + "/logs"
+        self.temp_folder = self.save_directory + "/.temp"
 
         self.__collect_files()
         self.__perform_alignment()
         self.__write_simple_statistics()
+
+        self.__remove_temp_folder()
 
     def __collect_files(self):
         """
@@ -55,25 +58,23 @@ class GuppyAlignment:
         This function will iterate through self.file_paths and perform guppy_aligner on each file
         :return: None
         """
-        # pass this temp folder in to guppy so an alignment sequence can be made for each file
-        temp_folder = self.save_directory + "/.temp"
-        pathlib.Path.mkdir( self=pathlib.Path(temp_folder), exist_ok=True )
+
+        # we want to make a temporary folder. If it exists, no error will arise. This is safe to try for every run
+        pathlib.Path.mkdir( self=pathlib.Path(self.temp_folder), exist_ok=True )
 
         for file in self.file_names:
-            # we want to remove all files in the .temp directory after each run of the guppy_aligner
-            for root, directory, files in os.walk(temp_folder):
-                for temp_file in files:
-                    os.remove(temp_folder + "/" + temp_file)
-                for direc in directory:
-                    os.rmdir(temp_folder + "/" + direc)
+            # we want to remove all files in the .temp directory before running guppy_aligner
+            self.__remove_temp_files()
 
-            # copy the file to the temp folder
+            # copy our current file to the temporary folder
             shutil.copy(src=self.input_directory + "/" + file,
-                        dst=temp_folder + "/" + file)
+                        dst=self.temp_folder + "/" + file)
 
             # create the command for guppy_aligner
             message = "guppy_aligner --input_path {input} --save_path {save} --align_ref {alignment}".format(
-                input=temp_folder, save=self.save_directory + "/SAM_Files", alignment=self.alignment_reference )
+                input=self.temp_folder, save=self.save_directory + "/SAM_Files", alignment=self.alignment_reference )
+
+            # write to logs the file we are running
             self.__write_log_to_file(file_path=self.input_directory + "/" + file)
 
             # we must split the messgae into a list before subprocess.run() will accept it
@@ -191,6 +192,24 @@ class GuppyAlignment:
                     output_file.write(row)
                     output_file.write("\n")
 
+    def __remove_temp_files(self):
+        """
+        This function will remove temporary files/directories in the self.save_directory + "/temp" folder, if any are present.
+        """
+
+        for root, directory, files in os.walk(self.temp_folder):
+            for temp_file in files:
+                os.remove(self.temp_folder + "/" + temp_file)
+            for direc in directory:
+                os.rmdir(self.temp_folder + "/" + direc)
+
+    def __remove_temp_folder(self):
+        """
+        This function will be called at the very end of the GuppyAligner class to remove the .temp folder.
+        The folder is not needed for long term storage, and can be safely deleted
+        """
+        shutil.rmtree(self.temp_folder)
+
     def __get_date_time(self, barcode_number):
         """
         This function is simply responsible for getting the date in the following format
@@ -216,6 +235,7 @@ class GuppyAlignment:
         Log(log_line=line,
             log_path=log_path,
             erase_file=False)
+
 
 class MiniMap2:
     def __init__(self, input_directory, save_directory, align_reference):
@@ -254,12 +274,13 @@ class MiniMap2:
         :return: None
         """
         for file in self.file_paths:
+            self.__update_task()
             save_path = self.__return_save_path(file)
 
             # try to make the output path to ensure it exists
             pathlib.Path.mkdir( self=pathlib.Path(self.save_directory), exist_ok=True )
 
-            message = "minimap2 {reference} {input} -o {output}".format(reference=self.alignment_reference, input=file, output=save_path)
+            message = "minimap2 -ax map-ont {reference} {input} -o {output}".format(reference=self.alignment_reference, input=file, output=save_path)
             self.__write_logs_to_file(file, save_path)
 
             message = message.split(" ")
@@ -272,7 +293,7 @@ class MiniMap2:
         MiniMap2 does not provide a header row for their output. Because of this, it is very difficult to create a data frame from their results.
         This function works to resolve this by adding a header to the very beginning of the file
         """
-        for root, directory, files in os.walk( self.save_directory):
+        for root, directory, files in os.walk(self.save_directory):
             for file in files:
                 file_path = os.path.join( root, file )
 
@@ -283,7 +304,7 @@ class MiniMap2:
                         input_content.append(line)
 
                 # TODO: A header line needs to be added to the MiniMap2 output before it can be read into a data frame
-                header_line = ""
+                header_line = "this\tis\tmy\theader\trow\tfor\tminimap2\tcsv\tfile\n"
                 output_content = [header_line]
                 for line in input_content:
                     output_content.append(line)
