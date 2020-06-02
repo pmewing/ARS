@@ -6,7 +6,7 @@ import subprocess
 from subprocess import PIPE
 import pandas as pd
 import numpy as np
-import pathlib
+from pathlib import Path
 from UpdateTask import Update
 from WriteLogs import Log
 
@@ -60,7 +60,7 @@ class GuppyAlignment:
         """
 
         # we want to make a temporary folder. If it exists, no error will arise. This is safe to try for every run
-        pathlib.Path.mkdir( self=pathlib.Path(self.temp_folder), exist_ok=True )
+        Path.mkdir( self=Path(self.temp_folder), exist_ok=True )
 
         for file in self.file_names:
             # we want to remove all files in the .temp directory before running guppy_aligner
@@ -97,8 +97,8 @@ class GuppyAlignment:
         """
 
         # make the AlignmentSummary and logs folders
-        pathlib.Path.mkdir(self=pathlib.Path(self.alignment_summary_path), exist_ok=True)
-        pathlib.Path.mkdir(self=pathlib.Path(self.log_path), exist_ok=True)
+        Path.mkdir(self=Path(self.alignment_summary_path), exist_ok=True)
+        Path.mkdir(self=Path(self.log_path), exist_ok=True)
 
         # get the barcode number from the file name. It will be the second to last item after splitting by `_` and `.`
         barcode_name = re.split('[_.]', file_name)[-2]
@@ -182,7 +182,7 @@ class GuppyAlignment:
 
             # we want to make an new folder to hold the simple statistics that will be generated for each file
             simple_statistics_folder = self.save_directory + "/SimpleStatistics"
-            pathlib.Path.mkdir( self=pathlib.Path(simple_statistics_folder), exist_ok=True )
+            Path.mkdir( self=Path(simple_statistics_folder), exist_ok=True )
 
             barcode_number = re.split('[_.]', file)[-2]  # we want the second to last item in the path, the barcode number
 
@@ -252,7 +252,7 @@ class MiniMap2:
         self.iteration = 1
         print("")
 
-        self.__create_table_headers()
+        # self.__create_table_headers()
 
     def __collect_files(self):
         """
@@ -278,8 +278,10 @@ class MiniMap2:
             save_path = self.__return_save_path(file)
 
             # try to make the output path to ensure it exists
-            pathlib.Path.mkdir( self=pathlib.Path(self.save_directory), exist_ok=True )
+            Path.mkdir( self=Path(self.save_directory), exist_ok=True )
 
+            # -a: output in SAM format
+            # -x: use map-ont for mapping results
             message = "minimap2 -ax map-ont {reference} {input} -o {output}".format(reference=self.alignment_reference, input=file, output=save_path)
             self.__write_logs_to_file(file, save_path)
 
@@ -345,3 +347,20 @@ class MiniMap2:
         Log(log_line=line,
             log_path=log_path,
             erase_file=False)
+
+
+class VSearch:
+    def __init__(self, input_directory, save_directory):
+        """
+        This class will handle alignment using vsearch (a cousin of usearch)
+        As of July 2nd, I've manually ran vsearch on barcode56 (positive control) with an id of 0.5 (50%).
+        These results will be saved to the ScriptResults/Alignment/vsearch folder. Results will be saved to a .txt file with the
+            specified barcode number as the file name
+
+        :param str input_directory: This is the directory containing .fastx files
+        :param str save_directory: This is the directory where results should be saved. Files will have the barcode number of the input file
+        """
+        self.input_directory = input_directory
+        self.save_directory = save_directory
+        command = "vsearch --allpairs_global {input_file} --id 0.5 --alnout {output_file}"
+
