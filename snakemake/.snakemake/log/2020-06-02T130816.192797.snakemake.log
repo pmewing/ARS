@@ -1,0 +1,15 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+[Tue Jun  2 13:08:16 2020]
+rule count_reads:
+    jobid: 0
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

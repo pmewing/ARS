@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 1 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Missing input files for rule count_reads:
+user input

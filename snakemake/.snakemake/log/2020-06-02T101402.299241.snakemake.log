@@ -1,0 +1,3 @@
+NameError in line 5 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+name 'output' is not defined
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 5, in <module>

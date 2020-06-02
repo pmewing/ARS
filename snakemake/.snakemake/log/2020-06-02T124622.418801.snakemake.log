@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	test
+	1
+
+rule test:
+    jobid: 0
+
+Error in rule test:
+    jobid: 0
+
+RuleException:
+CalledProcessError in line 8 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Command ' set -euo pipefail;  python scripts/test.py 'hello world' ' returned non-zero exit status 1.
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 8, in __rule_test
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2020-06-02T124622.418801.snakemake.log

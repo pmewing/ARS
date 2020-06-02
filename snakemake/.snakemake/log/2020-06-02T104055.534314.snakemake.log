@@ -1,0 +1,3 @@
+NameError in line 2 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+name 'files' is not defined
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 2, in <module>

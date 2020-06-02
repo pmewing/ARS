@@ -1,0 +1,9 @@
+Building DAG of jobs...
+MissingInputException in line 2 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Missing input files for rule count_reads:
+FAL03879_67a0761e_163.fast5
+FAL03879_67a0761e_11.fast5
+FAL03879_67a0761e_539.fast5
+FAL03879_67a0761e_806.fast5
+FAL03879_67a0761e_1275.fast5
+FAL03879_67a0761e_1055.fast5

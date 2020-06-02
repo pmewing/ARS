@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+[Tue Jun  2 13:21:52 2020]
+rule count_reads:
+    input: /home/joshl/Desktop/temp/input, /home/joshl/Desktop/temp/output
+    jobid: 0
+
+[Tue Jun  2 13:21:52 2020]
+Error in rule count_reads:
+    jobid: 0
+
+RuleException:
+CalledProcessError in line 6 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Command 'set -euo pipefail;  /home/joshl/miniconda3/envs/snakemake/bin/python3.7 /home/joshl/PycharmProjects/snakemake/.snakemake/scripts/tmp8al8npaw.CountReads.py' returned non-zero exit status 1.
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2189, in run_wrapper
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 6, in __rule_count_reads
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 529, in _callback
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 515, in cached_or_run
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2201, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/joshl/PycharmProjects/snakemake/.snakemake/log/2020-06-02T132152.522632.snakemake.log

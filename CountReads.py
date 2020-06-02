@@ -1,8 +1,8 @@
 import subprocess
-from subprocess import PIPE
 import os  # os.walk(), os.join.path()
 import pickle
 import csv
+
 from WriteLogs import Log
 
 
@@ -92,7 +92,7 @@ class Count:
             correct_input = False
 
         # if `/` or `\` in self.file_name, tell user they cannot do this
-        if any(x in "\\/" for x in self.file_name):
+        if self.file_name is not None and any(x in "\\/" for x in self.file_name):
             print("")
             print("You cannot have a slash (forward or backward) in your file name")
             print("File name: {0}".format(self.file_name))
@@ -100,8 +100,6 @@ class Count:
 
         if not correct_input:
             exit(0)
-
-
 
     def __count_barcodes(self, barcode_file_path):
         """
@@ -261,7 +259,10 @@ class Count:
         :param str barcode_number: This is the current file path that is being counted
         """
 
-        log_path = "ScriptResults/Script_Logs/count_reads_log.txt"
+        try:
+            log_path = snakemake.input.log_path
+        except FileNotFoundError:
+            log_path = r"ScriptResults/Script_Logs/count_reads_log.txt"
 
         # find the barcode index to know that it has been counted
         barcode_index = -1
@@ -282,12 +283,16 @@ class Count:
                 erase_file=False)
 
 
-if __name__ == '__main__':
-    import sys
-    arguments = sys.argv
+def get_input_directory():
+    return snakemake.input.input_directory
 
-    arguments = ["This", "is", "my", "test/"]
 
+def get_save_directory():
+    return snakemake.output.save_directory
+
+
+def start_counts():
+    arguments = []
     # the file name is always passed in as an argument, so we must add 1 to the total number of argv's we think we are getting
     if len(arguments) == 3:
         Count(input_directory=arguments[1], save_directory=arguments[2])
@@ -301,3 +306,8 @@ if __name__ == '__main__':
         print("save_directory: This is where the resulting .csv file will be saved")
         print("(optional) file_name: An optional parameter of the name of the file. A `.csv` extension will automatically be added at the end of your file name")
         print("")
+
+
+if __name__ == '__main__':
+    Count(input_directory=get_input_directory(),
+          save_directory=get_save_directory())

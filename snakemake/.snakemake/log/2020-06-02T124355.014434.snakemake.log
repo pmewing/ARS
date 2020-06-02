@@ -1,0 +1,13 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+rule count_reads:
+    jobid: 0
+
+Terminating processes on user request.
+Cancelling snakemake on user request.

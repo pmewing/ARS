@@ -1,0 +1,3 @@
+AttributeError in line 8 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+'Rules' object has no attribute 'input'
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 8, in <module>

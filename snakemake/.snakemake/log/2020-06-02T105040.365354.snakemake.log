@@ -1,0 +1,2 @@
+SyntaxError in line 9 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Multiple run or shell keywords in rule count_reads. (Snakefile, line 9)

@@ -1,0 +1,6 @@
+rule count_reads:
+	input:
+		barcode_input = "/home/joshl/minknow_data/demultiplex_dual/"
+		output_folder = "/home/joshl/Desktop/output/"
+	script:
+		"python ../ARS/CountReads.py"

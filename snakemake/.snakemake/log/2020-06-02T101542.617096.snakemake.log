@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	python
+	1
+
+rule python:
+    jobid: 0
+
+Error in rule python:
+    jobid: 0
+
+RuleException:
+WorkflowError in line 6 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+URLError: <urlopen error [Errno 2] No such file or directory: '/home/joshl/PycharmProjects/ARS/ARS_main.py data.txt'>
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 6, in __rule_python
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2020-06-02T101542.617096.snakemake.log

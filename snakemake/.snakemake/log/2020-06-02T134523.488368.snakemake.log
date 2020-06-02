@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+[Tue Jun  2 13:45:23 2020]
+rule count_reads:
+    input: /home/joshl/minknow_data/demultiplex_dual, ../ARS/ScriptResults/Script_Logs/count_reads_log.txt
+    output: /home/joshl/Desktop/temp/output/
+    jobid: 0
+
+[Tue Jun  2 13:45:23 2020]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/joshl/PycharmProjects/snakemake/.snakemake/log/2020-06-02T134523.488368.snakemake.log

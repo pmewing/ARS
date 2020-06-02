@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+[Tue Jun  2 13:29:10 2020]
+rule count_reads:
+    input: /home/joshl/minknow_data/demultiplex_dual
+    output: /home/joshl/Desktop/temp/output/
+    jobid: 0
+
+Skipped removing non-empty directory /home/joshl/Desktop/temp/output/
+ImproperOutputException in line 1 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Outputs of incorrect type (directories when expecting files or vice versa). Output directories must be flagged with directory(). for rule count_reads:
+/home/joshl/Desktop/temp/output/
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 544, in handle_job_success
+  File "/home/joshl/miniconda3/envs/snakemake/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 231, in handle_job_success
+Removing output files of failed job count_reads since they might be corrupted:
+/home/joshl/Desktop/temp/output/
+Skipped removing non-empty directory /home/joshl/Desktop/temp/output/
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/joshl/PycharmProjects/snakemake/.snakemake/log/2020-06-02T132910.230628.snakemake.log

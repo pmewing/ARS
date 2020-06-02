@@ -1,0 +1,3 @@
+IndexError in line 4 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+tuple index out of range
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 4, in <module>

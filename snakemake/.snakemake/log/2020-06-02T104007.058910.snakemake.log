@@ -1,0 +1,3 @@
+ValueError in line 1 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+too many values to unpack (expected 1)
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 1, in <module>

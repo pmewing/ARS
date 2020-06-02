@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+rule count_reads:
+    input: /home/joshl/minknow_data/demultiplex_dual/
+    output: /home/joshl/Desktop/output/
+    jobid: 0
+
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2020-06-02T122633.748328.snakemake.log

@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+[Tue Jun  2 13:09:15 2020]
+rule count_reads:
+    jobid: 0
+
+[Tue Jun  2 13:09:16 2020]
+Error in rule count_reads:
+    jobid: 0
+    shell:
+        scripts/CountReads.py
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/joshl/PycharmProjects/snakemake/.snakemake/log/2020-06-02T130915.976658.snakemake.log

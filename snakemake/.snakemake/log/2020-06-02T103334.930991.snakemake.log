@@ -1,0 +1,3 @@
+TypeError in line 4 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+can only concatenate list (not "str") to list
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 4, in <module>

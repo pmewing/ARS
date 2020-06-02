@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	count_reads
+	1
+
+rule count_reads:
+    input: /home/joshl/minknow_data/demultiplex_dual/, /home/joshl/Desktop/output/
+    jobid: 0
+
+Error in rule count_reads:
+    jobid: 0
+
+RuleException:
+CalledProcessError in line 6 of /home/joshl/PycharmProjects/snakemake/Snakefile:
+Command ' set -euo pipefail;  /usr/bin/python3 /home/joshl/PycharmProjects/snakemake/scripts/.snakemake.1waw4lvd.CountReads.py ' returned non-zero exit status 1.
+  File "/home/joshl/PycharmProjects/snakemake/Snakefile", line 6, in __rule_count_reads
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2020-06-02T120521.009170.snakemake.log
