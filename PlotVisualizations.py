@@ -1,4 +1,3 @@
-import time
 import plotly.express as px
 import pathlib
 import os
@@ -7,8 +6,8 @@ import pandas as pd
 import numpy as np
 import subprocess
 from subprocess import PIPE
-from UpdateTask import Update
-from WriteLogs import Log
+from Global import Update, Log, Files
+
 
 class Plotly:
     def __init__(self, data_file: str, save_directory: str, grouped_file_name=None, individual_file_name=None):
@@ -224,20 +223,19 @@ class NanoPlot:
         self.invalid_files = []
         self.iteration = 0
 
-        self.__collect_fastq_files()
+        self.__collect_files()
         self.__create_nanoplot()
         self.__print_invalid_files()
 
-    def __collect_fastq_files(self):
+    def __collect_files(self):
         """
         This function will collect .fastq/.fasta files and append them to the self.file_paths variable.
 
         :returns: None
         """
-        for root, directory, files in os.walk(self.input_directory):
-            for file in files:
-                if ".fastq" in file or ".fasta" in file:
-                    self.file_paths.append( os.path.join(root, file) )
+        self.file_paths = Files(input_directory=self.input_directory,
+                                file_extensions=[".fastq", ".fasta"]).return_file_paths
+
 
     def __create_nanoplot(self):
         """

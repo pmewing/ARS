@@ -1,8 +1,5 @@
-import time
 import csv
-import pandas as pd
-import numpy as np
-from WriteLogs import Log
+from Global import Log
 
 
 class Frame:

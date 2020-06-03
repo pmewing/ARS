@@ -2,8 +2,7 @@ import subprocess
 from subprocess import PIPE
 import os
 import shutil
-from WriteLogs import Log
-from UpdateTask import Update
+from Global import Update, Log
 
 
 class Basecall:

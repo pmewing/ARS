@@ -4,8 +4,7 @@ import subprocess
 from subprocess import PIPE
 import os
 import shutil
-from UpdateTask import Update
-from WriteLogs import Log
+from Global import Update, Log
 
 
 class NanoQCAnalysis:

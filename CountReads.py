@@ -2,8 +2,7 @@ import subprocess
 import os  # os.walk(), os.join.path()
 import pickle
 import csv
-
-from WriteLogs import Log
+from Global import Log
 
 
 class Count:
@@ -146,11 +145,11 @@ class Count:
                             total_barcodes += 1
                             file_barcodes += 1
 
-                    self.correlate_barcodes( file_barcodes, file )
+                    self.__correlate_barcodes(file_barcodes, file)
 
         return total_barcodes
 
-    def correlate_barcodes(self, reads_in_file, file_path):
+    def __correlate_barcodes(self, reads_in_file, file_path):
         """
         This function will correlate the number of barcodes to each barcode folder
         It will do this by adding a key/value pair to the dictionary self.barcode_correlations in __init__()

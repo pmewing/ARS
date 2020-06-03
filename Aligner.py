@@ -7,21 +7,20 @@ from subprocess import PIPE
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from UpdateTask import Update
-from WriteLogs import Log
+from Global import Update, Log
 
 
 class GuppyAlignment:
 
-    def __init__(self, input_directory, save_directory, align_reference):
+    def __init__(self, input_directory: str, save_directory: str, align_reference: str):
         """
         This class will be responsible for results pertaining to read alignments. This class uses the guppy_alignment tool.
         guppy_aligner MUST be added to your $PATH, otherwise it will not work
 
-        :param str input_directory: The location of input files (usually a directory)
-        :param str save_directory: The location of output files (usually a directory)
-        :param str align_reference: The location of the reference file to use (a file)
-        :return: None
+        @param input_directory: The location of input files (usually a directory)
+        @param save_directory: The location of output files (usually a directory)
+        @param align_reference: The location of the reference file to use (a file)
+        @return None
         """
 
         self.input_directory = input_directory
@@ -44,8 +43,8 @@ class GuppyAlignment:
     def __collect_files(self):
         """
         This function will collect all fastq/fasta files to be analyzed by guppy_aligner.
-        :param: None
-        :return: None
+        @param: None
+        @return None
         """
         for root, directory, files in os.walk(self.input_directory):
             for file in files:
@@ -56,7 +55,7 @@ class GuppyAlignment:
     def __perform_alignment(self):
         """
         This function will iterate through self.file_paths and perform guppy_aligner on each file
-        :return: None
+        @return None
         """
 
         # we want to make a temporary folder. If it exists, no error will arise. This is safe to try for every run
@@ -93,7 +92,7 @@ class GuppyAlignment:
         Because of this, all files are initially saved to the
         SAM_Files directory, then the result and log files are moved one level up.
 
-        :return: new_file_path: This is the path of the new file location. It can be used to modify files further (if needed)
+        @return new_file_path: This is the path of the new file location. It can be used to modify files further (if needed)
         """
 
         # make the AlignmentSummary and logs folders
@@ -122,7 +121,7 @@ class GuppyAlignment:
         This function will look at the alignment_summary.txt in the folder specified by self.save_directory.
         It will calculate the percentage of reads that have been classified, and save its own text file in the same location
 
-        :return: None
+        @return None
         """
 
         # read file into a data frame
@@ -215,7 +214,7 @@ class GuppyAlignment:
         This function is simply responsible for getting the date in the following format
         YEAR_MONTH_DAY-HOUR-MINUTE-BARCODE##.txt
 
-        :return: None
+        @return None
         """
         return time.strftime("%Y_%m_%d-%H_%M-{0}.txt".format(barcode_number))
 
@@ -258,7 +257,7 @@ class MiniMap2:
         """
         This function will collect .fastq/.fasta files from the self.input_directory and save their file path to the self.file_paths list.
 
-        :return: None
+        @return None
         """
 
         for root, directory, files in os.walk(self.input_directory):
@@ -271,7 +270,7 @@ class MiniMap2:
         """
         This function will perform MiniMap2 alignment on the file paths located in self.file_paths using the self.alignment_reference as the reference file
 
-        :return: None
+        @return None
         """
         for file in self.file_paths:
             self.__update_task()
@@ -320,7 +319,7 @@ class MiniMap2:
         This function will extract the barcode number of the file MiniMap2 is going to analyze. It will return the full file path of where this output should be stored
         MiniMap2 will create the files as needed
 
-        :return: save_path: The full file path of the new file
+        @return save_path: The full file path of the new file
         """
         barcode_number = re.split('[_.]', input_file)[-2]  # we want the second to last item in the list, the barcode number
         save_path = self.save_directory + "/minimap_{0}.csv".format(barcode_number)
@@ -334,8 +333,8 @@ class MiniMap2:
         """
         This function will use the Log class to write logs to the file specified below.
 
-        :param str input_path: This is the input file path
-        :param str save_path: This is where files will be saved
+        @param str input_path: This is the input file path
+        @param str save_path: This is where files will be saved
         """
 
         log_path = "ScriptResults/Script_Logs/minimap_aligner_log.txt"
@@ -350,17 +349,114 @@ class MiniMap2:
 
 
 class VSearch:
-    def __init__(self, input_directory, save_directory):
+    def __init__(self, input_directory: str, save_directory: str, match_rate: float = 0.90):
         """
-        This class will handle alignment using vsearch (a cousin of usearch)
-        As of July 2nd, I've manually ran vsearch on barcode56 (positive control) with an id of 0.5 (50%).
-        These results will be saved to the ScriptResults/Alignment/vsearch folder. Results will be saved to a .txt file with the
-            specified barcode number as the file name
 
-        :param str input_directory: This is the directory containing .fastx files
-        :param str save_directory: This is the directory where results should be saved. Files will have the barcode number of the input file
+        This class will handle alignment using vsearch (a cousin of usearch)
+        match_rate is a percentage. If its value is between 0 and 1, it will be taken as a percent (i.e. 0.42 = 42%).
+            If this value is between 1 and 100, it will be divided by 100 to create a percent (i.e. 57 -> 0.57 = 57%)
+
+        Args:
+            input_directory: This is the directory containing .fasta/.fastq files
+            save_directory: This is the directory where results should be saved. Files will have the barcode number of the input file
+            match_rate: This is the `id` rate of vsearch. It specifies the specificity in percent that vsearch should use. By default, it is set to 0.90 (90%)
+
+        Returns:
+            None
         """
         self.input_directory = input_directory
         self.save_directory = save_directory
-        command = "vsearch --allpairs_global {input_file} --id 0.5 --alnout {output_file}"
+        self.match_rate = match_rate
+        self.file_paths = []
+        self.number_of_files = 0
+        self.iteration = 1
 
+        self.__check_match_rate()
+        self.__collect_files()
+        self.__perform_alignment()
+
+    def __check_match_rate(self):
+        """
+        This function will check the match_input value.
+        If it is greater than 1, it will divide by 100 to create a percentage (45 -> 0.45)
+        If it is less than 0, it will break the script and give output that the match_rate is incorrect
+        If it is between 0 and 1, it will do nothing
+        Returns:
+            None
+        """
+        # self.match rate greater than 1 and less than 100 (percent greater than 100 is not valid
+        if 1.0 < self.match_rate < 100.0:
+            self.match_rate /= 100
+        elif self.match_rate <= 0:
+            print("Sorry, your match_rate argument must be a percentage between 0 and 1.")
+            exit(0)
+
+    def __collect_files(self):
+        """
+        This will retrieve .fasta/.fastq files from the input_directory parameter.
+        It will save entire file paths to self.file_paths, and add 1 to self.number_of_files in the process
+        This will collect all .fasta/.fastq files in the input_directory, so be aware of where files are saved
+
+        Returns:
+            None
+        """
+        for root, directory, files in os.walk(self.input_directory):
+            for file in files:
+                # iterate through files and collect .fasta/.fastq files
+                if ".fasta" in file or ".fastq" in file:
+                    self.file_paths.append( os.path.join(root, file) )
+                    self.number_of_files += 1
+
+    def __perform_alignment(self):
+        """
+        This function will perform vsearch on all files in the self.file_paths list.
+
+        Returns:
+            None
+        """
+        for file in self.file_paths:
+            self.__update_task()
+            new_save_path = self.__return_new_save_path(file)
+            message = "vsearch --id {id_rate} --allpairs_global {input_file} --alnout {output_file}".format(input_file=file,
+                                                                                                            id_rate=self.match_rate,
+                                                                                                            output_file=new_save_path)
+            message = message.split(" ")
+            command = subprocess.run(message, stdout=PIPE, stderr=PIPE, universal_newlines=True)
+
+    def __return_new_save_path(self, file_path: str):
+        """
+        This function will take one a file input path and extract its barcode from the name (i.e. barcode45). It will then concatonate this number to
+            self.save_directory, and return the new string. This provides the new save path.
+
+        The new file will be created by this function to ensure it can be written to.
+        Args:
+            file_path: The file path that is going to be analyzed
+
+        Returns:
+            new_path: This is a file path that points to a valid file. The file will be created.
+        """
+
+        # we want to get the last item in the path, the file name
+        # re.split() will split by `_` and `.`, both of which are in the file name. The second to last item is the barcode number (the last item is the file extension)
+        file_name = file_path.split("/")[-1]
+        barcode_number = re.split('[_.]', file_name)[-2]
+        new_file_name = self.save_directory + "/vsearch_{0}.txt".format(barcode_number)
+
+        # open the file path to ensure it exists
+        try:
+            file = open(new_file_name, 'w+')
+            file.close()
+        except FileNotFoundError:
+            print("Your save directory does not exist. It will be created now, along with the output file.")
+            print("path: {0}".format(new_file_name))
+            print("")
+            Path.mkdir(self=Path(self.save_directory), exist_ok=True)
+
+            file = open(new_file_name, 'w')
+            file.close()
+
+        return new_file_name
+
+    def __update_task(self):
+        Update("vsearch", self.iteration, self.number_of_files)
+        self.iteration += 1

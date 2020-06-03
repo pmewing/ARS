@@ -1,7 +1,6 @@
-import time
 import os  # os.walk()
 import re  # split strings on multiple characters
-from WriteLogs import Log
+from Global import Log
 
 
 class Merge:
