@@ -6,10 +6,10 @@ from PlotVisualizations import Plotly, NanoPlot
 from BasecallBarcode import Basecall, Barcode
 from NanoQC import NanoQCAnalysis
 from DataFrames import Frame
-from GenomeData import Genome
+from GenomeData import MiniMapGenome
 
 
 if __name__ == '__main__':
 
-    Genome(input_directory=r"/home/joshl/Desktop/MiniMap_Results/modified_zymogen",
-           save_directory=r"/home/joshl/Desktop/MiniMap_Results/output")
+    MiniMapGenome(input_directory=r"/home/joshl/Desktop/MiniMap_Results/modified_zymogen",
+                  save_directory=r"/home/joshl/Desktop/MiniMap_Results/output")

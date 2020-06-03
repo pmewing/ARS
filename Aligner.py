@@ -4,7 +4,6 @@ import os
 import shutil
 import subprocess
 from subprocess import PIPE
-import pandas as pd
 import numpy as np
 from pathlib import Path
 from Global import Update, Log
@@ -247,6 +246,7 @@ class MiniMap2:
 
         self.__collect_files()
         self.__perform_alignment()
+
         # reset iteration to 1, go to next line for new output
         self.iteration = 1
         print("")
