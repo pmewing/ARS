@@ -101,7 +101,7 @@ class Files:
     @property
     def return_file_paths(self):
         """
-        Use the dot operator after creating a Files instance to return file paths inside self.input_directory
+        Use the dot operator after creating a DataFiles instance to return file paths inside self.input_directory
         Returns list: file_paths
         """
         self.__collect_files()

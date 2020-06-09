@@ -1,6 +1,6 @@
 import os  # os.walk()
 import re  # split strings on multiple characters
-from Global import Log
+from Scripts.Global import Log
 
 
 class Merge:
@@ -130,7 +130,7 @@ class Merge:
         %M  Minute as a decimal number [00,59].
         """
 
-        log_path = "ScriptResults/Script_Logs/merge_files_log.txt"
+        log_path = "Results/Script_Logs/merge_files_log.txt"
         Log("Merged files to: {0}".format(file_path),
             log_path=log_path,
             erase_file=False)

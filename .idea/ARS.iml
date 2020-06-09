@@ -2,19 +2,17 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Alignment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CountReads" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/QualityControl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FastQC Reports" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MergeFiles" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CreateVisualizations" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GUI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Trimming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataFrame" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pychopper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pychopper/scripts" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/GUI/UI Files" />
+      <sourceFolder url="file://$MODULE_DIR$/Scripts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/python2.7venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>

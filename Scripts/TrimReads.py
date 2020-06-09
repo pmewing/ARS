@@ -2,7 +2,7 @@ import re
 import subprocess
 from subprocess import PIPE
 import os
-from Global import Update, Log, Files
+from Scripts.Global import Update, Log, Files
 
 
 class Trim:
@@ -45,7 +45,7 @@ class Trim:
 
     def __collect_files(self):
         """
-        This will call Files, which is responsible for collecting all files with the extension file_extensions and returning a list
+        This will call DataFiles, which is responsible for collecting all files with the extension file_extensions and returning a list
         Returns: None
         """
         self.file_paths = Files(input_directory=self.input_directory,
@@ -102,7 +102,7 @@ class Trim:
             command: This is the exact line that should be written to the log file
         """
 
-        log_path = "ScriptResults/Script_Logs/trim_reads_log.txt"
+        log_path = "Results/Script_Logs/trim_reads_log.txt"
         Log(command,
             log_path=log_path,
             erase_file=False)

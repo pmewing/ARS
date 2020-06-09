@@ -2,7 +2,7 @@ import subprocess
 from subprocess import PIPE
 import os
 import shutil
-from Global import Update, Log
+from Scripts.Global import Update, Log
 
 
 class Basecall:
@@ -46,7 +46,7 @@ class Basecall:
         move_log_files(save_directory=save_directory)
 
     def __write_logs_to_file(self, command):
-        log_path = "ScriptResults/Script_Logs/basecall_log.txt"
+        log_path = "../Results/Script_Logs/basecall_log.txt"
         Log(log_line=command,
             log_path=log_path,
             erase_file=False)
@@ -94,7 +94,7 @@ class Barcode:
         move_log_files(save_directory=save_directory)
 
     def __write_logs_to_file(self, command):
-        log_path = "ScriptResults/Script_Logs/barcode_log.txt"
+        log_path = "Results/Script_Logs/barcode_log.txt"
         Log(log_line=command,
             log_path=log_path,
             erase_file=False)

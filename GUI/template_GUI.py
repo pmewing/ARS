@@ -83,7 +83,7 @@ class Ui_MainWindow(object):
         self.actionGuppy_Alignment.setText(_translate("MainWindow", "Guppy GuppyAlignment"))
         self.actionGuppy_Alignment.setToolTip(_translate("MainWindow", "GuppyAlignmentUI"))
         self.actionCount_Reads.setText(_translate("MainWindow", "Count Reads"))
-        self.actionMerge_Files.setText(_translate("MainWindow", "Merge Files"))
+        self.actionMerge_Files.setText(_translate("MainWindow", "Merge DataFiles"))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,11 @@
 import plotly.express as px
 import pathlib
-import os
 import re
 import pandas as pd
 import numpy as np
 import subprocess
 from subprocess import PIPE
-from Global import Update, Log, Files
+from Scripts.Global import Update, Log, Files
 
 
 class Plotly:
@@ -204,7 +203,7 @@ class Plotly:
         :param str file_path: This is where the file will be saved
         """
 
-        log_path = "ScriptResults/Script_Logs/plotly_logs.txt"
+        log_path = "Results/Script_Logs/plotly_logs.txt"
         Log("data_file: {0}\tsave_path: {1}".format(self.data_file, file_path),
             log_path=log_path,
             erase_file=False)
@@ -288,7 +287,7 @@ class NanoPlot:
         :param str command: This is the line that will be written to the log. Its parameters can be found in self.__create_nanoplot
         """
 
-        log_path = "ScriptResults/Script_Logs/nanoplot_logs.txt"
+        log_path = "Results/Script_Logs/nanoplot_logs.txt"
         Log(log_line=command,
             log_path=log_path,
             erase_file=False)

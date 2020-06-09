@@ -1,16 +1,16 @@
 rule all:
     input:
-        basecall_log = "../ARS/ScriptResults/Script_Logs/basecall_log.txt",
-        barcode_log = "../ARS/ScriptResults/Script_Logs/barcode_log.txt",
-        count_reads_log = "../ARS/ScriptResults/Script_Logs/count_reads_log.txt",
-        nanoqc_log = "../ARS/ScriptResults/Script_Logs/nanoqc_log.txt",
-        guppy_aligner_log = "../ARS/ScriptResults/Script_Logs/guppy_aligner_log.txt",
-        minimap_aligner_log = "../ARS/ScriptResults/Script_Logs/minimap_aligner_log.txt",
-        data_frame_log = "../ARS/ScriptResults/Script_Logs/data_frame_log.txt",
-        merge_files_log = "../ARS/ScriptResults/Script_Logs/merge_files_log.txt",
-        plotly_log = "../ARS/ScriptResults/Script_Logs/plotly_logs.txt",
-        nanoplot_log = "../ARS/ScriptResults/Script_Logs/nanoplot_logs.txt",
-        trim_reads_log = "../ARS/ScriptResults/Script_Logs/trim_reads_log.txt"
+        basecall_log = "../ARS/Results/Script_Logs/basecall_log.txt",
+        barcode_log = "../ARS/Results/Script_Logs/barcode_log.txt",
+        count_reads_log = "../ARS/Results/Script_Logs/count_reads_log.txt",
+        nanoqc_log = "../ARS/Results/Script_Logs/nanoqc_log.txt",
+        guppy_aligner_log = "../ARS/Results/Script_Logs/guppy_aligner_log.txt",
+        minimap_aligner_log = "../ARS/Results/Script_Logs/minimap_aligner_log.txt",
+        data_frame_log = "../ARS/Results/Script_Logs/data_frame_log.txt",
+        merge_files_log = "../ARS/Results/Script_Logs/merge_files_log.txt",
+        plotly_log = "../ARS/Results/Script_Logs/plotly_logs.txt",
+        nanoplot_log = "../ARS/Results/Script_Logs/nanoplot_logs.txt",
+        trim_reads_log = "../ARS/Results/Script_Logs/trim_reads_log.txt"
 
 rule count_reads:
     input:

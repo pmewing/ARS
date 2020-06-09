@@ -1,5 +1,5 @@
 import csv
-from Global import Files
+from Scripts.Global import Files
 
 
 class MiniMapGenome:

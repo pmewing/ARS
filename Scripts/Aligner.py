@@ -6,7 +6,7 @@ import subprocess
 from subprocess import PIPE
 import numpy as np
 from pathlib import Path
-from Global import Update, Log
+from Scripts.Global import Update, Log
 
 
 class GuppyAlignment:
@@ -226,7 +226,7 @@ class GuppyAlignment:
         This function will call the Log class to write a specific line to the log file named below
         """
 
-        log_path = "ScriptResults/Script_Logs/guppy_aligner_log.txt"
+        log_path = "../Results/Script_Logs/guppy_aligner_log.txt"
         line = "guppy_aligner --input_path {input} --save_path {save} --align_ref {alignment}".format(
             input=file_path, save=self.save_directory, alignment=self.alignment_reference )
 
@@ -337,7 +337,7 @@ class MiniMap2:
         @param str save_path: This is where files will be saved
         """
 
-        log_path = "ScriptResults/Script_Logs/minimap_aligner_log.txt"
+        log_path = "../Results/Script_Logs/minimap_aligner_log.txt"
         line = "minimap2 {reference} {input} -o {output}".format(
             reference=self.alignment_reference,
             input=input_path,
@@ -358,7 +358,7 @@ class VSearch:
 
         Args:
             input_directory: This is the directory containing .fasta/.fastq files
-            save_directory: This is the directory where results should be saved. Files will have the barcode number of the input file
+            save_directory: This is the directory where results should be saved. DataFiles will have the barcode number of the input file
             match_rate: This is the `id` rate of vsearch. It specifies the specificity in percent that vsearch should use. By default, it is set to 0.90 (90%)
 
         Returns:

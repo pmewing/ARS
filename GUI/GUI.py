@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QMainWindow, QPushButton, QLabel, QFileDialog
 
 # add the parent folder to the path so other folders can be used. Fixes import lines when running this from the command line
 sys.path.append("../")
-from CountReads import Count
+from Scripts.CountReads import Count
 
 # add these items to path so they can be imported
 # sys.path.append("/home/joshl/PycharmProjects/ARS Projects/CountReads/")
@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
         self.menubar = self.menuBar()                    # main menu bar at top of window
         self.methods_menu = self.menubar.addMenu("&Methods")   # heading in the main bar
         self.action_count_reads = self.methods_menu.addAction("Count Reads")       # subheading in the heading
-        self.action_merge_files = self.methods_menu.addAction("Merge Files")
+        self.action_merge_files = self.methods_menu.addAction("Merge DataFiles")
         self.action_count_reads.triggered.connect(self.connect_count_reads)
         self.action_merge_files.triggered.connect(self.connect_merge_files)
 

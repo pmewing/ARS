@@ -1,10 +1,9 @@
-import time
 import re
 import subprocess
 from subprocess import PIPE
 import os
 import shutil
-from Global import Update, Log
+from Scripts.Global import Update, Log
 
 
 class NanoQCAnalysis:
@@ -94,7 +93,7 @@ class NanoQCAnalysis:
         This function will write log files to the location specified below after running NanoQC
         """
 
-        log_path = "ScriptResults/Script_Logs/nanoqc_log.txt"
+        log_path = "Results/Script_Logs/nanoqc_log.txt"
 
         Log(self.log_message,
             log_path=log_path,

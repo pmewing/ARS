@@ -1,5 +1,5 @@
 import csv
-from Global import Log
+from Scripts.Global import Log
 
 
 class Frame:
@@ -49,7 +49,7 @@ class Frame:
         :param str file_name: This is the name of the csv file the dataframe is located in
         """
 
-        log_path = "ScriptResults/Script_Logs/data_frame_log.txt"
+        log_path = "Results/Script_Logs/data_frame_log.txt"
 
         Log("DataFrame saved to file: {0}".format(file_name),
             log_path=log_path,

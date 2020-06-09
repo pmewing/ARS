@@ -2,7 +2,7 @@ import subprocess
 import os  # os.walk(), os.join.path()
 import pickle
 import csv
-from Global import Log
+from Scripts.Global import Log
 
 
 class Count:
@@ -261,7 +261,7 @@ class Count:
         try:
             log_path = snakemake.input.log_path
         except FileNotFoundError:
-            log_path = r"ScriptResults/Script_Logs/count_reads_log.txt"
+            log_path = r"../Results/Script_Logs/count_reads_log.txt"
 
         # find the barcode index to know that it has been counted
         barcode_index = -1
